@@ -20,7 +20,19 @@ import Foundation
      return [0, 1].
  */
 
-class Solution {
+class TwoSums: Runnable {
+    
+    // MARK: Run
+    
+    func runTests() {
+        let nums = [3,2,4]
+        let target = 6
+        
+        print("Solution 1: Brute Force \(twoSum1(nums, target))")
+        print("Solution 2: Hashmap \(twoSum2(nums, target))")
+        print("Solution 3: Hashmap One Pass \(twoSum3(nums, target))")
+    }
+    
     // MARK: First Solution
     
     func twoSum1(_ nums: [Int], _ target: Int) -> [Int] {
@@ -46,8 +58,8 @@ class Solution {
     // MARK: Best Solution
     
     /**
-        Time Complexity: O(n) Because there are no nested for loops.
-        Space Complexity: O(n) with the amount of data in the hash.
+     Time Complexity: O(n) Because there are no nested for loops.
+     Space Complexity: O(n) with the amount of data in the hash.
      */
     func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
         // Base Case
@@ -56,8 +68,8 @@ class Solution {
         }
         
         /**
-             Iterate through the array and store the value as the hash and its index as the value. This ensures
-             a fast hash lookup to determine if the complement number exists in the array.
+         Iterate through the array and store the value as the hash and its index as the value. This ensures
+         a fast hash lookup to determine if the complement number exists in the array.
          */
         var hash = [Int: Int]()
         for (index, value) in nums.enumerated() {
@@ -65,14 +77,14 @@ class Solution {
         }
         
         /**
-             Iterate through the array and look for the index of the complement (the difference) in the hashmap.
-             Because there is only one solution in the entire array, finding the complement will immediately
-             solve the problem.
+         Iterate through the array and look for the index of the complement (the difference) in the hashmap.
+         Because there is only one solution in the entire array, finding the complement will immediately
+         solve the problem.
          
-             Edge case: The only issue is when the complement's index is equal to the value of the current index.
-             This is NOT the solution because TWO unique indices must be returned. This occurs when the comlement
-             is exactly 1/2 times the target value, which means the value is in the hash is equal to the value of
-             the current index. Therefore, we must ensure the current index does not equal the hashmap's index.
+         Edge case: The only issue is when the complement's index is equal to the value of the current index.
+         This is NOT the solution because TWO unique indices must be returned. This occurs when the comlement
+         is exactly 1/2 times the target value, which means the value is in the hash is equal to the value of
+         the current index. Therefore, we must ensure the current index does not equal the hashmap's index.
          */
         for (index, value) in nums.enumerated() {
             let difference = target - value
@@ -91,16 +103,16 @@ class Solution {
         }
         
         /**
-            Iterate through the array and store the value as the hash and its index as the value. This ensures
-            a fast hash lookup to determine if the complement number exists in the array.
+         Iterate through the array and store the value as the hash and its index as the value. This ensures
+         a fast hash lookup to determine if the complement number exists in the array.
          */
         var hash = [Int: Int]()
         for (index, value) in nums.enumerated() {
             let difference = target - value
             
             /**
-                A more optimized solution where we look back in the array to see if we've found the difference. If not,
-                keep looking. If found, then return the found index as it already exists in the array.
+             A more optimized solution where we look back in the array to see if we've found the difference. If not,
+             keep looking. If found, then return the found index as it already exists in the array.
              */
             if let foundIndex = hash[difference], foundIndex != index {
                 return [foundIndex, index]
@@ -114,10 +126,3 @@ class Solution {
     }
 }
 
-
-let nums = [3,2,4]
-let target = 6
-
-print(Solution().twoSum1(nums, target))
-print(Solution().twoSum2(nums, target))
-print(Solution().twoSum3(nums, target))
