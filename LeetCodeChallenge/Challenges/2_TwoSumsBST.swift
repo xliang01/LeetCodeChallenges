@@ -125,6 +125,10 @@ class TwoSumsBST: Runnable {
     
     // MARK: Solution 2 - Pre Order Traversal Using HashSet
     
+    /**
+        Time Complexity - O(n)
+        Space Complexity - O(n)
+     */
     func findTarget_PreOrderTraversal(_ root: TreeNode?,
                                       _ k: Int) -> Bool {
         var set = Set<Int>()
@@ -190,6 +194,10 @@ class TwoSumsBST: Runnable {
         }
     }
     
+    /**
+        Time Complexity - O(n)
+        Space Complexity - O(n)
+     */
     func findTarget_BFS(_ root: TreeNode?,
                         _ target: Int) -> Bool {
         var set = Set<Int>()
