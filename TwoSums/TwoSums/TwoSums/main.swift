@@ -31,6 +31,7 @@ class Solution {
         
         // Brute Force
         // Time Complexity: O(n^2)
+        // Space Complexity: O(1) because there is only one return value.
         for i in (0..<nums.count) {
             for j in (i..<nums.count) {
                 if nums[i] + nums[j] == target, i != j {
@@ -44,6 +45,10 @@ class Solution {
     
     // MARK: Best Solution
     
+    /**
+        Time Complexity: O(n) Because there are no nested for loops.
+        Space Complexity: O(n) with the amount of data in the hash.
+     */
     func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
         // Base Case
         guard nums.count >= 2 else {
@@ -78,6 +83,35 @@ class Solution {
         
         return []
     }
+    
+    func twoSum3(_ nums: [Int], _ target: Int) -> [Int] {
+        // Base Case
+        guard nums.count >= 2 else {
+            return nums
+        }
+        
+        /**
+            Iterate through the array and store the value as the hash and its index as the value. This ensures
+            a fast hash lookup to determine if the complement number exists in the array.
+         */
+        var hash = [Int: Int]()
+        for (index, value) in nums.enumerated() {
+            let difference = target - value
+            
+            /**
+                A more optimized solution where we look back in the array to see if we've found the difference. If not,
+                keep looking. If found, then return the found index as it already exists in the array.
+             */
+            if let foundIndex = hash[difference], foundIndex != index {
+                return [foundIndex, index]
+            }
+            else {
+                hash[value] = index
+            }
+        }
+        
+        return []
+    }
 }
 
 
@@ -86,3 +120,4 @@ let target = 6
 
 print(Solution().twoSum1(nums, target))
 print(Solution().twoSum2(nums, target))
+print(Solution().twoSum3(nums, target))
