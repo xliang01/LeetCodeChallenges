@@ -18,4 +18,6 @@ func run(_ runnable: Runnable) {
 
 //run(TwoSums())
 //run(TwoSumsBST())
-run(TwoSumsOOP())
+//run(TwoSumsOOP())
+//run(JewelsAndStones())
+run(AnagramMappings())

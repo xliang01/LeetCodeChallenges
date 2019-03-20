@@ -11,6 +11,8 @@
 		8A9C5EFF2240AABE00EE0CE0 /* 1_TwoSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5EFE2240AABE00EE0CE0 /* 1_TwoSums.swift */; };
 		8A9C5F012240AC9400EE0CE0 /* 2_TwoSumsBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F002240AC9400EE0CE0 /* 2_TwoSumsBST.swift */; };
 		8A9C5F122241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F112241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift */; };
+		8A9C5F142242002000EE0CE0 /* 4_JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F132242002000EE0CE0 /* 4_JewelsAndStones.swift */; };
+		8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F1522420A0600EE0CE0 /* 5_AnagramMappings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		8A9C5EFE2240AABE00EE0CE0 /* 1_TwoSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSums.swift; sourceTree = "<group>"; };
 		8A9C5F002240AC9400EE0CE0 /* 2_TwoSumsBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_TwoSumsBST.swift; sourceTree = "<group>"; };
 		8A9C5F112241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_TwoSumsOOP.swift; sourceTree = "<group>"; };
+		8A9C5F132242002000EE0CE0 /* 4_JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_JewelsAndStones.swift; sourceTree = "<group>"; };
+		8A9C5F1522420A0600EE0CE0 /* 5_AnagramMappings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_AnagramMappings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				8A9C5EFE2240AABE00EE0CE0 /* 1_TwoSums.swift */,
 				8A9C5F002240AC9400EE0CE0 /* 2_TwoSumsBST.swift */,
 				8A9C5F112241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift */,
+				8A9C5F132242002000EE0CE0 /* 4_JewelsAndStones.swift */,
+				8A9C5F1522420A0600EE0CE0 /* 5_AnagramMappings.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -129,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9C5F012240AC9400EE0CE0 /* 2_TwoSumsBST.swift in Sources */,
+				8A9C5F142242002000EE0CE0 /* 4_JewelsAndStones.swift in Sources */,
+				8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */,
 				8A9C5EFF2240AABE00EE0CE0 /* 1_TwoSums.swift in Sources */,
 				8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */,
 				8A9C5F122241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift in Sources */,
