@@ -17,4 +17,5 @@ func run(_ runnable: Runnable) {
 }
 
 //run(TwoSums())
-run(TwoSumsBST())
+//run(TwoSumsBST())
+run(TwoSumsOOP())
