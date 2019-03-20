@@ -26,7 +26,7 @@ class TwoSumsOOP: Runnable {
         print(twoSum2.find(4))
         print(twoSum2.find(7))
         
-        print("\nSolution 2: Two Sum Set")
+        print("\nSolution 2: Two Sum Set Exception Case")
         twoSum2 = TwoSumSet()
         twoSum2.add(0)
         twoSum2.add(0)
