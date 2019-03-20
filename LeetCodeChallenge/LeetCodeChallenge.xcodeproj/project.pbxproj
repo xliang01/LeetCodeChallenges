@@ -13,6 +13,7 @@
 		8A9C5F122241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F112241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift */; };
 		8A9C5F142242002000EE0CE0 /* 4_JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F132242002000EE0CE0 /* 4_JewelsAndStones.swift */; };
 		8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F1522420A0600EE0CE0 /* 5_AnagramMappings.swift */; };
+		8A9C5F182242116000EE0CE0 /* 6_ToLowerString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F172242116000EE0CE0 /* 6_ToLowerString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		8A9C5F112241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_TwoSumsOOP.swift; sourceTree = "<group>"; };
 		8A9C5F132242002000EE0CE0 /* 4_JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_JewelsAndStones.swift; sourceTree = "<group>"; };
 		8A9C5F1522420A0600EE0CE0 /* 5_AnagramMappings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_AnagramMappings.swift; sourceTree = "<group>"; };
+		8A9C5F172242116000EE0CE0 /* 6_ToLowerString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6_ToLowerString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				8A9C5F112241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift */,
 				8A9C5F132242002000EE0CE0 /* 4_JewelsAndStones.swift */,
 				8A9C5F1522420A0600EE0CE0 /* 5_AnagramMappings.swift */,
+				8A9C5F172242116000EE0CE0 /* 6_ToLowerString.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 				8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */,
 				8A9C5EFF2240AABE00EE0CE0 /* 1_TwoSums.swift in Sources */,
 				8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */,
+				8A9C5F182242116000EE0CE0 /* 6_ToLowerString.swift in Sources */,
 				8A9C5F122241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

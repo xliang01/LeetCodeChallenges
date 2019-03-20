@@ -20,4 +20,5 @@ func run(_ runnable: Runnable) {
 //run(TwoSumsBST())
 //run(TwoSumsOOP())
 //run(JewelsAndStones())
-run(AnagramMappings())
+//run(AnagramMappings())
+run(ToLowerString())
