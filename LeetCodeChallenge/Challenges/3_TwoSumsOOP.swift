@@ -10,24 +10,24 @@ import Foundation
 
 class TwoSumsOOP: Runnable {
     func runTests() {
-//        print("Solution 1: Two Sum Array")
-//        let twoSum1 = TwoSumArray()
-//        twoSum1.add(5)
-//        twoSum1.add(3)
-//        twoSum1.add(1)
-//        print(twoSum1.find(4))
-//        print(twoSum1.find(7))
-//
-//        print("\nSolution 2: Two Sum Set")
-//        var twoSum2 = TwoSumSet()
-//        twoSum2.add(5)
-//        twoSum2.add(3)
-//        twoSum2.add(1)
-//        print(twoSum2.find(4))
-//        print(twoSum2.find(7))
+        print("Solution 1: Two Sum Array")
+        let twoSum1 = TwoSumArray()
+        twoSum1.add(5)
+        twoSum1.add(3)
+        twoSum1.add(1)
+        print(twoSum1.find(4))
+        print(twoSum1.find(7))
+
+        print("\nSolution 2: Two Sum Set")
+        var twoSum2 = TwoSumSet()
+        twoSum2.add(5)
+        twoSum2.add(3)
+        twoSum2.add(1)
+        print(twoSum2.find(4))
+        print(twoSum2.find(7))
         
         print("\nSolution 2: Two Sum Set")
-        let twoSum2 = TwoSumSet()
+        twoSum2 = TwoSumSet()
         twoSum2.add(0)
         twoSum2.add(0)
         twoSum2.add(0)
@@ -80,7 +80,7 @@ class TwoSumArray {
 
 // MARK: Using HashSet
 
-class TwoSum {
+class TwoSumSet {
     private var countHash = [Int: Int]()
     
     //  Initialize your data structure here.
