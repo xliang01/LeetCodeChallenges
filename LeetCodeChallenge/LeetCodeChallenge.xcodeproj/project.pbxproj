@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A050D6D2244AA19009BCF92 /* 7_UniqueEmails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050D6C2244AA19009BCF92 /* 7_UniqueEmails.swift */; };
 		8A050D6F2244BC8B009BCF92 /* 8_MorseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050D6E2244BC8B009BCF92 /* 8_MorseCode.swift */; };
+		8A050D712244C3FC009BCF92 /* 9_NRepeated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050D702244C3FC009BCF92 /* 9_NRepeated.swift */; };
 		8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5EF62240AAA600EE0CE0 /* main.swift */; };
 		8A9C5EFF2240AABE00EE0CE0 /* 1_TwoSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5EFE2240AABE00EE0CE0 /* 1_TwoSums.swift */; };
 		8A9C5F012240AC9400EE0CE0 /* 2_TwoSumsBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F002240AC9400EE0CE0 /* 2_TwoSumsBST.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		8A050D6C2244AA19009BCF92 /* 7_UniqueEmails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7_UniqueEmails.swift; sourceTree = "<group>"; };
 		8A050D6E2244BC8B009BCF92 /* 8_MorseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_MorseCode.swift; sourceTree = "<group>"; };
+		8A050D702244C3FC009BCF92 /* 9_NRepeated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9_NRepeated.swift; sourceTree = "<group>"; };
 		8A9C5EF32240AAA600EE0CE0 /* LeetCodeChallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeChallenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9C5EF62240AAA600EE0CE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8A9C5EFE2240AABE00EE0CE0 /* 1_TwoSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSums.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				8A9C5F172242116000EE0CE0 /* 6_ToLowerString.swift */,
 				8A050D6C2244AA19009BCF92 /* 7_UniqueEmails.swift */,
 				8A050D6E2244BC8B009BCF92 /* 8_MorseCode.swift */,
+				8A050D702244C3FC009BCF92 /* 9_NRepeated.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				8A9C5F142242002000EE0CE0 /* 4_JewelsAndStones.swift in Sources */,
 				8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */,
 				8A9C5EFF2240AABE00EE0CE0 /* 1_TwoSums.swift in Sources */,
+				8A050D712244C3FC009BCF92 /* 9_NRepeated.swift in Sources */,
 				8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */,
 				8A9C5F182242116000EE0CE0 /* 6_ToLowerString.swift in Sources */,
 				8A9C5F122241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift in Sources */,

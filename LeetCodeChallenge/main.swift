@@ -23,4 +23,5 @@ func run(_ runnable: Runnable) {
 //run(AnagramMappings())
 //run(ToLowerString())
 //run(UniqueEmails())
-run(MorseCode())
+//run(MorseCode())
+run(NRepeated())
