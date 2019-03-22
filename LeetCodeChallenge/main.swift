@@ -22,4 +22,5 @@ func run(_ runnable: Runnable) {
 //run(JewelsAndStones())
 //run(AnagramMappings())
 //run(ToLowerString())
-run(UniqueEmails())
+//run(UniqueEmails())
+run(MorseCode())
