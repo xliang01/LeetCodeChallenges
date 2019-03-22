@@ -21,4 +21,5 @@ func run(_ runnable: Runnable) {
 //run(TwoSumsOOP())
 //run(JewelsAndStones())
 //run(AnagramMappings())
-run(ToLowerString())
+//run(ToLowerString())
+run(UniqueEmails())
