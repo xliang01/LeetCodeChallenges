@@ -26,4 +26,5 @@ func run(_ runnable: Runnable) {
 //run(MorseCode())
 //run(NRepeated())
 //run(SortedSquares())
-run(SortedArrayByParity())
+//run(SortedArrayByParity())
+run(ImageFlip())
