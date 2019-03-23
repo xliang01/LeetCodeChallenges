@@ -25,4 +25,5 @@ func run(_ runnable: Runnable) {
 //run(UniqueEmails())
 //run(MorseCode())
 //run(NRepeated())
-run(SortedSquares())
+//run(SortedSquares())
+run(SortedArrayByParity())

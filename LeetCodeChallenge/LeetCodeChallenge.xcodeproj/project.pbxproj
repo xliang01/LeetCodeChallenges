@@ -18,6 +18,7 @@
 		8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F1522420A0600EE0CE0 /* 5_AnagramMappings.swift */; };
 		8A9C5F182242116000EE0CE0 /* 6_ToLowerString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F172242116000EE0CE0 /* 6_ToLowerString.swift */; };
 		8A9DF11E2245ED2E000543F1 /* 10_SortedSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DF11D2245ED2E000543F1 /* 10_SortedSquares.swift */; };
+		8A9DF1202245FD66000543F1 /* 11_SortArrayByParity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DF11F2245FD66000543F1 /* 11_SortArrayByParity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		8A9C5F1522420A0600EE0CE0 /* 5_AnagramMappings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_AnagramMappings.swift; sourceTree = "<group>"; };
 		8A9C5F172242116000EE0CE0 /* 6_ToLowerString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6_ToLowerString.swift; sourceTree = "<group>"; };
 		8A9DF11D2245ED2E000543F1 /* 10_SortedSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10_SortedSquares.swift; sourceTree = "<group>"; };
+		8A9DF11F2245FD66000543F1 /* 11_SortArrayByParity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_SortArrayByParity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				8A050D6E2244BC8B009BCF92 /* 8_MorseCode.swift */,
 				8A050D702244C3FC009BCF92 /* 9_NRepeated.swift */,
 				8A9DF11D2245ED2E000543F1 /* 10_SortedSquares.swift */,
+				8A9DF11F2245FD66000543F1 /* 11_SortArrayByParity.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				8A9C5F142242002000EE0CE0 /* 4_JewelsAndStones.swift in Sources */,
 				8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */,
 				8A9C5EFF2240AABE00EE0CE0 /* 1_TwoSums.swift in Sources */,
+				8A9DF1202245FD66000543F1 /* 11_SortArrayByParity.swift in Sources */,
 				8A050D712244C3FC009BCF92 /* 9_NRepeated.swift in Sources */,
 				8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */,
 				8A9C5F182242116000EE0CE0 /* 6_ToLowerString.swift in Sources */,
