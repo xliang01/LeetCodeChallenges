@@ -29,10 +29,12 @@ class DeletedColumnSorted: Runnable {
             Space Complexity: O(1) since no data structures are used to store additional data.
          */
         func minDeletionSize(_ A: [String]) -> Int {
+            // GUARD: If the array size is 0 or 1, then there are no min deletion sizes.
             guard A.count > 1 else {
                 return 0
             }
             var count = 0
+            // Scan through each row of each column.
             for i in (0..<A.first!.count) {
                 let column = A.first!.index(A.first!.startIndex, offsetBy: i)
                 for row in (1..<A.count) {
