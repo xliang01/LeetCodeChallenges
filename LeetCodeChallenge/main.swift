@@ -30,4 +30,5 @@ func run(_ runnable: Runnable) {
 //run(ImageFlip())
 //run(ReturnToOrigin())
 //run(DIStringMatch())
-run(HammingDistance())
+//run(HammingDistance())
+run(DeletedColumnSorted())
