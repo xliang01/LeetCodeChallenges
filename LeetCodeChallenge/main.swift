@@ -28,4 +28,5 @@ func run(_ runnable: Runnable) {
 //run(SortedSquares())
 //run(SortedArrayByParity())
 //run(ImageFlip())
-run(ReturnToOrigin())
+//run(ReturnToOrigin())
+run(DIStringMatch())

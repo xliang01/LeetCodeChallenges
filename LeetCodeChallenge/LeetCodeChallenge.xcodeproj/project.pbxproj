@@ -11,6 +11,7 @@
 		8A050D6F2244BC8B009BCF92 /* 8_MorseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050D6E2244BC8B009BCF92 /* 8_MorseCode.swift */; };
 		8A050D712244C3FC009BCF92 /* 9_NRepeated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050D702244C3FC009BCF92 /* 9_NRepeated.swift */; };
 		8A7914B42247DBCE0050DFD3 /* 13_ReturnToOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7914B32247DBCE0050DFD3 /* 13_ReturnToOrigin.swift */; };
+		8A7914B62247FA070050DFD3 /* 14_DIStringMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7914B52247FA070050DFD3 /* 14_DIStringMatch.swift */; };
 		8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5EF62240AAA600EE0CE0 /* main.swift */; };
 		8A9C5EFF2240AABE00EE0CE0 /* 1_TwoSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5EFE2240AABE00EE0CE0 /* 1_TwoSums.swift */; };
 		8A9C5F012240AC9400EE0CE0 /* 2_TwoSumsBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F002240AC9400EE0CE0 /* 2_TwoSumsBST.swift */; };
@@ -40,6 +41,7 @@
 		8A050D6E2244BC8B009BCF92 /* 8_MorseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_MorseCode.swift; sourceTree = "<group>"; };
 		8A050D702244C3FC009BCF92 /* 9_NRepeated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9_NRepeated.swift; sourceTree = "<group>"; };
 		8A7914B32247DBCE0050DFD3 /* 13_ReturnToOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13_ReturnToOrigin.swift; sourceTree = "<group>"; };
+		8A7914B52247FA070050DFD3 /* 14_DIStringMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14_DIStringMatch.swift; sourceTree = "<group>"; };
 		8A9C5EF32240AAA600EE0CE0 /* LeetCodeChallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeChallenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9C5EF62240AAA600EE0CE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8A9C5EFE2240AABE00EE0CE0 /* 1_TwoSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSums.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				8A9DF11F2245FD66000543F1 /* 11_SortArrayByParity.swift */,
 				8A9DF12122460B9D000543F1 /* 12_ImageFlip.swift */,
 				8A7914B32247DBCE0050DFD3 /* 13_ReturnToOrigin.swift */,
+				8A7914B52247FA070050DFD3 /* 14_DIStringMatch.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				8A9C5F182242116000EE0CE0 /* 6_ToLowerString.swift in Sources */,
 				8A9C5F122241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift in Sources */,
 				8A9DF12222460B9D000543F1 /* 12_ImageFlip.swift in Sources */,
+				8A7914B62247FA070050DFD3 /* 14_DIStringMatch.swift in Sources */,
 				8A050D6D2244AA19009BCF92 /* 7_UniqueEmails.swift in Sources */,
 				8A7914B42247DBCE0050DFD3 /* 13_ReturnToOrigin.swift in Sources */,
 				8A050D6F2244BC8B009BCF92 /* 8_MorseCode.swift in Sources */,
