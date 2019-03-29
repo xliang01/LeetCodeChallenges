@@ -29,6 +29,7 @@
 		8AF28758224DBBF8000158FC /* 19_ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF28757224DBBF8000158FC /* 19_ReverseString.swift */; };
 		8AF2875A224DC0FC000158FC /* 20_FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF28759224DC0FC000158FC /* 20_FizzBuzz.swift */; };
 		8AF2875C224DC90F000158FC /* 21_MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2875B224DC90F000158FC /* 21_MoveZeroes.swift */; };
+		8AF2875E224DDC13000158FC /* 22_ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2875D224DDC13000158FC /* 22_ReverseLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		8AF28757224DBBF8000158FC /* 19_ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19_ReverseString.swift; sourceTree = "<group>"; };
 		8AF28759224DC0FC000158FC /* 20_FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_FizzBuzz.swift; sourceTree = "<group>"; };
 		8AF2875B224DC90F000158FC /* 21_MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21_MoveZeroes.swift; sourceTree = "<group>"; };
+		8AF2875D224DDC13000158FC /* 22_ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22_ReverseLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				8AF28757224DBBF8000158FC /* 19_ReverseString.swift */,
 				8AF28759224DC0FC000158FC /* 20_FizzBuzz.swift */,
 				8AF2875B224DC90F000158FC /* 21_MoveZeroes.swift */,
+				8AF2875D224DDC13000158FC /* 22_ReverseLinkedList.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				8AF28758224DBBF8000158FC /* 19_ReverseString.swift in Sources */,
 				8A9C5F122241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift in Sources */,
 				8AF2875C224DC90F000158FC /* 21_MoveZeroes.swift in Sources */,
+				8AF2875E224DDC13000158FC /* 22_ReverseLinkedList.swift in Sources */,
 				8A9DF12222460B9D000543F1 /* 12_ImageFlip.swift in Sources */,
 				8A7914B62247FA070050DFD3 /* 14_DIStringMatch.swift in Sources */,
 				8A050D6D2244AA19009BCF92 /* 7_UniqueEmails.swift in Sources */,

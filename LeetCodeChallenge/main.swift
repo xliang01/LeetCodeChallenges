@@ -36,4 +36,5 @@ func run(_ runnable: Runnable) {
 //run(SubdomainVisitCount())
 //run(ReverseString())
 //run(FizzBuzz())
-run(MoveZeroes())
+//run(MoveZeroes())
+run(ReverseLinkedList())
