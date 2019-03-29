@@ -33,4 +33,7 @@ func run(_ runnable: Runnable) {
 //run(HammingDistance())
 //run(DeletedColumnSorted())
 //run(MergeBinaryTrees())
-run(SubdomainVisitCount())
+//run(SubdomainVisitCount())
+//run(ReverseString())
+//run(FizzBuzz())
+run(MoveZeroes())
