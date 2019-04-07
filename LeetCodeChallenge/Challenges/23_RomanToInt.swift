@@ -11,7 +11,7 @@ import Foundation
 class RomanToInt: Runnable {
     func runTests() {
         print("Xiao's Solution")
-        let solution1 = SolutionFromXiaoReverseLookup()
+        let solution1 = SolutionReverseLookup()
         print(solution1.romanToInt("III"))
         print(solution1.romanToInt("IV"))
         print(solution1.romanToInt("IX"))
@@ -19,22 +19,8 @@ class RomanToInt: Runnable {
         print(solution1.romanToInt("MCMXCIV"))
         print(solution1.romanToInt("MCDLXXVI"))
         print(solution1.romanToInt("CMIV"))
-        
-//        print("Wes Solution")
-//        let solution2 = SolutionFromWes()
-//        print(solution2.romanToInt("III"))
-//        print(solution2.romanToInt("IV"))
-//        print(solution2.romanToInt("IX"))
-//        print(solution2.romanToInt("LVIII"))
-//        print(solution2.romanToInt("MCMXCIV"))
     }
     
-    private class SolutionStringParse {
-        func romanToInt(_ s: String) -> Int {
-            return 0
-        }
-    }
-
     /**
         Examples of special case.
      
@@ -46,7 +32,7 @@ class RomanToInt: Runnable {
          XVII
          CMIV
      */
-    private class SolutionFromXiaoReverseLookup {
+    private class SolutionReverseLookup {
         let romanValues = [Character("I"): 1,
                            Character("V"): 5,
                            Character("X"): 10,
@@ -92,7 +78,7 @@ class RomanToInt: Runnable {
         }
     }
     
-    private class SolutionFromXiaoReverseLookupWithIntArray {
+    private class SolutionReverseLookupWithSwitch {
         func romanLetterToInt(_ ch: Character) -> Int {
             switch (ch) {
             case "I":
@@ -149,12 +135,6 @@ class RomanToInt: Runnable {
             }
             
             return sum
-        }
-    }
-    
-    private class SolutionFromWes {
-        func romanToInt(_ s: String) -> Int {
-            return 0
         }
     }
 }
