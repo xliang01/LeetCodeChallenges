@@ -38,4 +38,5 @@ func run(_ runnable: Runnable) {
 //run(FizzBuzz())
 //run(MoveZeroes())
 //run(ReverseLinkedList())
-run(RomanToInt())
+//run(RomanToInt())
+run(BuyStock())
