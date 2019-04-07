@@ -10,7 +10,7 @@ import Foundation
 
 class RomanToInt: Runnable {
     func runTests() {
-        print("Xiao Solution")
+        print("Xiao's Solution")
         let solution1 = SolutionFromXiaoReverseLookup()
         print(solution1.romanToInt("III"))
         print(solution1.romanToInt("IV"))
@@ -18,6 +18,7 @@ class RomanToInt: Runnable {
         print(solution1.romanToInt("LVIII"))
         print(solution1.romanToInt("MCMXCIV"))
         print(solution1.romanToInt("MCDLXXVI"))
+        print(solution1.romanToInt("CMIV"))
         
 //        print("Wes Solution")
 //        let solution2 = SolutionFromWes()
@@ -35,15 +36,16 @@ class RomanToInt: Runnable {
     }
 
     /**
+        Examples of special case.
+     
          I
-         II
+         VI
          IV
-         XIV
          XVI
+         XIV
          XVII
          CMIV
      */
-    // "MCDLXXVI"
     private class SolutionFromXiaoReverseLookup {
         let romanValues = [Character("I"): 1,
                            Character("V"): 5,
@@ -52,6 +54,19 @@ class RomanToInt: Runnable {
                            Character("C"): 100,
                            Character("D"): 500,
                            Character("M"): 1000]
+        /**
+            Solution:
+         
+            Iterate backwards with the current value, and the previous (look behind) value. If the look behind
+            value is less that the current value, subtract the look behind value from the current value. Then decrease
+            the current index by 2 in order to move past subtracted value. Otherwise, if the look behind value is
+            greater than the current value, just keep accumulating the current value.
+         
+            Performance:
+         
+            Time Complexity: O(N) for the number of characters in the string that must be iterated.
+            Space Complexity: O(1) for the constant dictionary for roman values.
+         */
         func romanToInt(_ s: String) -> Int {
             var sum = 0
             var currentIndex = s.count - 1
