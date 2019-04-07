@@ -110,7 +110,7 @@ class ReverseLinkedList: Runnable {
                 return previousNode
             }
             
-            // While the curernt node is not nil, iterate through the linked list.
+            // While the current node is not nil, iterate through the linked list.
             while(currentNode != nil) {
                 // Get the next node.
                 let nextNode = currentNode?.next

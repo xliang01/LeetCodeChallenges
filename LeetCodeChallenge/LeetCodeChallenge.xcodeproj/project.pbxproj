@@ -26,6 +26,7 @@
 		8A9DF11E2245ED2E000543F1 /* 10_SortedSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DF11D2245ED2E000543F1 /* 10_SortedSquares.swift */; };
 		8A9DF1202245FD66000543F1 /* 11_SortArrayByParity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DF11F2245FD66000543F1 /* 11_SortArrayByParity.swift */; };
 		8A9DF12222460B9D000543F1 /* 12_ImageFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DF12122460B9D000543F1 /* 12_ImageFlip.swift */; };
+		8ABF9B4322592F3F0062ABC3 /* 23_RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF9B4222592F3F0062ABC3 /* 23_RomanToInt.swift */; };
 		8AF28758224DBBF8000158FC /* 19_ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF28757224DBBF8000158FC /* 19_ReverseString.swift */; };
 		8AF2875A224DC0FC000158FC /* 20_FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF28759224DC0FC000158FC /* 20_FizzBuzz.swift */; };
 		8AF2875C224DC90F000158FC /* 21_MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2875B224DC90F000158FC /* 21_MoveZeroes.swift */; };
@@ -65,6 +66,7 @@
 		8A9DF11D2245ED2E000543F1 /* 10_SortedSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10_SortedSquares.swift; sourceTree = "<group>"; };
 		8A9DF11F2245FD66000543F1 /* 11_SortArrayByParity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_SortArrayByParity.swift; sourceTree = "<group>"; };
 		8A9DF12122460B9D000543F1 /* 12_ImageFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_ImageFlip.swift; sourceTree = "<group>"; };
+		8ABF9B4222592F3F0062ABC3 /* 23_RomanToInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 23_RomanToInt.swift; sourceTree = "<group>"; };
 		8AF28757224DBBF8000158FC /* 19_ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19_ReverseString.swift; sourceTree = "<group>"; };
 		8AF28759224DC0FC000158FC /* 20_FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_FizzBuzz.swift; sourceTree = "<group>"; };
 		8AF2875B224DC90F000158FC /* 21_MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21_MoveZeroes.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				8AF28759224DC0FC000158FC /* 20_FizzBuzz.swift */,
 				8AF2875B224DC90F000158FC /* 21_MoveZeroes.swift */,
 				8AF2875D224DDC13000158FC /* 22_ReverseLinkedList.swift */,
+				8ABF9B4222592F3F0062ABC3 /* 23_RomanToInt.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				TargetAttributes = {
 					8A9C5EF22240AAA600EE0CE0 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -169,6 +173,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8A9C5EEA2240AAA600EE0CE0;
 			productRefGroup = 8A9C5EF42240AAA600EE0CE0 /* Products */;
@@ -206,6 +211,7 @@
 				8A7914B62247FA070050DFD3 /* 14_DIStringMatch.swift in Sources */,
 				8A050D6D2244AA19009BCF92 /* 7_UniqueEmails.swift in Sources */,
 				8A7914B42247DBCE0050DFD3 /* 13_ReturnToOrigin.swift in Sources */,
+				8ABF9B4322592F3F0062ABC3 /* 23_RomanToInt.swift in Sources */,
 				8A050D6F2244BC8B009BCF92 /* 8_MorseCode.swift in Sources */,
 				8AF2875A224DC0FC000158FC /* 20_FizzBuzz.swift in Sources */,
 			);
@@ -217,6 +223,7 @@
 		8A9C5EF82240AAA600EE0CE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -278,6 +285,7 @@
 		8A9C5EF92240AAA600EE0CE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -332,20 +340,32 @@
 		8A9C5EFB2240AAA600EE0CE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDNDP3ZYKL;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		8A9C5EFC2240AAA600EE0CE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDNDP3ZYKL;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
