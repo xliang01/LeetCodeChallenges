@@ -39,4 +39,5 @@ func run(_ runnable: Runnable) {
 //run(MoveZeroes())
 //run(ReverseLinkedList())
 //run(RomanToInt())
-run(BuyStock())
+//run(BuyStock())
+run(MergeSortedLinkedLists())
