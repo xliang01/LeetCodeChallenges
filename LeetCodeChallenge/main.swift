@@ -41,4 +41,5 @@ func run(_ runnable: Runnable) {
 //run(RomanToInt())
 //run(BuyStock())
 //run(MergeSortedLinkedLists())
-run(MaxSubArray())
+//run(MaxSubArray())
+run(PalinedromeNumber())

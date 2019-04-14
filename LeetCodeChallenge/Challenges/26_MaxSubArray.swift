@@ -83,7 +83,7 @@ class MaxSubArray : Runnable {
                     endIndex = i
                 }
             }
-            print (previousIndex, endIndex)
+//            print (previousIndex, endIndex)
             return maxValue
         }
     }

@@ -42,7 +42,7 @@
                   moduleName = "LeetCodeChallenge"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Files/Projects/CodingInterviews/LeetCodeChallenges/LeetCodeChallenge/Challenges/20_FizzBuzz.swift"
-                  timestampString = "576910330.855999"
+                  timestampString = "576973270.652733"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
@@ -57,7 +57,7 @@
                   moduleName = "LeetCodeChallenge"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Files/Projects/CodingInterviews/LeetCodeChallenges/LeetCodeChallenge/Challenges/20_FizzBuzz.swift"
-                  timestampString = "576910330.85826"
+                  timestampString = "576973270.65466"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
@@ -170,12 +170,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/26_MaxSubArray.swift"
-            timestampString = "576910593.941449"
+            timestampString = "576973270.236392"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "75"
             endingLineNumber = "75"
             landmarkName = "maxSubArray(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/27_PalindromeNumber.swift"
+            timestampString = "576973270.236493"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "isPalindrome(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/27_PalindromeNumber.swift"
+            timestampString = "576973270.236891"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "isPalindrome(_:_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
