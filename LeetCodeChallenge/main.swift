@@ -42,4 +42,5 @@ func run(_ runnable: Runnable) {
 //run(BuyStock())
 //run(MergeSortedLinkedLists())
 //run(MaxSubArray())
-run(PalinedromeNumber())
+//run(PalinedromeNumber())
+run(MaxStackOO())
