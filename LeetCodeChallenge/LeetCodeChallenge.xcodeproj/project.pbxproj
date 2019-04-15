@@ -21,6 +21,7 @@
 		8A97BCCE22604ED300B5C353 /* 26_MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BCCD22604ED300B5C353 /* 26_MaxSubArray.swift */; };
 		8A97BCD02262F56600B5C353 /* 27_PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BCCF2262F56600B5C353 /* 27_PalindromeNumber.swift */; };
 		8A97BCD222640CC500B5C353 /* 28_MaxStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BCD122640CC500B5C353 /* 28_MaxStack.swift */; };
+		8A97BCD42264423E00B5C353 /* 29_ParenthesisCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BCD32264423E00B5C353 /* 29_ParenthesisCheck.swift */; };
 		8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5EF62240AAA600EE0CE0 /* main.swift */; };
 		8A9C5EFF2240AABE00EE0CE0 /* 1_TwoSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5EFE2240AABE00EE0CE0 /* 1_TwoSums.swift */; };
 		8A9C5F012240AC9400EE0CE0 /* 2_TwoSumsBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C5F002240AC9400EE0CE0 /* 2_TwoSumsBST.swift */; };
@@ -65,6 +66,7 @@
 		8A97BCCD22604ED300B5C353 /* 26_MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26_MaxSubArray.swift; sourceTree = "<group>"; };
 		8A97BCCF2262F56600B5C353 /* 27_PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27_PalindromeNumber.swift; sourceTree = "<group>"; };
 		8A97BCD122640CC500B5C353 /* 28_MaxStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 28_MaxStack.swift; sourceTree = "<group>"; };
+		8A97BCD32264423E00B5C353 /* 29_ParenthesisCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 29_ParenthesisCheck.swift; sourceTree = "<group>"; };
 		8A9C5EF32240AAA600EE0CE0 /* LeetCodeChallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeChallenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9C5EF62240AAA600EE0CE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8A9C5EFE2240AABE00EE0CE0 /* 1_TwoSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_TwoSums.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				8A97BCCD22604ED300B5C353 /* 26_MaxSubArray.swift */,
 				8A97BCCF2262F56600B5C353 /* 27_PalindromeNumber.swift */,
 				8A97BCD122640CC500B5C353 /* 28_MaxStack.swift */,
+				8A97BCD32264423E00B5C353 /* 29_ParenthesisCheck.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */,
 				8A97BCD222640CC500B5C353 /* 28_MaxStack.swift in Sources */,
 				8A9C5F182242116000EE0CE0 /* 6_ToLowerString.swift in Sources */,
+				8A97BCD42264423E00B5C353 /* 29_ParenthesisCheck.swift in Sources */,
 				8AF28758224DBBF8000158FC /* 19_ReverseString.swift in Sources */,
 				8A9C5F122241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift in Sources */,
 				8AF2875C224DC90F000158FC /* 21_MoveZeroes.swift in Sources */,

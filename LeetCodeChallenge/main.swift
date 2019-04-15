@@ -43,4 +43,5 @@ func run(_ runnable: Runnable) {
 //run(MergeSortedLinkedLists())
 //run(MaxSubArray())
 //run(PalinedromeNumber())
-run(MaxStackOO())
+//run(MaxStackOO())
+run(ParenthesisCheck())
