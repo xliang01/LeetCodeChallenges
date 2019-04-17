@@ -44,4 +44,5 @@ func run(_ runnable: Runnable) {
 //run(MaxSubArray())
 //run(PalinedromeNumber())
 //run(MaxStackOO())
-run(ParenthesisCheck())
+//run(ParenthesisCheck())
+run(ReverseInteger())
