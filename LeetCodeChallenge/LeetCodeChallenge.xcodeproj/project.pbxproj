@@ -122,6 +122,15 @@
 		8A9C5EFD2240AAAA00EE0CE0 /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
+				8AEEE93B226EEE8D00037658 /* Easy */,
+				8AEEE93C226EEEA400037658 /* Medium */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		8AEEE93B226EEE8D00037658 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
 				8A9C5EFE2240AABE00EE0CE0 /* 1_TwoSums.swift */,
 				8A9C5F002240AC9400EE0CE0 /* 2_TwoSumsBST.swift */,
 				8A9C5F112241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift */,
@@ -155,7 +164,14 @@
 				8A5C61AC22683BC40020188B /* 31_MergeTwoSortedArrays.swift */,
 				8AEEE939226EDA3D00037658 /* 32_AddBinary.swift */,
 			);
-			path = Challenges;
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		8AEEE93C226EEEA400037658 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
