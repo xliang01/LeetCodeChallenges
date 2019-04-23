@@ -46,4 +46,39 @@ class AddBinary: Runnable {
             return sum
         }
     }
+    
+    private class SolutionIterativeFaster {
+        /**
+            Solution:
+         
+            Convert the binary strings into an array of integers. Then use a carry variable and ensure
+            as the numbers are added, the carry flag is converted to 1 or 0. Then as each variable is
+            added together with the carry, prepend either 0 or 1.
+         
+            Performance:
+         
+            Time Complexity: O(N) because we have iterate through the entire string.
+            Space Complexity: O(N) because we have to copy the contents of the string into integer arrays.
+         */
+        func addBinary(_ a: String, _ b: String) -> String {
+            var aBinary = Array<Character>(a).map { Int(String($0))! }
+            var bBinary = Array<Character>(b).map { Int(String($0))! }
+            var sum = ""
+            
+            var carry = 0
+            while !aBinary.isEmpty || !bBinary.isEmpty {
+                let aValue = aBinary.popLast()
+                let bValue = bBinary.popLast()
+                let sumValue = (aValue ?? 0) + (bValue ?? 0) + carry
+                carry = sumValue >= 2 ? 1 : 0
+                sum = "\(sumValue % 2)" + sum
+            }
+            
+            if carry == 1 {
+                sum = "1" + sum
+            }
+            
+            return sum
+        }
+    }
 }
