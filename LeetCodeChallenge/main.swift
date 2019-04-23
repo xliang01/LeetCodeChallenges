@@ -46,4 +46,5 @@ func run(_ runnable: Runnable) {
 //run(MaxStackOO())
 //run(ParenthesisCheck())
 //run(ReverseInteger())
-run(MergeTwoSortedArrays())
+//run(MergeTwoSortedArrays())
+run(AddBinary())
