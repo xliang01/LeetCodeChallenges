@@ -43,7 +43,6 @@ class AddTwoNumbers: Runnable {
     }
     
     private class Solution {
-        
         /**
             Solution:
          
