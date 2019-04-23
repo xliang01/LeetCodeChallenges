@@ -44,6 +44,18 @@ class AddTwoNumbers: Runnable {
     
     private class Solution {
         
+        /**
+            Solution:
+         
+            Iterate through the linked lists l1 and l2 until both cannot be iterated. As each pointer is traversed,
+            added the sum of the value or, 0 if nil, AND a carry from the previous loop. If any carry is left over,
+            create an extra node for the carry. Then create the carry for the next step.
+         
+            Performance:
+         
+            Time Complexity: O(N) to iterate through every node in the list.
+            Space Complexity: O(N) for the new List Node added as each sum is created.
+         */
         func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
             var p1 = l1
             var p2 = l2
@@ -54,10 +66,10 @@ class AddTwoNumbers: Runnable {
             while p1 != nil || p2 != nil {
                 let sum = (p1?.val ?? 0) + (p2?.val ?? 0) + carry
                 carry = sum / 10
-                p1 = p1?.next
-                p2 = p2?.next
                 s?.next = ListNode(sum % 10)
                 s = s?.next
+                p1 = p1?.next
+                p2 = p2?.next
             }
             if carry > 0 {
                 s?.next = ListNode(carry)
