@@ -47,4 +47,5 @@ func run(_ runnable: Runnable) {
 //run(ParenthesisCheck())
 //run(ReverseInteger())
 //run(MergeTwoSortedArrays())
-run(AddBinary())
+//run(AddBinary())
+run(AddTwoNumbers())
