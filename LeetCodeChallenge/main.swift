@@ -48,4 +48,5 @@ func run(_ runnable: Runnable) {
 //run(ReverseInteger())
 //run(MergeTwoSortedArrays())
 //run(AddBinary())
-run(AddTwoNumbers())
+//run(AddTwoNumbers())
+run(NumberOfIslands())
