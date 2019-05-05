@@ -175,8 +175,8 @@ class NumberOfIslands: Runnable {
                             let queueCol = index % rowCount
                             let left = queueCol - 1
                             let right = queueCol + 1
-                            let top = queueRow + 1
-                            let bottom = queueRow - 1
+                            let top = queueRow - 1
+                            let bottom = queueRow + 1
                             
                             if left >= 0 && grid[queueRow][left] == "1" {
                                 grid[queueRow][left] = "0"
@@ -188,12 +188,12 @@ class NumberOfIslands: Runnable {
                                 queue.append(queueRow * rowCount + right)
                             }
                             
-                            if top < grid.count && grid[top][queueCol] == "1" {
+                            if top >= 0 && grid[top][queueCol] == "1" {
                                 grid[top][queueCol] = "0"
                                 queue.append(top * rowCount + queueCol)
                             }
                             
-                            if bottom >= 0 && grid[bottom][queueCol] == "1" {
+                            if bottom < grid.count && grid[bottom][queueCol] == "1" {
                                 grid[bottom][queueCol] = "0"
                                 queue.append(bottom * rowCount + queueCol)
                             }
