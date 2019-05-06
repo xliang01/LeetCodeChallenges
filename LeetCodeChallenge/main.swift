@@ -49,4 +49,5 @@ func run(_ runnable: Runnable) {
 //run(MergeTwoSortedArrays())
 //run(AddBinary())
 //run(AddTwoNumbers())
-run(NumberOfIslands())
+//run(NumberOfIslands())
+run(LongestPalindrome())
