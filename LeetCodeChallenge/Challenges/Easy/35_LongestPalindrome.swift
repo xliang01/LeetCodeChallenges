@@ -29,17 +29,18 @@ import Foundation
 class LongestPalindrome: Runnable {
     func runTests() {
         let solution1 = SolutionDP()
-        print(solution1.longestPalindrome("a"))
-        print(solution1.longestPalindrome("aa"))
-        print(solution1.longestPalindrome("ab"))
-        print(solution1.longestPalindrome("aba"))
-        print(solution1.longestPalindrome("aab"))
-        print(solution1.longestPalindrome("abb"))
-        print(solution1.longestPalindrome("abba"))
-        print(solution1.longestPalindrome("aaba"))
-        print(solution1.longestPalindrome("abaa"))
-        print(solution1.longestPalindrome("abbaa"))
-        print(solution1.longestPalindrome("aabba"))
+//        print(solution1.longestPalindrome("a"))
+//        print(solution1.longestPalindrome("aa"))
+//        print(solution1.longestPalindrome("ab"))
+//        print(solution1.longestPalindrome("aba"))
+//        print(solution1.longestPalindrome("aab"))
+//        print(solution1.longestPalindrome("abb"))
+//        print(solution1.longestPalindrome("abba"))
+//        print(solution1.longestPalindrome("aaba"))
+//        print(solution1.longestPalindrome("abaa"))
+//        print(solution1.longestPalindrome("abbaa"))
+//        print(solution1.longestPalindrome("aabba"))
+        print(solution1.longestPalindrome("abacab"))
     }
     
     private class SolutionBruteForce {
@@ -47,6 +48,7 @@ class LongestPalindrome: Runnable {
             Runtime O(N^3)
          */
         func longestPalindrome(_ s: String) -> String {
+            guard !s.isEmpty else { return "" }
             guard s.count > 1 else { return s }
             var longestPalindrome = String(s.first!)
             
@@ -88,6 +90,7 @@ class LongestPalindrome: Runnable {
             Space Complexity: O(N^2) for the lookup table.
          */
         func longestPalindrome(_ s: String) -> String {
+            guard !s.isEmpty else { return "" }
             guard s.count > 1 else { return String(s.first!) }
             
             let n = s.count
@@ -117,10 +120,12 @@ class LongestPalindrome: Runnable {
                         // Get the max bound to check. This will go from i to k. K will increment to check for larger strings.
                         let k = i + stringCheckLength - 1
                         // Bottom up approach to check if the previous combination between the letters are palindromes.
-                        if characters[i] == characters[k] && lookup[i + 1][k - 1] && stringCheckLength > maxLength {
-                            start = i
-                            maxLength = stringCheckLength
+                        if characters[i] == characters[k] && lookup[i + 1][k - 1] {
                             lookup[i][k] = true
+                            if stringCheckLength > maxLength {
+                                start = i
+                                maxLength = stringCheckLength
+                            }
                         }
                     }
                 }
