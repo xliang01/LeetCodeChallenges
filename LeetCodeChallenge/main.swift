@@ -50,5 +50,6 @@ func run(_ runnable: Runnable) {
 //run(AddBinary())
 //run(AddTwoNumbers())
 //run(NumberOfIslands())
-run(LongestPalindrome())
-run(NumberOfCombinations())
+//run(LongestPalindrome())
+//run(NumberOfCombinations())
+run(LongestNonRepeatSubstring())

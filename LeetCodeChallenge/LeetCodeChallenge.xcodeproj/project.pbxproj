@@ -21,6 +21,7 @@
 		8A7914BA224830270050DFD3 /* 16_DeleteColumnsSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7914B9224830270050DFD3 /* 16_DeleteColumnsSorted.swift */; };
 		8A7914BC22483B040050DFD3 /* 17_MergeBinaryTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7914BB22483B040050DFD3 /* 17_MergeBinaryTrees.swift */; };
 		8A7914BE224890930050DFD3 /* 18_SubdomainVisitCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7914BD224890930050DFD3 /* 18_SubdomainVisitCount.swift */; };
+		8A86F6DF2280121D008BCE63 /* 37_LongestNonRepeatSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A86F6DE2280121D008BCE63 /* 37_LongestNonRepeatSubstring.swift */; };
 		8A97BCCE22604ED300B5C353 /* 26_MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BCCD22604ED300B5C353 /* 26_MaxSubArray.swift */; };
 		8A97BCD02262F56600B5C353 /* 27_PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BCCF2262F56600B5C353 /* 27_PalindromeNumber.swift */; };
 		8A97BCD222640CC500B5C353 /* 28_MaxStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BCD122640CC500B5C353 /* 28_MaxStack.swift */; };
@@ -73,6 +74,7 @@
 		8A7914B9224830270050DFD3 /* 16_DeleteColumnsSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16_DeleteColumnsSorted.swift; sourceTree = "<group>"; };
 		8A7914BB22483B040050DFD3 /* 17_MergeBinaryTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17_MergeBinaryTrees.swift; sourceTree = "<group>"; };
 		8A7914BD224890930050DFD3 /* 18_SubdomainVisitCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18_SubdomainVisitCount.swift; sourceTree = "<group>"; };
+		8A86F6DE2280121D008BCE63 /* 37_LongestNonRepeatSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 37_LongestNonRepeatSubstring.swift; sourceTree = "<group>"; };
 		8A97BCCD22604ED300B5C353 /* 26_MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26_MaxSubArray.swift; sourceTree = "<group>"; };
 		8A97BCCF2262F56600B5C353 /* 27_PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27_PalindromeNumber.swift; sourceTree = "<group>"; };
 		8A97BCD122640CC500B5C353 /* 28_MaxStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 28_MaxStack.swift; sourceTree = "<group>"; };
@@ -110,6 +112,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A86F6DD2280111C008BCE63 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		8A9C5EEA2240AAA600EE0CE0 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +139,7 @@
 		8A9C5EFD2240AAAA00EE0CE0 /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
+				8A86F6DD2280111C008BCE63 /* New Group */,
 				8AEEE93B226EEE8D00037658 /* Easy */,
 				8AEEE93C226EEEA400037658 /* Medium */,
 			);
@@ -172,9 +182,6 @@
 				8A5C61AC22683BC40020188B /* 31_MergeTwoSortedArrays.swift */,
 				8AEEE939226EDA3D00037658 /* 32_AddBinary.swift */,
 				8AEEE93D226EF5FC00037658 /* 33_AddTwoNumbers.swift */,
-				8AEEE93F226F00EA00037658 /* 34_NumberOfIslands.swift */,
-				8A714C44227E9B5F00A95D39 /* 35_LongestPalindrome.swift */,
-				8A714C46227FB80500A95D39 /* 36_NumberOfCombinations.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -182,6 +189,10 @@
 		8AEEE93C226EEEA400037658 /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				8AEEE93F226F00EA00037658 /* 34_NumberOfIslands.swift */,
+				8A714C44227E9B5F00A95D39 /* 35_LongestPalindrome.swift */,
+				8A714C46227FB80500A95D39 /* 36_NumberOfCombinations.swift */,
+				8A86F6DE2280121D008BCE63 /* 37_LongestNonRepeatSubstring.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -264,6 +275,7 @@
 				8AEEE93A226EDA3D00037658 /* 32_AddBinary.swift in Sources */,
 				8A050D712244C3FC009BCF92 /* 9_NRepeated.swift in Sources */,
 				8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */,
+				8A86F6DF2280121D008BCE63 /* 37_LongestNonRepeatSubstring.swift in Sources */,
 				8A97BCD222640CC500B5C353 /* 28_MaxStack.swift in Sources */,
 				8AA697012266F40C00D52898 /* 30_ReverseInteger.swift in Sources */,
 				8A9C5F182242116000EE0CE0 /* 6_ToLowerString.swift in Sources */,
