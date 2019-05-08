@@ -52,4 +52,5 @@ func run(_ runnable: Runnable) {
 //run(NumberOfIslands())
 //run(LongestPalindrome())
 //run(NumberOfCombinations())
-run(LongestNonRepeatSubstring())
+//run(LongestNonRepeatSubstring())
+run(ThreeSum())

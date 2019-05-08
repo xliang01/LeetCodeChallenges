@@ -31,7 +31,7 @@ class LongestNonRepeatSubstring: Runnable {
                     i = max(index, i)
                 }
                 answer = max(answer, j - i + 1)
-                // j + 1 is to calculate the next index for i.
+                // j + 1 is to calculate the next index for i. Therefore, i is the index where the next unique substring is.
                 cache[character] = j + 1
             }
             return answer
