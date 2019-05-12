@@ -16,6 +16,7 @@
 		8A714C45227E9B5F00A95D39 /* 35_LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714C44227E9B5F00A95D39 /* 35_LongestPalindrome.swift */; };
 		8A714C47227FB80500A95D39 /* 36_NumberOfCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714C46227FB80500A95D39 /* 36_NumberOfCombinations.swift */; };
 		8A78338E2287CDD60054B3D1 /* 39_MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A78338D2287CDD60054B3D1 /* 39_MergeIntervals.swift */; };
+		8A7833902288CE740054B3D1 /* 40_MinimumMeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A78338F2288CE740054B3D1 /* 40_MinimumMeetingRooms.swift */; };
 		8A7914B42247DBCE0050DFD3 /* 13_ReturnToOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7914B32247DBCE0050DFD3 /* 13_ReturnToOrigin.swift */; };
 		8A7914B62247FA070050DFD3 /* 14_DIStringMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7914B52247FA070050DFD3 /* 14_DIStringMatch.swift */; };
 		8A7914B822481FB10050DFD3 /* 15_HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7914B722481FB10050DFD3 /* 15_HammingDistance.swift */; };
@@ -71,6 +72,7 @@
 		8A714C44227E9B5F00A95D39 /* 35_LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 35_LongestPalindrome.swift; sourceTree = "<group>"; };
 		8A714C46227FB80500A95D39 /* 36_NumberOfCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_NumberOfCombinations.swift; sourceTree = "<group>"; };
 		8A78338D2287CDD60054B3D1 /* 39_MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 39_MergeIntervals.swift; sourceTree = "<group>"; };
+		8A78338F2288CE740054B3D1 /* 40_MinimumMeetingRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 40_MinimumMeetingRooms.swift; sourceTree = "<group>"; };
 		8A7914B32247DBCE0050DFD3 /* 13_ReturnToOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13_ReturnToOrigin.swift; sourceTree = "<group>"; };
 		8A7914B52247FA070050DFD3 /* 14_DIStringMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14_DIStringMatch.swift; sourceTree = "<group>"; };
 		8A7914B722481FB10050DFD3 /* 15_HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_HammingDistance.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				8A86F6DE2280121D008BCE63 /* 37_LongestNonRepeatSubstring.swift */,
 				8AFFA5ED2282A03500160992 /* 38_3Sum.swift */,
 				8A78338D2287CDD60054B3D1 /* 39_MergeIntervals.swift */,
+				8A78338F2288CE740054B3D1 /* 40_MinimumMeetingRooms.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				8A9C5F012240AC9400EE0CE0 /* 2_TwoSumsBST.swift in Sources */,
 				8AEEE93E226EF5FC00037658 /* 33_AddTwoNumbers.swift in Sources */,
+				8A7833902288CE740054B3D1 /* 40_MinimumMeetingRooms.swift in Sources */,
 				8A47620E2259E856008EA1B0 /* 24_BuyStock.swift in Sources */,
 				8AEEE940226F00EA00037658 /* 34_NumberOfIslands.swift in Sources */,
 				8A9DF11E2245ED2E000543F1 /* 10_SortedSquares.swift in Sources */,

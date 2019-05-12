@@ -54,4 +54,5 @@ func run(_ runnable: Runnable) {
 //run(NumberOfCombinations())
 //run(LongestNonRepeatSubstring())
 //run(ThreeSum())
-run(MergeIntervals())
+//run(MergeIntervals())
+run(MinimumMeetingRooms())
