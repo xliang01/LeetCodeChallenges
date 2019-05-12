@@ -53,4 +53,5 @@ func run(_ runnable: Runnable) {
 //run(LongestPalindrome())
 //run(NumberOfCombinations())
 //run(LongestNonRepeatSubstring())
-run(ThreeSum())
+//run(ThreeSum())
+run(MergeIntervals())
