@@ -63,7 +63,7 @@ class MinimumMeetingRooms: Runnable {
         
         /*
          ///////////////////////////////////////////////////////
-         Sorted [1,5] [3,7] [8,9] [8,9]
+         Sorted [1,5] [8,9] [8,9]
          
          Stack
             9
