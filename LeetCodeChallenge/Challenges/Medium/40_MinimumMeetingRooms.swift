@@ -36,6 +36,10 @@ class MinimumMeetingRooms: Runnable {
          
             Space Complexity: O(N). O(N) for the sorted listed, and O(N) for the cache if all intervals are not allowed
             to share the same room.
+         
+            NOTE: Apparently instead of using an array, we can use a min heap. This allows us to always extra the min
+            value in the array. This makes sense as if the start time is greater than the min value, then the new end
+            time should be back in the min heap.
         */
         func minMeetingRooms(_ intervals: [[Int]]) -> Int {
             guard !intervals.isEmpty else { return 0 }
