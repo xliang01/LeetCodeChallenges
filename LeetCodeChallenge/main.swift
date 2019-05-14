@@ -56,4 +56,5 @@ func run(_ runnable: Runnable) {
 //run(ThreeSum())
 //run(MergeIntervals())
 //run(MinimumMeetingRooms())
-run(ProductOfArrayExceptSelf())
+//run(ProductOfArrayExceptSelf())
+run(MaxArea())
