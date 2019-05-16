@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/39_MergeIntervals.swift"
-            timestampString = "579668880.716957"
+            timestampString = "579681663.8162839"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "91"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/39_MergeIntervals.swift"
-            timestampString = "579668880.717026"
+            timestampString = "579681663.816362"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "138"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/39_MergeIntervals.swift"
-            timestampString = "579668880.717073"
+            timestampString = "579681663.816416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "121"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/41_ProductOfArrayExceptSelf.swift"
-            timestampString = "579668880.717119"
+            timestampString = "579681663.816466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -154,12 +154,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/43_RotatedSortedArray.swift"
-            timestampString = "579668880.717168"
+            timestampString = "579681663.816517"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
             landmarkName = "search(_:_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Medium/44_GenerateParenthesis.swift"
+            timestampString = "579681663.8165669"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "backTrack(answer:cur:open:close:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -58,4 +58,5 @@ func run(_ runnable: Runnable) {
 //run(MinimumMeetingRooms())
 //run(ProductOfArrayExceptSelf())
 //run(MaxArea())
-run(RotatedSortedArray())
+//run(RotatedSortedArray())
+run(GenerateParenthesis())

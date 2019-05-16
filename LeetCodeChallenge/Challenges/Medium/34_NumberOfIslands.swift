@@ -57,9 +57,9 @@ class NumberOfIslands: Runnable {
         }
         
         private func dfs(_ grid: [[Character]],
-                 _ row: Int,
-                 _ col: Int,
-                 _ hasVisited: inout [Bool]) {
+                         _ row: Int,
+                         _ col: Int,
+                         _ hasVisited: inout [Bool]) {
             // Base Case: Out of bounds due to ocean.
             if row < 0 || row >= grid.count || col < 0 || col >= grid[row].count { return }
             let stackIndex = getStackIndex(grid, row, col)
