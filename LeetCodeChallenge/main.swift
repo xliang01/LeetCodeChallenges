@@ -59,4 +59,5 @@ func run(_ runnable: Runnable) {
 //run(ProductOfArrayExceptSelf())
 //run(MaxArea())
 //run(RotatedSortedArray())
-run(GenerateParenthesis())
+//run(GenerateParenthesis())
+run(MinStack())

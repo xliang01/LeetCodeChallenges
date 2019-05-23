@@ -51,6 +51,7 @@
 		8AF2875A224DC0FC000158FC /* 20_FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF28759224DC0FC000158FC /* 20_FizzBuzz.swift */; };
 		8AF2875C224DC90F000158FC /* 21_MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2875B224DC90F000158FC /* 21_MoveZeroes.swift */; };
 		8AF2875E224DDC13000158FC /* 22_ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2875D224DDC13000158FC /* 22_ReverseLinkedList.swift */; };
+		8AF3244E229635BE0034B502 /* 45_MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3244D229635BE0034B502 /* 45_MinStack.swift */; };
 		8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFA5ED2282A03500160992 /* 38_3Sum.swift */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +113,7 @@
 		8AF28759224DC0FC000158FC /* 20_FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_FizzBuzz.swift; sourceTree = "<group>"; };
 		8AF2875B224DC90F000158FC /* 21_MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21_MoveZeroes.swift; sourceTree = "<group>"; };
 		8AF2875D224DDC13000158FC /* 22_ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22_ReverseLinkedList.swift; sourceTree = "<group>"; };
+		8AF3244D229635BE0034B502 /* 45_MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 45_MinStack.swift; sourceTree = "<group>"; };
 		8AFFA5ED2282A03500160992 /* 38_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 38_3Sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,6 +190,7 @@
 				8A5C61AC22683BC40020188B /* 31_MergeTwoSortedArrays.swift */,
 				8AEEE939226EDA3D00037658 /* 32_AddBinary.swift */,
 				8AEEE93D226EF5FC00037658 /* 33_AddTwoNumbers.swift */,
+				8AF3244D229635BE0034B502 /* 45_MinStack.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				8A9C5F012240AC9400EE0CE0 /* 2_TwoSumsBST.swift in Sources */,
 				8AEEE93E226EF5FC00037658 /* 33_AddTwoNumbers.swift in Sources */,
+				8AF3244E229635BE0034B502 /* 45_MinStack.swift in Sources */,
 				8A7833902288CE740054B3D1 /* 40_MinimumMeetingRooms.swift in Sources */,
 				8A47620E2259E856008EA1B0 /* 24_BuyStock.swift in Sources */,
 				8AEEE940226F00EA00037658 /* 34_NumberOfIslands.swift in Sources */,
