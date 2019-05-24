@@ -54,6 +54,7 @@
 		8AF3244E229635BE0034B502 /* 45_MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3244D229635BE0034B502 /* 45_MinStack.swift */; };
 		8AF3245022964D240034B502 /* 46_SubarraySumK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3244F22964D240034B502 /* 46_SubarraySumK.swift */; };
 		8AF324522297227B0034B502 /* 47_CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF324512297227B0034B502 /* 47_CoinChange.swift */; };
+		8AF3245422978E5A0034B502 /* 48_SortLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3245322978E5A0034B502 /* 48_SortLog.swift */; };
 		8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFA5ED2282A03500160992 /* 38_3Sum.swift */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +119,7 @@
 		8AF3244D229635BE0034B502 /* 45_MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 45_MinStack.swift; sourceTree = "<group>"; };
 		8AF3244F22964D240034B502 /* 46_SubarraySumK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 46_SubarraySumK.swift; sourceTree = "<group>"; };
 		8AF324512297227B0034B502 /* 47_CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 47_CoinChange.swift; sourceTree = "<group>"; };
+		8AF3245322978E5A0034B502 /* 48_SortLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 48_SortLog.swift; sourceTree = "<group>"; };
 		8AFFA5ED2282A03500160992 /* 38_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 38_3Sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +197,7 @@
 				8AEEE939226EDA3D00037658 /* 32_AddBinary.swift */,
 				8AEEE93D226EF5FC00037658 /* 33_AddTwoNumbers.swift */,
 				8AF3244D229635BE0034B502 /* 45_MinStack.swift */,
+				8AF3245322978E5A0034B502 /* 48_SortLog.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				8A9DF12222460B9D000543F1 /* 12_ImageFlip.swift in Sources */,
 				8A783394228A9BE00054B3D1 /* 42_MaxArea.swift in Sources */,
 				8A97BCD02262F56600B5C353 /* 27_PalindromeNumber.swift in Sources */,
+				8AF3245422978E5A0034B502 /* 48_SortLog.swift in Sources */,
 				8A7914B62247FA070050DFD3 /* 14_DIStringMatch.swift in Sources */,
 				8A050D6D2244AA19009BCF92 /* 7_UniqueEmails.swift in Sources */,
 				8A7833922288F5180054B3D1 /* 41_ProductOfArrayExceptSelf.swift in Sources */,

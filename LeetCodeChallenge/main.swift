@@ -62,4 +62,5 @@ func run(_ runnable: Runnable) {
 //run(GenerateParenthesis())
 //run(MinStack())
 //run(SubarraySumK())
-run(CoinChange())
+//run(CoinChange())
+run(SortLog())
