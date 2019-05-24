@@ -60,4 +60,6 @@ func run(_ runnable: Runnable) {
 //run(MaxArea())
 //run(RotatedSortedArray())
 //run(GenerateParenthesis())
-run(MinStack())
+//run(MinStack())
+//run(SubarraySumK())
+run(CoinChange())

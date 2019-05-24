@@ -52,6 +52,8 @@
 		8AF2875C224DC90F000158FC /* 21_MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2875B224DC90F000158FC /* 21_MoveZeroes.swift */; };
 		8AF2875E224DDC13000158FC /* 22_ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2875D224DDC13000158FC /* 22_ReverseLinkedList.swift */; };
 		8AF3244E229635BE0034B502 /* 45_MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3244D229635BE0034B502 /* 45_MinStack.swift */; };
+		8AF3245022964D240034B502 /* 46_SubarraySumK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3244F22964D240034B502 /* 46_SubarraySumK.swift */; };
+		8AF324522297227B0034B502 /* 47_CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF324512297227B0034B502 /* 47_CoinChange.swift */; };
 		8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFA5ED2282A03500160992 /* 38_3Sum.swift */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +116,8 @@
 		8AF2875B224DC90F000158FC /* 21_MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21_MoveZeroes.swift; sourceTree = "<group>"; };
 		8AF2875D224DDC13000158FC /* 22_ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22_ReverseLinkedList.swift; sourceTree = "<group>"; };
 		8AF3244D229635BE0034B502 /* 45_MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 45_MinStack.swift; sourceTree = "<group>"; };
+		8AF3244F22964D240034B502 /* 46_SubarraySumK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 46_SubarraySumK.swift; sourceTree = "<group>"; };
+		8AF324512297227B0034B502 /* 47_CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 47_CoinChange.swift; sourceTree = "<group>"; };
 		8AFFA5ED2282A03500160992 /* 38_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 38_3Sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -209,6 +213,8 @@
 				8A783393228A9BE00054B3D1 /* 42_MaxArea.swift */,
 				8A783395228D06CF0054B3D1 /* 43_RotatedSortedArray.swift */,
 				8A783397228D33070054B3D1 /* 44_GenerateParenthesis.swift */,
+				8AF3244F22964D240034B502 /* 46_SubarraySumK.swift */,
+				8AF324512297227B0034B502 /* 47_CoinChange.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -279,6 +285,7 @@
 				8A47620E2259E856008EA1B0 /* 24_BuyStock.swift in Sources */,
 				8AEEE940226F00EA00037658 /* 34_NumberOfIslands.swift in Sources */,
 				8A9DF11E2245ED2E000543F1 /* 10_SortedSquares.swift in Sources */,
+				8AF324522297227B0034B502 /* 47_CoinChange.swift in Sources */,
 				8A9C5F142242002000EE0CE0 /* 4_JewelsAndStones.swift in Sources */,
 				8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */,
 				8A97BCCE22604ED300B5C353 /* 26_MaxSubArray.swift in Sources */,
@@ -306,6 +313,7 @@
 				8AF28758224DBBF8000158FC /* 19_ReverseString.swift in Sources */,
 				8A9C5F122241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift in Sources */,
 				8AF2875C224DC90F000158FC /* 21_MoveZeroes.swift in Sources */,
+				8AF3245022964D240034B502 /* 46_SubarraySumK.swift in Sources */,
 				8AF2875E224DDC13000158FC /* 22_ReverseLinkedList.swift in Sources */,
 				8A9DF12222460B9D000543F1 /* 12_ImageFlip.swift in Sources */,
 				8A783394228A9BE00054B3D1 /* 42_MaxArea.swift in Sources */,
