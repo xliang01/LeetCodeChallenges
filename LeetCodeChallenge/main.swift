@@ -65,4 +65,5 @@ func run(_ runnable: Runnable) {
 //run(CoinChange())
 //run(SortLog())
 //run(StringPermutations())
-run(NextPermutation())
+//run(NextPermutation())
+run(GroupAnagrams())

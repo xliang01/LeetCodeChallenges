@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/49_NextPermutation.swift"
-            timestampString = "580802046.15341"
+            timestampString = "580806964.457237"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "nextPermutation(_:)"
             landmarkType = "7">
          </BreakpointContent>
