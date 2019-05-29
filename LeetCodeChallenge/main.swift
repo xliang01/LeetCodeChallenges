@@ -63,4 +63,5 @@ func run(_ runnable: Runnable) {
 //run(MinStack())
 //run(SubarraySumK())
 //run(CoinChange())
-run(SortLog())
+//run(SortLog())
+run(StringPermutations())
