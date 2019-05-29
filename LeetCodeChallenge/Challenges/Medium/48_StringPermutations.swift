@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Theory right here: https://www.youtube.com/watch?v=GCm7m5671Ps
 class StringPermutations: Runnable {
     func runTests() {
         let solution1 = SolutionBackTrack()

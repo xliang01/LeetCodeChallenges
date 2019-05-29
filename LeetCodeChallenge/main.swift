@@ -64,4 +64,5 @@ func run(_ runnable: Runnable) {
 //run(SubarraySumK())
 //run(CoinChange())
 //run(SortLog())
-run(StringPermutations())
+//run(StringPermutations())
+run(NextPermutation())
