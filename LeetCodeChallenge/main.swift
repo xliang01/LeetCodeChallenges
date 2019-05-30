@@ -66,4 +66,5 @@ func run(_ runnable: Runnable) {
 //run(SortLog())
 //run(StringPermutations())
 //run(NextPermutation())
-run(GroupAnagrams())
+//run(GroupAnagrams())
+run(WordSearch())
