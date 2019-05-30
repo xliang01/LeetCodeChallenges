@@ -18,6 +18,13 @@ class GroupAnagrams: Runnable {
     }
     
     class SolutionSort {
+        /**
+            Solution: Sort each anagram string, and use the sorted value as a key in the hashmap. Then use the hashmap
+            to store the array that will group all other anagrams.
+         
+            Time Complexity: O(Mlog(M) * N) where M is the length of the string, and N is the number of strings.
+            Space Complexity: O(M * N) + N where N is the number of sorted keys and its length, plus the arrays that hold the strings.
+        */
         func groupAnagrams(_ strs: [String]) -> [[String]] {
             var anagramMap = [String: [String]]()
             for str in strs {
