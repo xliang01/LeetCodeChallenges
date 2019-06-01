@@ -67,4 +67,5 @@ func run(_ runnable: Runnable) {
 //run(StringPermutations())
 //run(NextPermutation())
 //run(GroupAnagrams())
-run(WordSearch())
+//run(WordSearch())
+run(SpiralMatrix())

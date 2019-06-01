@@ -44,25 +44,26 @@ class MinimumMeetingRooms: Runnable {
         func minMeetingRooms(_ intervals: [[Int]]) -> Int {
             guard !intervals.isEmpty else { return 0 }
             let sortedIntervals = intervals.sorted { $0[0] < $1[0] }
-            var times = [sortedIntervals[0][1]]
+            // Get the end time of the first interval
+            var meetingEndTimes = [sortedIntervals[0][1]]
             
             for i in (1..<intervals.count) {
                 let startTime = sortedIntervals[i][0]
                 let endTime = sortedIntervals[i][1]
                 var override = false
-                for (index, time) in times.enumerated() {
-                    if startTime >= time {
-                        times[index] = endTime
+                for (index, previousMeetingEndTime) in meetingEndTimes.enumerated() {
+                    if startTime >= previousMeetingEndTime {
+                        meetingEndTimes[index] = endTime
                         override = true
                         break
                     }
                 }
                 if !override {
-                    times.append(endTime)
+                    meetingEndTimes.append(endTime)
                 }
             }
             
-            return times.count
+            return meetingEndTimes.count
         }
         
         /*
