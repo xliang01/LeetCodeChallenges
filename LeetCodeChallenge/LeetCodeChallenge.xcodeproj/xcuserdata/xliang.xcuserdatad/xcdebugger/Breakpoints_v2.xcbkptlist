@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/52_SpiralMatrix.swift"
-            timestampString = "581065889.581007"
+            timestampString = "581070483.016624"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "spiralOrder(_:)"
             landmarkType = "7">
          </BreakpointContent>
