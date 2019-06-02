@@ -1,2 +1,2 @@
 # LeetCodeChallenges
-Leet Code algorithm challenges
+Leet Code algorithm challenges!
