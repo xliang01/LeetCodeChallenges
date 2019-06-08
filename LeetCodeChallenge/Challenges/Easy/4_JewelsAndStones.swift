@@ -77,7 +77,7 @@ class JewelsAndStones: Runnable {
             
             // For each jewel, mark the ascii value of the jewel as 1. All other ascii characters are 0.
             Array<Character>(J).forEach { (jewel) in
-                let asciiCode = Int(jewel.unicodeScalars.first!.value)
+                let asciiCode = Int(jewel.asciiValue!)
                 asciiList[asciiCode] = 1
             }
             
