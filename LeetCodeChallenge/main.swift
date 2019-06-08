@@ -73,4 +73,5 @@ func run(_ runnable: Runnable) {
 //run(TaskScheduler())
 //run(TopK())
 //run(LRUCache())
-run(DecodeString())
+//run(DecodeString())
+run(TinyURL())
