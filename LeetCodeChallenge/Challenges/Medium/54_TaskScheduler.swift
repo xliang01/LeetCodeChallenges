@@ -83,6 +83,8 @@ class TaskScheduler: Runnable {
         }
     }
     
+    // Bottom doesn't work
+    
     private class SolutionCounter {
         func leastInterval(_ tasks: [Character], _ n: Int) -> Int {
             guard !tasks.isEmpty else { return 0 }

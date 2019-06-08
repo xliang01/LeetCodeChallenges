@@ -10,6 +10,7 @@ import Foundation
 
 class MinimumMeetingRooms: Runnable {
     func runTests() {
+        print("\nPriority Array Override")
         let solution1 = SolutionSortWithEndTimeCache()
         print(solution1.minMeetingRooms([]))
         print(solution1.minMeetingRooms([[1, 2]]))
@@ -17,6 +18,39 @@ class MinimumMeetingRooms: Runnable {
         print(solution1.minMeetingRooms([[7,10],[2,4]]))
         print(solution1.minMeetingRooms([[9,10],[4,9],[4,17]]))
         print(solution1.minMeetingRooms([[1,5],[8,9],[8,9]]))
+        
+        print("\nPriority Queue")
+        let solution2 = SolutionSortWithPriorityQueue()
+        print(solution2.minMeetingRooms([]))
+        print(solution2.minMeetingRooms([[1, 2]]))
+        print(solution2.minMeetingRooms([[0, 30], [5, 10], [5, 15], [15, 20]]))
+        print(solution2.minMeetingRooms([[7,10],[2,4]]))
+        print(solution2.minMeetingRooms([[9,10],[4,9],[4,17]]))
+        print(solution2.minMeetingRooms([[1,5],[8,9],[8,9]]))
+    }
+    
+    private class SolutionSortWithPriorityQueue {
+        func minMeetingRooms(_ intervals: [[Int]]) -> Int {
+            guard !intervals.isEmpty else { return 0 }
+            let sortedIntervals = intervals.sorted { $0[0] < $1[0] }
+            var priorityQueue = PriorityQueue<[Int]> { (lhs, rhs) -> Bool in
+                return lhs[1] < rhs[1]
+            }
+            
+            priorityQueue.enqueue(sortedIntervals[0])
+            var index = 1
+            while index < sortedIntervals.count {
+                let currentSchedule = sortedIntervals[index]
+                if let previousSchedule = priorityQueue.peek() {
+                    if currentSchedule[0] >= previousSchedule[1] {
+                        _ = priorityQueue.dequeue()
+                    }
+                    priorityQueue.enqueue(currentSchedule)
+                }
+                index+=1
+            }
+            return priorityQueue.count
+        }
     }
     
     private class SolutionSortWithEndTimeCache {
