@@ -75,4 +75,5 @@ func run(_ runnable: Runnable) {
 //run(LRUCache())
 //run(DecodeString())
 //run(TinyURL())
-run(DailyTemperatures())
+//run(DailyTemperatures())
+run(MultiplyVectors())
