@@ -71,4 +71,6 @@ func run(_ runnable: Runnable) {
 //run(SpiralMatrix())
 //run(LetterCombinations())
 //run(TaskScheduler())
-run(TopK())
+//run(TopK())
+//run(LRUCache())
+run(DecodeString())
