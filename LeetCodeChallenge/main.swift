@@ -77,4 +77,6 @@ func run(_ runnable: Runnable) {
 //run(TinyURL())
 //run(DailyTemperatures())
 //run(MultiplyVectors())
-run(BSTIterator())
+//run(BSTIterator())
+//run(KClosestPoint())
+run(GetRandomizedSet())

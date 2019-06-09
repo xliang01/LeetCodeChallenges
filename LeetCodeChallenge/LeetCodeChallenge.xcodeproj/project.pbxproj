@@ -12,6 +12,8 @@
 		8A050D712244C3FC009BCF92 /* 9_NRepeated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050D702244C3FC009BCF92 /* 9_NRepeated.swift */; };
 		8A0E471422AC752B00089D9B /* 61_MultiplyVectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E471322AC752B00089D9B /* 61_MultiplyVectors.swift */; };
 		8A0E471622ACA7FB00089D9B /* 62_BSTIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E471522ACA7FB00089D9B /* 62_BSTIterator.swift */; };
+		8A0E471822ACB1EC00089D9B /* 63_KClosestPointToOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E471722ACB1EC00089D9B /* 63_KClosestPointToOrigin.swift */; };
+		8A0E471A22ACC67700089D9B /* 64_GetRandomizedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E471922ACC67700089D9B /* 64_GetRandomizedSet.swift */; };
 		8A1A09EA22AACE63002E4613 /* 57_DecodeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A09E922AACE63002E4613 /* 57_DecodeString.swift */; };
 		8A1A09EC22AB8841002E4613 /* 58_NestedListIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A09EB22AB8841002E4613 /* 58_NestedListIterator.swift */; };
 		8A1A09EE22AB987F002E4613 /* 59_TinyURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A09ED22AB987F002E4613 /* 59_TinyURL.swift */; };
@@ -95,6 +97,8 @@
 		8A050D702244C3FC009BCF92 /* 9_NRepeated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9_NRepeated.swift; sourceTree = "<group>"; };
 		8A0E471322AC752B00089D9B /* 61_MultiplyVectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 61_MultiplyVectors.swift; sourceTree = "<group>"; };
 		8A0E471522ACA7FB00089D9B /* 62_BSTIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 62_BSTIterator.swift; sourceTree = "<group>"; };
+		8A0E471722ACB1EC00089D9B /* 63_KClosestPointToOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 63_KClosestPointToOrigin.swift; sourceTree = "<group>"; };
+		8A0E471922ACC67700089D9B /* 64_GetRandomizedSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 64_GetRandomizedSet.swift; sourceTree = "<group>"; };
 		8A1A09E922AACE63002E4613 /* 57_DecodeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 57_DecodeString.swift; sourceTree = "<group>"; };
 		8A1A09EB22AB8841002E4613 /* 58_NestedListIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 58_NestedListIterator.swift; sourceTree = "<group>"; };
 		8A1A09ED22AB987F002E4613 /* 59_TinyURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 59_TinyURL.swift; sourceTree = "<group>"; };
@@ -331,6 +335,8 @@
 				8ACBC14422AC2DBA00C845F1 /* 60_DailyTemperatures.swift */,
 				8A0E471322AC752B00089D9B /* 61_MultiplyVectors.swift */,
 				8A0E471522ACA7FB00089D9B /* 62_BSTIterator.swift */,
+				8A0E471722ACB1EC00089D9B /* 63_KClosestPointToOrigin.swift */,
+				8A0E471922ACC67700089D9B /* 64_GetRandomizedSet.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -412,6 +418,7 @@
 				8ACBC14522AC2DBA00C845F1 /* 60_DailyTemperatures.swift in Sources */,
 				8A9C5F142242002000EE0CE0 /* 4_JewelsAndStones.swift in Sources */,
 				8A4CFED022A394D800989A85 /* Heap.swift in Sources */,
+				8A0E471A22ACC67700089D9B /* 64_GetRandomizedSet.swift in Sources */,
 				8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */,
 				8A97BCCE22604ED300B5C353 /* 26_MaxSubArray.swift in Sources */,
 				8A7914BA224830270050DFD3 /* 16_DeleteColumnsSorted.swift in Sources */,
@@ -451,6 +458,7 @@
 				8AF2875E224DDC13000158FC /* 22_ReverseLinkedList.swift in Sources */,
 				8A9DF12222460B9D000543F1 /* 12_ImageFlip.swift in Sources */,
 				8A783394228A9BE00054B3D1 /* 42_MaxArea.swift in Sources */,
+				8A0E471822ACB1EC00089D9B /* 63_KClosestPointToOrigin.swift in Sources */,
 				8A97BCD02262F56600B5C353 /* 27_PalindromeNumber.swift in Sources */,
 				8A4CFEE522A394D800989A85 /* LinkedList.swift in Sources */,
 				8AF3245422978E5A0034B502 /* 48_SortLog.swift in Sources */,
