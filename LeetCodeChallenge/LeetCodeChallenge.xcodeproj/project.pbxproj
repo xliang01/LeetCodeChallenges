@@ -11,6 +11,7 @@
 		8A050D6F2244BC8B009BCF92 /* 8_MorseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050D6E2244BC8B009BCF92 /* 8_MorseCode.swift */; };
 		8A050D712244C3FC009BCF92 /* 9_NRepeated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050D702244C3FC009BCF92 /* 9_NRepeated.swift */; };
 		8A0E471422AC752B00089D9B /* 61_MultiplyVectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E471322AC752B00089D9B /* 61_MultiplyVectors.swift */; };
+		8A0E471622ACA7FB00089D9B /* 62_BSTIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E471522ACA7FB00089D9B /* 62_BSTIterator.swift */; };
 		8A1A09EA22AACE63002E4613 /* 57_DecodeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A09E922AACE63002E4613 /* 57_DecodeString.swift */; };
 		8A1A09EC22AB8841002E4613 /* 58_NestedListIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A09EB22AB8841002E4613 /* 58_NestedListIterator.swift */; };
 		8A1A09EE22AB987F002E4613 /* 59_TinyURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A09ED22AB987F002E4613 /* 59_TinyURL.swift */; };
@@ -93,6 +94,7 @@
 		8A050D6E2244BC8B009BCF92 /* 8_MorseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_MorseCode.swift; sourceTree = "<group>"; };
 		8A050D702244C3FC009BCF92 /* 9_NRepeated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9_NRepeated.swift; sourceTree = "<group>"; };
 		8A0E471322AC752B00089D9B /* 61_MultiplyVectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 61_MultiplyVectors.swift; sourceTree = "<group>"; };
+		8A0E471522ACA7FB00089D9B /* 62_BSTIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 62_BSTIterator.swift; sourceTree = "<group>"; };
 		8A1A09E922AACE63002E4613 /* 57_DecodeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 57_DecodeString.swift; sourceTree = "<group>"; };
 		8A1A09EB22AB8841002E4613 /* 58_NestedListIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 58_NestedListIterator.swift; sourceTree = "<group>"; };
 		8A1A09ED22AB987F002E4613 /* 59_TinyURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 59_TinyURL.swift; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 				8A1A09ED22AB987F002E4613 /* 59_TinyURL.swift */,
 				8ACBC14422AC2DBA00C845F1 /* 60_DailyTemperatures.swift */,
 				8A0E471322AC752B00089D9B /* 61_MultiplyVectors.swift */,
+				8A0E471522ACA7FB00089D9B /* 62_BSTIterator.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A4CFEEA22A394D800989A85 /* MergeSort.swift in Sources */,
+				8A0E471622ACA7FB00089D9B /* 62_BSTIterator.swift in Sources */,
 				8A9C5F012240AC9400EE0CE0 /* 2_TwoSumsBST.swift in Sources */,
 				8AEEE93E226EF5FC00037658 /* 33_AddTwoNumbers.swift in Sources */,
 				8AF3244E229635BE0034B502 /* 45_MinStack.swift in Sources */,

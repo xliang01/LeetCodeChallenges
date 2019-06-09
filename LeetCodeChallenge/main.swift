@@ -76,4 +76,5 @@ func run(_ runnable: Runnable) {
 //run(DecodeString())
 //run(TinyURL())
 //run(DailyTemperatures())
-run(MultiplyVectors())
+//run(MultiplyVectors())
+run(BSTIterator())
