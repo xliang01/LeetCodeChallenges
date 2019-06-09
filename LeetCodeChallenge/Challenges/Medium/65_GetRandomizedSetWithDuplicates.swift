@@ -10,18 +10,33 @@ import Foundation
 
 class GetRandomizedSetWithDuplicates: Runnable {
     func runTests() {
-        let solution = RandomizedSet()
+        var solution = RandomizedSet()
+//        print(solution.insert(4))
+//        print(solution.insert(3))
+//        print(solution.insert(4))
+//        print(solution.insert(2))
+//        print(solution.insert(4))
+//        print(solution.remove(4))
+//        print(solution.remove(3))
+//        print(solution.remove(4))
+//        print(solution.remove(4))
+        
+        solution = RandomizedSet()
         print(solution.insert(1))
         print(solution.insert(1))
         print(solution.insert(2))
-        print(solution.getRandom())
+        print(solution.insert(2))
+        print(solution.insert(2))
         print(solution.remove(1))
-        print(solution.getRandom())
+        print(solution.remove(1))
+        print(solution.remove(2))
+        print(solution.insert(1))
+        print(solution.remove(2))
     }
     
     private class RandomizedSet {
         var numberArray = [Int]()
-        var numberIndexMap = [Int: [Int]]()
+        var numberIndexMap = [Int: Set<Int>]()
         
         /** Initialize your data structure here. */
         init() { }
@@ -32,27 +47,36 @@ class GetRandomizedSetWithDuplicates: Runnable {
             let newCount = numberArray.count - 1
             
             if var indexes = numberIndexMap[val] {
-                indexes.append(newCount)
+                indexes.insert(newCount)
                 numberIndexMap[val] = indexes
+                return false
             }
             else {
                 numberIndexMap[val] = [newCount]
+                return true
             }
-            return true
         }
         
         /** Removes a value from the set. Returns true if the set contained the specified element. */
         func remove(_ val: Int) -> Bool {
             if var indexes = numberIndexMap[val] {
-                let removedIndex = indexes.popLast()!
-                numberIndexMap[val] = indexes
-                
+                let removedIndex = indexes.popFirst()!
                 let removedNumber = numberArray.popLast()!
+                let lastIndex = numberArray.count
+                
                 if removedNumber != val {
                     numberArray[removedIndex] = removedNumber
-                    numberIndexMap[removedNumber]!.removeLast()
-                    numberIndexMap[removedNumber]!.append(removedIndex)
+                    numberIndexMap[removedNumber]?.remove(lastIndex)
+                    numberIndexMap[removedNumber]?.insert(removedIndex)
                 }
+                
+                if indexes.isEmpty {
+                    numberIndexMap[val] = nil
+                }
+                else {
+                    numberIndexMap[val] = indexes
+                }
+                
                 return true
             }
             return false
