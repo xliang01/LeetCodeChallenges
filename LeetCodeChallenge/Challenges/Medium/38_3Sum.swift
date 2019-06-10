@@ -23,38 +23,6 @@ class ThreeSum: Runnable {
         print(solution2.threeSum([]))
     }
     
-//    var result = [[Int]]()
-//    var start = 0
-//    var end = 0
-//    var sum = 0
-//
-//    for i in 0..<(nums.count - 2) {
-//    if i == 0 || (i > 0 && nums[i] != nums[i - 1]) {
-//    start = i + 1
-//    end = nums.count - 1
-//    sum = 0 - nums[i]
-//    while start < end {
-//    if nums[start] + nums[end] == sum {
-//    result.append([nums[i], nums[start], nums[end]])
-//    while start < end && nums[start] == nums[start + 1] {
-//    start += 1
-//    }
-//    while start < end && nums[end] == nums[end - 1] {
-//    end -= 1
-//    }
-//    start += 1
-//    end -= 1
-//    } else if nums[start] + nums[end] < sum {
-//    start += 1
-//    } else {
-//    end -= 1
-//    }
-//    }
-//    }
-//    }
-//
-//    return result
-    
     class SolutionShrinkingWindow {
         /**
             Solution:

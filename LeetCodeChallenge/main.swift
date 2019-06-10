@@ -81,4 +81,5 @@ func run(_ runnable: Runnable) {
 //run(KClosestPoint())
 //run(GetRandomizedSet())
 //run(GetRandomizedSetWithDuplicates())
-run(ReconstructItinerary())
+//run(ReconstructItinerary())
+run(WordLadder())
