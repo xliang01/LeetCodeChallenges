@@ -51,6 +51,55 @@ class WordLadder: Runnable {
         print(solution.ladderLength("hit", "cog", ["hot","dot","dog","lot","log","cog"]))
     }
     
+    /**
+        Solution:
+    
+        The solution to optimize a BFS is to have a pre-cached lookup table on all possibilities of a word pattern.
+        For example, *og -> log, cog, dog.
+     
+        Create a lookup table where we can store the pattern of the string and its associated values.
+     
+        [
+            "*og" -> ["log", "cog", "dog"],
+            "l*g" -> ["log"],
+            "h*t" -> ["hot"]
+            ...
+        ]
+     
+        Now we use BFS by appending the root node "begin word" and a level of 1.
+    
+        IMPORTANT NOTE:
+     
+        If we want to keep track of BFS levels, we should probably use a tuple where we have the value and the level of the tree.
+        This allows us to pop off the level and increment as needed for child nodes.
+     
+        Then as we traverse through each child, we look at whether the child value has any adjacent words that share the same
+        pattern. If it does, then check if it's the correct word. If it is the correct word, return the level + 1, to include
+        the begin word.
+     
+        If it doesn't match the end word, but passes the pattern, traverse again in DFS and add the next word with level + 1.
+     
+        OBSERVATION:
+     
+        The key to this problem is creating a lookup cache to ensure we can look at all surrounding words given a pattern.
+        We also need a Visited Set, or Array (which is really part of graph traversal), so we don't scan already visited notes.
+     
+        Lastly, the reason we can get the min distance is BFS traverses one level at a time. If we can find a solution at that
+        level, we know it's the shortest distance. If we were doing DFS, then we'd have to compare the MIN for each traversal,
+        if the traversal is even possible.
+     
+        Performance:
+     
+        Time Complexity:
+            O(N*L) to pattern match for each word, where L is the length of each string.
+            O(N) to build the cache. This can be a constant, so O(N) runtime.
+            O(N) to search if the end word is not present.
+     
+        Space Complexity:
+            O(N*L) to store the cache, where L is the length of each string.
+            O(N) for the queue in the worst case because every word could pop onto the queue.
+            O(N) for the visited Set if every word is visited.
+     */
     private class SolutionBFS {
         func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {
             guard wordList.contains(endWord) else { return 0 }
@@ -67,7 +116,6 @@ class WordLadder: Runnable {
                 let level = tuple.1
                 
                 let wordChars = Array<Character>(word)
-                
                 for i in 0..<wordChars.count {
                     let pattern = getWordPattern(wordChars, i)
                     
