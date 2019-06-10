@@ -17,6 +17,7 @@
 		8A0E471C22ACC99400089D9B /* 65_GetRandomizedSetWithDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E471B22ACC99400089D9B /* 65_GetRandomizedSetWithDuplicates.swift */; };
 		8A0E471E22AD834B00089D9B /* 66_ReconstructItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E471D22AD834B00089D9B /* 66_ReconstructItinerary.swift */; };
 		8A0E472022ADD67300089D9B /* 67_WordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E471F22ADD67300089D9B /* 67_WordLadder.swift */; };
+		8A0E472222AE0AF000089D9B /* 68_FindDuplicateFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E472122AE0AF000089D9B /* 68_FindDuplicateFiles.swift */; };
 		8A1A09EA22AACE63002E4613 /* 57_DecodeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A09E922AACE63002E4613 /* 57_DecodeString.swift */; };
 		8A1A09EC22AB8841002E4613 /* 58_NestedListIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A09EB22AB8841002E4613 /* 58_NestedListIterator.swift */; };
 		8A1A09EE22AB987F002E4613 /* 59_TinyURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A09ED22AB987F002E4613 /* 59_TinyURL.swift */; };
@@ -105,6 +106,7 @@
 		8A0E471B22ACC99400089D9B /* 65_GetRandomizedSetWithDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 65_GetRandomizedSetWithDuplicates.swift; sourceTree = "<group>"; };
 		8A0E471D22AD834B00089D9B /* 66_ReconstructItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 66_ReconstructItinerary.swift; sourceTree = "<group>"; };
 		8A0E471F22ADD67300089D9B /* 67_WordLadder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 67_WordLadder.swift; sourceTree = "<group>"; };
+		8A0E472122AE0AF000089D9B /* 68_FindDuplicateFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 68_FindDuplicateFiles.swift; sourceTree = "<group>"; };
 		8A1A09E922AACE63002E4613 /* 57_DecodeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 57_DecodeString.swift; sourceTree = "<group>"; };
 		8A1A09EB22AB8841002E4613 /* 58_NestedListIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 58_NestedListIterator.swift; sourceTree = "<group>"; };
 		8A1A09ED22AB987F002E4613 /* 59_TinyURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 59_TinyURL.swift; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 				8A0E471B22ACC99400089D9B /* 65_GetRandomizedSetWithDuplicates.swift */,
 				8A0E471D22AD834B00089D9B /* 66_ReconstructItinerary.swift */,
 				8A0E471F22ADD67300089D9B /* 67_WordLadder.swift */,
+				8A0E472122AE0AF000089D9B /* 68_FindDuplicateFiles.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				8A49CD65229E2FC4009E5ABC /* 49_NextPermutation.swift in Sources */,
 				8A9DF1202245FD66000543F1 /* 11_SortArrayByParity.swift in Sources */,
 				8AEEE93A226EDA3D00037658 /* 32_AddBinary.swift in Sources */,
+				8A0E472222AE0AF000089D9B /* 68_FindDuplicateFiles.swift in Sources */,
 				8A050D712244C3FC009BCF92 /* 9_NRepeated.swift in Sources */,
 				8AB9816A22A31E000060FEED /* 54_TaskScheduler.swift in Sources */,
 				8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */,

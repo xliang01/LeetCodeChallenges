@@ -82,4 +82,5 @@ func run(_ runnable: Runnable) {
 //run(GetRandomizedSet())
 //run(GetRandomizedSetWithDuplicates())
 //run(ReconstructItinerary())
-run(WordLadder())
+//run(WordLadder())
+run(FindDuplicateFiles())
