@@ -11,13 +11,41 @@ import Foundation
 class WordBreak: Runnable {
     func runTests() {
 //        let solution = SolutionRecursion()
-        let solution = SolutionRecursionMemoization()
+//        let solution = SolutionRecursionMemoization()
+        let solution = SolutionDP()
         print(solution.wordBreak("leetcode", ["leet", "code"]))
         print(solution.wordBreak("applepenapple", ["apple", "pen"]))
         print(solution.wordBreak("catsanddogs", ["cats", "dog", "sand", "and", "cat"]))
         print(solution.wordBreak("bb", ["b", "aa", "bc", "dd", "efb"]))
         print(solution.wordBreak("aaaaaaa", ["aaa", "aaaa"]))
         print(solution.wordBreak("cars", ["car","ca","rs"]))
+        print(solution.wordBreak("abcd", ["a","bc", "d"]))
+        print(solution.wordBreak("leetcode", ["leet"]))
+        print(solution.wordBreak("abcd", ["a", "cd"]))
+        
+    }
+    
+    private class SolutionDP {
+        func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
+            let lookup = Set(wordDict)
+            let chars = Array<Character>(s)
+            if s.isEmpty { return false }
+            
+            var dp = [Bool](repeating: false, count: s.count + 1)
+            dp[0] = true
+            
+            for endIndex in 1...chars.count {
+                for startIndex in 0..<endIndex {
+                    let segment = String(chars[startIndex..<endIndex])
+                    if lookup.contains(segment) {
+                        dp[endIndex] = true
+                        break
+                    }
+                }
+            }
+            
+            return dp[s.count]
+        }
     }
     
     private class SolutionBFSMemoization {
