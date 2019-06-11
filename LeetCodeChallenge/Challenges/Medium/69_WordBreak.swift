@@ -37,7 +37,7 @@ class WordBreak: Runnable {
             for endIndex in 1...chars.count {
                 for startIndex in 0..<endIndex {
                     let segment = String(chars[startIndex..<endIndex])
-                    if lookup.contains(segment) {
+                    if dp[startIndex] && lookup.contains(segment) {
                         dp[endIndex] = true
                         break
                     }
