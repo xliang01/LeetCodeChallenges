@@ -11,9 +11,9 @@ import Foundation
 class LongestNonRepeatSubstring: Runnable {
     func runTests() {
         let solution1 = SolutionSlidingSlidingWindowHash()
-        print(solution1.lengthOfLongestSubstring("ab"))
-        print(solution1.lengthOfLongestSubstring("abcabcbb"))
-        print(solution1.lengthOfLongestSubstring("bbbbb"))
+//        print(solution1.lengthOfLongestSubstring("ab"))
+//        print(solution1.lengthOfLongestSubstring("abcabcbb"))
+//        print(solution1.lengthOfLongestSubstring("bbbbb"))
         print(solution1.lengthOfLongestSubstring("pwwkew"))
     }
     

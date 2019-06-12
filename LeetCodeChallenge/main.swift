@@ -84,4 +84,5 @@ func run(_ runnable: Runnable) {
 //run(ReconstructItinerary())
 //run(WordLadder())
 //run(FindDuplicateFiles())
-run(WordBreak())
+//run(WordBreak())
+run(ProductSubArray())
