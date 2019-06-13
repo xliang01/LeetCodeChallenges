@@ -85,4 +85,7 @@ func run(_ runnable: Runnable) {
 //run(WordLadder())
 //run(FindDuplicateFiles())
 //run(WordBreak())
-run(ProductSubArray())
+//run(ProductSubArray())
+//run(MinClimbingStairs())
+//run(RangeSum())
+run(BSTInOrder())

@@ -92,17 +92,5 @@ class WordSearch: Runnable {
             
             return false
         }
-        
-//        private func getCol(index: Int, width: Int) -> Int {
-//            return index % width
-//        }
-//
-//        private func getRow(index: Int, width: Int) -> Int {
-//            return (index - getCol(index: index, width: width)) / width
-//        }
-//
-//        private func getIndex(row: Int, col: Int, width: Int) -> Int {
-//            return row * width + col
-//        }
     }
 }

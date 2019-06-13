@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/37_LongestNonRepeatSubstring.swift"
-            timestampString = "582016717.515013"
+            timestampString = "582046877.858935"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "112"
@@ -202,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/51_WordSearch.swift"
-            timestampString = "580890554.436554"
+            timestampString = "582133297.141618"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -218,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/51_WordSearch.swift"
-            timestampString = "580890554.436922"
+            timestampString = "582133297.141717"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -266,7 +266,7 @@
                   moduleName = "LeetCodeChallenge"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Files/Projects/Mobile/iOS/CodingChallenges/LeetCodeChallenges/LeetCodeChallenge/Challenges/Medium/54_TaskScheduler.swift"
-                  timestampString = "582013869.9288909"
+                  timestampString = "582099402.4131"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "62"
@@ -281,7 +281,7 @@
                   moduleName = "LeetCodeChallenge"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Files/Projects/Mobile/iOS/CodingChallenges/LeetCodeChallenges/LeetCodeChallenge/Challenges/Medium/54_TaskScheduler.swift"
-                  timestampString = "582013869.930464"
+                  timestampString = "582099402.414307"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "62"
@@ -410,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/57_DecodeString.swift"
-            timestampString = "582016717.515378"
+            timestampString = "582133297.1419261"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
@@ -426,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/57_DecodeString.swift"
-            timestampString = "582016717.515697"
+            timestampString = "582133297.142312"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -442,7 +442,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/57_DecodeString.swift"
-            timestampString = "582016717.51592"
+            timestampString = "582133297.142531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
@@ -458,7 +458,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/57_DecodeString.swift"
-            timestampString = "582016717.516142"
+            timestampString = "582133297.142761"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
@@ -762,7 +762,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/69_WordBreak.swift"
-            timestampString = "582016717.5166661"
+            timestampString = "582133297.143327"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "122"
@@ -778,7 +778,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/69_WordBreak.swift"
-            timestampString = "582016717.5169261"
+            timestampString = "582133297.143575"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "121"
@@ -794,7 +794,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/69_WordBreak.swift"
-            timestampString = "582016717.517141"
+            timestampString = "582133297.143796"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -810,7 +810,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/37_LongestNonRepeatSubstring.swift"
-            timestampString = "582016717.517355"
+            timestampString = "582046877.8615969"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -826,7 +826,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/70_ProductSubarray.swift"
-            timestampString = "582016717.5174021"
+            timestampString = "582046877.861643"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -842,12 +842,108 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/70_ProductSubarray.swift"
-            timestampString = "582016717.517447"
+            timestampString = "582046877.861686"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
             landmarkName = "maxProduct(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Medium/72_MinClimbStairs.swift"
+            timestampString = "582043715.4594181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "minCostClimbingStairs(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Medium/72_MinClimbingStairs.swift"
+            timestampString = "582051340.42934"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "minCostClimbingStairs(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Medium/72_MinClimbingStairs.swift"
+            timestampString = "582051340.4295861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "minCostClimbingStairs(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Easy/DP/74_RangeSum.swift"
+            timestampString = "582133297.144138"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "sumRange(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Easy/DP/74_RangeSum.swift"
+            timestampString = "582133297.144187"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "init(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Medium/Tree/76_BSTInOrder.swift"
+            timestampString = "582133297.144235"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "inorderTraversal(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

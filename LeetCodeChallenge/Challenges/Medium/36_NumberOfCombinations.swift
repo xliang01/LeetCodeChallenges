@@ -35,11 +35,15 @@ class NumberOfCombinations: Runnable {
             if (n == 0) { return 1 }
             
             // Checking if already calculated
-            if (dp[n] != -1) { return dp[n] }
+            if (dp[n] != -1) {
+                return dp[n]
+            }
             
             // Storing the result and returning
             var sum = 0
-            combinations.forEach { sum += solve(n-$0, &dp, combinations) }
+            combinations.forEach { combination in
+                sum += solve(n-combination, &dp, combinations)
+            }
             dp[n] = sum
 //            dp[n] = solve(n-1, &dp) + solve(n-3, &dp) + solve(n-5, &dp)
             return dp[n]
