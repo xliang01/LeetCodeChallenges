@@ -165,7 +165,7 @@ class TwoSumsBST: Runnable {
     
     // MARK: Solution 3 - BreadthDepthSearch
     
-    struct Queue<T> {
+    private struct Queue<T> {
         fileprivate var array = [T]()
         
         public var isEmpty: Bool {
