@@ -121,38 +121,4 @@ class LongestNonRepeatSubstring: Runnable {
             return max
         }
     }
-    
-    /*
-    private class SolutionDPBottomUp {
-        func lengthOfLongestSubstring(_ s: String) -> Int {
-            guard !s.isEmpty else { return 0}
-            guard s.count > 1 else { return 1 }
-
-            let characters = Array<Character>(s)
-            let n = characters.count
-            
-            var repeatedIndex = Set<Int>()
-            var max = 1
-
-            // Base case to check if any string index has repeating characters
-            for i in (0..<n-1) {
-                if characters[i] == characters[i+1] { repeatedIndex.insert(i+1) }
-                else { max = 2 }
-            }
-            
-            if n > 2 {
-                for k in (3...n) {
-                    for i in (0..<n-k+1) {
-                        let endIndex = i+k-1
-                        if repeatedIndex.contains(endIndex) { continue }
-                        else if characters[i] == characters[endIndex] || repeatedIndex.contains(endIndex - 1) { repeatedIndex.insert(endIndex) }
-                        else if !repeatedIndex.contains(endIndex) { max = k }
-                    }
-                }
-            }
-            
-            return max
-        }
-    }
-     */
 }

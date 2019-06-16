@@ -36,36 +36,6 @@ class KnapSack: Runnable {
 //                                 n: weights.count))
     }
     
-    private class SolutionRecursiveForEveryNumber {
-        func knapSack(capacity: Int,
-                      weights: [Int],
-                      amounts: [Int],
-                      n: Int) -> Int {
-            if n == 0 || capacity == 0 {
-                return 0
-            }
-            
-            if weights[n-1] > capacity {
-                return knapSack(capacity: capacity,
-                                weights: weights,
-                                amounts: amounts,
-                                n: n-1)
-            }
-            
-            let amountWithCurrentWeight = knapSack(capacity: capacity - weights[n-1],
-                                                   weights: weights,
-                                                   amounts: amounts,
-                                                   n: n-1) + amounts[n-1]
-            
-            let amountWithoutCurrentWeight = knapSack(capacity: capacity,
-                                                      weights: weights,
-                                                      amounts: amounts,
-                                                      n: n-1)
-            
-            return max(amountWithCurrentWeight, amountWithoutCurrentWeight)
-        }
-    }
-    
     private class SolutionBottomUp {
         func knapSack(capacity: Int,
                       weights: [Int],
@@ -106,6 +76,37 @@ class KnapSack: Runnable {
                 print(row)
             }
             return dp[weights.count][capacity]
+        }
+    }
+    
+    
+    private class SolutionRecursiveForEveryNumber {
+        func knapSack(capacity: Int,
+                      weights: [Int],
+                      amounts: [Int],
+                      n: Int) -> Int {
+            if n == 0 || capacity == 0 {
+                return 0
+            }
+            
+            if weights[n-1] > capacity {
+                return knapSack(capacity: capacity,
+                                weights: weights,
+                                amounts: amounts,
+                                n: n-1)
+            }
+            
+            let amountWithCurrentWeight = knapSack(capacity: capacity - weights[n-1],
+                                                   weights: weights,
+                                                   amounts: amounts,
+                                                   n: n-1) + amounts[n-1]
+            
+            let amountWithoutCurrentWeight = knapSack(capacity: capacity,
+                                                      weights: weights,
+                                                      amounts: amounts,
+                                                      n: n-1)
+            
+            return max(amountWithCurrentWeight, amountWithoutCurrentWeight)
         }
     }
 }

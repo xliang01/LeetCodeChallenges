@@ -317,9 +317,9 @@
 		8A9C5EFD2240AAAA00EE0CE0 /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
-				8A21D90E22B46F5800DEF82C /* Hard */,
 				8AEEE93B226EEE8D00037658 /* Easy */,
 				8AEEE93C226EEEA400037658 /* Medium */,
+				8A21D90E22B46F5800DEF82C /* Hard */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
