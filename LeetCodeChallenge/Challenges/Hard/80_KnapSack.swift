@@ -96,7 +96,7 @@ class KnapSack: Runnable {
                     }
                     // If the weight is greater, take the previous ones that have already been taken since we can't take this one.
                     else {
-                         let doNotTakeThisItemAmountBecauseOverWeight = dp[row - 1][col]
+                        let doNotTakeThisItemAmountBecauseOverWeight = dp[row - 1][col]
                         dp[row][col] = doNotTakeThisItemAmountBecauseOverWeight
                     }
                 }
