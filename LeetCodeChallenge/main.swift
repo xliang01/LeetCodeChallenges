@@ -93,4 +93,5 @@ func run(_ runnable: Runnable) {
 //run(HouseRobberCircle())
 //run(ArrayPairSum())
 //run(MedianSortedArray())
-run(SerializeAndDeserializeBinaryTree())
+//run(SerializeAndDeserializeBinaryTree())
+run(KnapSack())

@@ -72,6 +72,7 @@
 		8A9DF12222460B9D000543F1 /* 12_ImageFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DF12122460B9D000543F1 /* 12_ImageFlip.swift */; };
 		8AA697012266F40C00D52898 /* 30_ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA697002266F40C00D52898 /* 30_ReverseInteger.swift */; };
 		8AB6EBC822B4CF28000A0B5E /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6EBC722B4CF28000A0B5E /* Stack.swift */; };
+		8AB6EBCA22B55D30000A0B5E /* 80_KnapSack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6EBC922B55D30000A0B5E /* 80_KnapSack.swift */; };
 		8AB9816622A24BF80060FEED /* 52_SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9816522A24BF80060FEED /* 52_SpiralMatrix.swift */; };
 		8AB9816822A26BA30060FEED /* 53_LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9816722A26BA30060FEED /* 53_LetterCombinations.swift */; };
 		8AB9816A22A31E000060FEED /* 54_TaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9816922A31E000060FEED /* 54_TaskScheduler.swift */; };
@@ -176,6 +177,7 @@
 		8A9DF12122460B9D000543F1 /* 12_ImageFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_ImageFlip.swift; sourceTree = "<group>"; };
 		8AA697002266F40C00D52898 /* 30_ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 30_ReverseInteger.swift; sourceTree = "<group>"; };
 		8AB6EBC722B4CF28000A0B5E /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		8AB6EBC922B55D30000A0B5E /* 80_KnapSack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 80_KnapSack.swift; sourceTree = "<group>"; };
 		8AB9816522A24BF80060FEED /* 52_SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 52_SpiralMatrix.swift; sourceTree = "<group>"; };
 		8AB9816722A26BA30060FEED /* 53_LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 53_LetterCombinations.swift; sourceTree = "<group>"; };
 		8AB9816922A31E000060FEED /* 54_TaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 54_TaskScheduler.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 			children = (
 				8A21D90F22B46F6500DEF82C /* 78_MedianSortedArray.swift */,
 				8A21D91122B4C1F300DEF82C /* 79_SerializeAndDeserializeBinaryTree.swift */,
+				8AB6EBC922B55D30000A0B5E /* 80_KnapSack.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -588,6 +591,7 @@
 				8A0E471822ACB1EC00089D9B /* 63_KClosestPointToOrigin.swift in Sources */,
 				8A97BCD02262F56600B5C353 /* 27_PalindromeNumber.swift in Sources */,
 				8A4CFEE522A394D800989A85 /* LinkedList.swift in Sources */,
+				8AB6EBCA22B55D30000A0B5E /* 80_KnapSack.swift in Sources */,
 				8A0E471E22AD834B00089D9B /* 66_ReconstructItinerary.swift in Sources */,
 				8AF3245422978E5A0034B502 /* 48_SortLog.swift in Sources */,
 				8A7914B62247FA070050DFD3 /* 14_DIStringMatch.swift in Sources */,
