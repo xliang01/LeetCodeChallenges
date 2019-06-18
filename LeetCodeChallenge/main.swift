@@ -95,4 +95,6 @@ func run(_ runnable: Runnable) {
 //run(MedianSortedArray())
 //run(SerializeAndDeserializeBinaryTree())
 //run(KnapSack())
-run(FirstMissingPositiveInteger())
+//run(FirstMissingPositiveInteger())
+//run(DIStringMatch())
+run(MergeKSortedArrays())

@@ -10,18 +10,22 @@ import Foundation
 
 class DIStringMatch: Runnable {
     func runTests() {
-        let solution1 = SolutionArrayIndex()
-        print(solution1.diStringMatch("IDID"))
-        print(solution1.diStringMatch("III"))
-        print(solution1.diStringMatch("DDI"))
-        
-        
+//        let solution1 = SolutionArrayIndex()
+//        print(solution1.diStringMatch("IDID"))
+//        print(solution1.diStringMatch("III"))
+//        print(solution1.diStringMatch("DDI"))
+//
+//
         let solution2 = SolutionArrayReplaceIndex()
-        print(solution2.diStringMatch("IDID"))
-        print(solution2.diStringMatch("III"))
+//        print(solution2.diStringMatch("IDID"))
+//        print(solution2.diStringMatch("III"))
         print(solution2.diStringMatch("DDI"))
-        print(solution2.diStringMatch("DDD"))
-        print(solution2.diStringMatch("IIDD"))
+//        print(solution2.diStringMatch("DDD"))
+//        print(solution2.diStringMatch("IIDD"))
+        
+        
+//        let solution3 = SolutionTest()
+//        print(solution3.diStringMatch("DII"))
     }
     
     private class SolutionArrayIndex {

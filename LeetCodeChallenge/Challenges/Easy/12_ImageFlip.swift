@@ -60,15 +60,16 @@ class ImageFlip: Runnable {
          */
         func flipAndInvertImage(_ A: [[Int]]) -> [[Int]] {
             var A = A
-            for index in (0..<A.count) {
-                var array = A[index]
-                for left in (0..<(A.count + 1)/2) {
-                    let temp = array[left]
-                    let right = A.count - 1 - left
-                    array[left] = array[right] ^ 1
-                    array[right] = temp ^ 1
+            let L = A[0].count
+            
+            for (index, var bits) in A.enumerated() {
+                for left in (0..<(L + 1)/2) {
+                    let right = L - left - 1
+                    let bit = bits[left] ^ 1
+                    bits[left] = bits[right] ^ 1
+                    bits[right] = bit
                 }
-                A[index] = array
+                A[index] = bits
             }
             return A
         }
