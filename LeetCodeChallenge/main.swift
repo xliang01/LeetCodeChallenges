@@ -97,4 +97,6 @@ func run(_ runnable: Runnable) {
 //run(KnapSack())
 //run(FirstMissingPositiveInteger())
 //run(DIStringMatch())
-run(MergeKSortedArrays())
+//run(MergeKSortedArrays())
+//run(LongestSubstringK())
+run(FindJudges())
