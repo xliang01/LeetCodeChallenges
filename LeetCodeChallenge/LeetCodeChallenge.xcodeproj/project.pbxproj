@@ -84,6 +84,7 @@
 		8AB9816A22A31E000060FEED /* 54_TaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9816922A31E000060FEED /* 54_TaskScheduler.swift */; };
 		8AB9816C22A38C600060FEED /* 55_TopK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9816B22A38C600060FEED /* 55_TopK.swift */; };
 		8ABB9E4522BC377F00DCA7BC /* 89_MaxAdjacentNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB9E4422BC377F00DCA7BC /* 89_MaxAdjacentNumbers.swift */; };
+		8ABB9E4722BC5C2100DCA7BC /* 89_ClassSchedulePart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB9E4622BC5C2100DCA7BC /* 89_ClassSchedulePart2.swift */; };
 		8ABF9B4322592F3F0062ABC3 /* 23_RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF9B4222592F3F0062ABC3 /* 23_RomanToInt.swift */; };
 		8ACBC14522AC2DBA00C845F1 /* 60_DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACBC14422AC2DBA00C845F1 /* 60_DailyTemperatures.swift */; };
 		8AD8D41322B1ED2E0084818B /* 73_HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8D41222B1ED2E0084818B /* 73_HouseRobber.swift */; };
@@ -196,6 +197,7 @@
 		8AB9816922A31E000060FEED /* 54_TaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 54_TaskScheduler.swift; sourceTree = "<group>"; };
 		8AB9816B22A38C600060FEED /* 55_TopK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 55_TopK.swift; sourceTree = "<group>"; };
 		8ABB9E4422BC377F00DCA7BC /* 89_MaxAdjacentNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 89_MaxAdjacentNumbers.swift; sourceTree = "<group>"; };
+		8ABB9E4622BC5C2100DCA7BC /* 89_ClassSchedulePart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 89_ClassSchedulePart2.swift; sourceTree = "<group>"; };
 		8ABF9B4222592F3F0062ABC3 /* 23_RomanToInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 23_RomanToInt.swift; sourceTree = "<group>"; };
 		8ACBC14422AC2DBA00C845F1 /* 60_DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 60_DailyTemperatures.swift; sourceTree = "<group>"; };
 		8AD8D41222B1ED2E0084818B /* 73_HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 73_HouseRobber.swift; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				8A3FE8BC22BB696E00B37C8B /* 88_ClassSchedule.swift */,
+				8ABB9E4622BC5C2100DCA7BC /* 89_ClassSchedulePart2.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -623,6 +626,7 @@
 				8A9C5EFF2240AABE00EE0CE0 /* 1_TwoSums.swift in Sources */,
 				8A7914BC22483B040050DFD3 /* 17_MergeBinaryTrees.swift in Sources */,
 				8A21D91222B4C1F300DEF82C /* 79_SerializeAndDeserializeBinaryTree.swift in Sources */,
+				8ABB9E4722BC5C2100DCA7BC /* 89_ClassSchedulePart2.swift in Sources */,
 				8A92B5BD22A4979500076AE5 /* 56_LRUCache.swift in Sources */,
 				8A34183922B9EA300099451F /* 83_LongestSubstringK.swift in Sources */,
 				8AD8D41522B1F7070084818B /* 74_RangeSum.swift in Sources */,
