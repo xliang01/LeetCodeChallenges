@@ -101,4 +101,6 @@ func run(_ runnable: Runnable) {
 //run(LongestSubstringK())
 //run(FindJudges())
 //run(DecodeMessage())
-run(ClassSchedule())
+//run(ClassSchedule())
+//run(ThreeSumClosestTarget())
+run(ThreeSumLessTarget())

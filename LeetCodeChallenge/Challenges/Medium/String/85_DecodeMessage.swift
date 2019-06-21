@@ -15,6 +15,7 @@ class DecodeMessage: Runnable {
         
         let solution2 = SolutionDPBottomUp()
         print(solution2.numDecodings("101"))
+        print(solution2.numDecodings("110"))
     }
     
     class SolutionDPBottomUp {

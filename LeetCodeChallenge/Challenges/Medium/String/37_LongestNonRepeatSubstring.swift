@@ -10,7 +10,7 @@ import Foundation
 
 class LongestNonRepeatSubstring: Runnable {
     func runTests() {
-        let solution1 = SolutionSlidingSlidingWindowHash()
+        let solution1 = SolutionSlidingSlidingWindow()
 //        print(solution1.lengthOfLongestSubstring("ab"))
 //        print(solution1.lengthOfLongestSubstring("abcabcbb"))
 //        print(solution1.lengthOfLongestSubstring("bbbbb"))
@@ -48,8 +48,9 @@ class LongestNonRepeatSubstring: Runnable {
             var cache = Set<Character>()
             
             while i < n && j < n {
-                if !cache.contains(characters[j]) {
-                    cache.insert(characters[j])
+                let character = characters[j]
+                if !cache.contains(character) {
+                    cache.insert(character)
                     j += 1
                     answer = max(answer, j - i)
                 }
