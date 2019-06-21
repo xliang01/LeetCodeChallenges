@@ -103,4 +103,5 @@ func run(_ runnable: Runnable) {
 //run(DecodeMessage())
 //run(ClassSchedule())
 //run(ThreeSumClosestTarget())
-run(ThreeSumLessTarget())
+//run(ThreeSumLessTarget())
+run(FourSumTarget())

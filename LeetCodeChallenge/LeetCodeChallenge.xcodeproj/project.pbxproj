@@ -89,6 +89,7 @@
 		8ABB9E4C22BD3F1F00DCA7BC /* 91_Max3Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB9E4B22BD3F1F00DCA7BC /* 91_Max3Product.swift */; };
 		8ABB9E4E22BD58C800DCA7BC /* 91_3SumClosestTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB9E4D22BD58C800DCA7BC /* 91_3SumClosestTarget.swift */; };
 		8ABB9E5022BD6D0D00DCA7BC /* 92_3SumLessTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB9E4F22BD6D0D00DCA7BC /* 92_3SumLessTarget.swift */; };
+		8ABB9E5222BD7BB000DCA7BC /* 93_4SumTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB9E5122BD7BB000DCA7BC /* 93_4SumTarget.swift */; };
 		8ABF9B4322592F3F0062ABC3 /* 23_RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF9B4222592F3F0062ABC3 /* 23_RomanToInt.swift */; };
 		8ACBC14522AC2DBA00C845F1 /* 60_DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACBC14422AC2DBA00C845F1 /* 60_DailyTemperatures.swift */; };
 		8AD8D41322B1ED2E0084818B /* 73_HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8D41222B1ED2E0084818B /* 73_HouseRobber.swift */; };
@@ -206,6 +207,7 @@
 		8ABB9E4B22BD3F1F00DCA7BC /* 91_Max3Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 91_Max3Product.swift; sourceTree = "<group>"; };
 		8ABB9E4D22BD58C800DCA7BC /* 91_3SumClosestTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 91_3SumClosestTarget.swift; sourceTree = "<group>"; };
 		8ABB9E4F22BD6D0D00DCA7BC /* 92_3SumLessTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 92_3SumLessTarget.swift; sourceTree = "<group>"; };
+		8ABB9E5122BD7BB000DCA7BC /* 93_4SumTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 93_4SumTarget.swift; sourceTree = "<group>"; };
 		8ABF9B4222592F3F0062ABC3 /* 23_RomanToInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 23_RomanToInt.swift; sourceTree = "<group>"; };
 		8ACBC14422AC2DBA00C845F1 /* 60_DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 60_DailyTemperatures.swift; sourceTree = "<group>"; };
 		8AD8D41222B1ED2E0084818B /* 73_HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 73_HouseRobber.swift; sourceTree = "<group>"; };
@@ -409,6 +411,7 @@
 				8AFFA5ED2282A03500160992 /* 38_3Sum.swift */,
 				8ABB9E4D22BD58C800DCA7BC /* 91_3SumClosestTarget.swift */,
 				8ABB9E4F22BD6D0D00DCA7BC /* 92_3SumLessTarget.swift */,
+				8ABB9E5122BD7BB000DCA7BC /* 93_4SumTarget.swift */,
 				8A78338D2287CDD60054B3D1 /* 39_MergeIntervals.swift */,
 			);
 			path = Array;
@@ -684,6 +687,7 @@
 				8A168A8D22B367DB00895631 /* 78_ArrayPairSum.swift in Sources */,
 				8A783394228A9BE00054B3D1 /* 42_MaxArea.swift in Sources */,
 				8A0E471822ACB1EC00089D9B /* 63_KClosestPointToOrigin.swift in Sources */,
+				8ABB9E5222BD7BB000DCA7BC /* 93_4SumTarget.swift in Sources */,
 				8A97BCD02262F56600B5C353 /* 27_PalindromeNumber.swift in Sources */,
 				8A4CFEE522A394D800989A85 /* LinkedList.swift in Sources */,
 				8AB6EBCA22B55D30000A0B5E /* 80_KnapSack.swift in Sources */,
