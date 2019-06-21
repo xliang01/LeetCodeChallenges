@@ -99,4 +99,6 @@ func run(_ runnable: Runnable) {
 //run(DIStringMatch())
 //run(MergeKSortedArrays())
 //run(LongestSubstringK())
-run(FindJudges())
+//run(FindJudges())
+//run(DecodeMessage())
+run(ClassSchedule())
