@@ -104,4 +104,5 @@ func run(_ runnable: Runnable) {
 //run(ClassSchedule())
 //run(ThreeSumClosestTarget())
 //run(ThreeSumLessTarget())
-run(FourSumTarget())
+//run(FourSumTarget())
+run(UniquePaths())
