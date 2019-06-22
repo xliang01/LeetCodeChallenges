@@ -105,4 +105,7 @@ func run(_ runnable: Runnable) {
 //run(ThreeSumClosestTarget())
 //run(ThreeSumLessTarget())
 //run(FourSumTarget())
-run(UniquePaths())
+//run(UniquePaths())
+//run(SymmetricTree())
+//run(InterleavingStrings())
+run(IslandPerimeter())
