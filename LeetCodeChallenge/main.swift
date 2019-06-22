@@ -109,4 +109,5 @@ func run(_ runnable: Runnable) {
 //run(SymmetricTree())
 //run(InterleavingStrings())
 //run(IslandPerimeter())
-run(NumSquares())
+//run(NumSquares())
+run(AddStrings())
