@@ -111,4 +111,6 @@ func run(_ runnable: Runnable) {
 //run(IslandPerimeter())
 //run(NumSquares())
 //run(AddStrings())
-run(MultiplyStrings())
+//run(MultiplyStrings())
+//run(MissingNumber())
+run(CountAndSay())
