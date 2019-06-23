@@ -120,6 +120,7 @@
 		8AF3AB9D22BF4F37007A193A /* FirstUniqueChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3AB9C22BF4F37007A193A /* FirstUniqueChar.swift */; };
 		8AF3AB9F22BFC5CC007A193A /* Missing_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3AB9E22BFC5CC007A193A /* Missing_Number.swift */; };
 		8AF3ABA122BFD2AE007A193A /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA022BFD2AE007A193A /* CountAndSay.swift */; };
+		8AF3ABA322BFE249007A193A /* IsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA222BFE249007A193A /* IsAnagram.swift */; };
 		8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFA5ED2282A03500160992 /* 38_3Sum.swift */; };
 /* End PBXBuildFile section */
 
@@ -250,6 +251,7 @@
 		8AF3AB9C22BF4F37007A193A /* FirstUniqueChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqueChar.swift; sourceTree = "<group>"; };
 		8AF3AB9E22BFC5CC007A193A /* Missing_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missing_Number.swift; sourceTree = "<group>"; };
 		8AF3ABA022BFD2AE007A193A /* CountAndSay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
+		8AF3ABA222BFE249007A193A /* IsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAnagram.swift; sourceTree = "<group>"; };
 		8AFFA5ED2282A03500160992 /* 38_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 38_3Sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -270,6 +272,7 @@
 				8A168A8C22B367DB00895631 /* 78_ArrayPairSum.swift */,
 				8ABB9E4B22BD3F1F00DCA7BC /* 91_Max3Product.swift */,
 				8AF3AB9E22BFC5CC007A193A /* Missing_Number.swift */,
+				8AF3ABA222BFE249007A193A /* IsAnagram.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -728,6 +731,7 @@
 				8A714C47227FB80500A95D39 /* 36_NumberOfCombinations.swift in Sources */,
 				8AB6EBC822B4CF28000A0B5E /* Stack.swift in Sources */,
 				8ABB9E5622BD977300DCA7BC /* 95_UniquePaths2.swift in Sources */,
+				8AF3ABA322BFE249007A193A /* IsAnagram.swift in Sources */,
 				8A8DBEC822B0DE9500682D70 /* 71_Staircase.swift in Sources */,
 				8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */,
 				8A49CD67229E6655009E5ABC /* 50_GroupAnagrams.swift in Sources */,
