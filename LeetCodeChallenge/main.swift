@@ -110,4 +110,5 @@ func run(_ runnable: Runnable) {
 //run(InterleavingStrings())
 //run(IslandPerimeter())
 //run(NumSquares())
-run(AddStrings())
+//run(AddStrings())
+run(MultiplyStrings())

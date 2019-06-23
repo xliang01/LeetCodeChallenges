@@ -362,7 +362,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/57_DecodeString.swift"
-            timestampString = "582939407.448911"
+            timestampString = "582959322.123006"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
@@ -378,7 +378,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/57_DecodeString.swift"
-            timestampString = "582939407.449325"
+            timestampString = "582959322.123359"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -394,7 +394,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/57_DecodeString.swift"
-            timestampString = "582939407.4496"
+            timestampString = "582959322.123607"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
@@ -410,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/57_DecodeString.swift"
-            timestampString = "582939407.4498661"
+            timestampString = "582959322.123852"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
@@ -714,7 +714,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/69_WordBreak.swift"
-            timestampString = "582939407.450366"
+            timestampString = "582959322.124299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "122"
@@ -730,7 +730,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/69_WordBreak.swift"
-            timestampString = "582939407.45067"
+            timestampString = "582959322.124579"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "121"
@@ -746,7 +746,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/69_WordBreak.swift"
-            timestampString = "582939407.450947"
+            timestampString = "582959322.12482"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -906,7 +906,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/DP/77_HouseRobberTwo.swift"
-            timestampString = "582939407.4513479"
+            timestampString = "582959322.125172"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
@@ -1226,7 +1226,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Hard/String/InterleavingStrings.swift"
-            timestampString = "582939407.452441"
+            timestampString = "582960387.9549021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -1242,12 +1242,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/DP/Num_Squares.swift"
-            timestampString = "582939407.4525059"
+            timestampString = "582960387.9549609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
             endingLineNumber = "26"
             landmarkName = "numSquares(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Medium/String/MultiplyStrings.swift"
+            timestampString = "582960387.955008"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "multiply(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Medium/String/MultiplyStrings.swift"
+            timestampString = "582960387.955295"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "multiply(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetCodeChallenge.MultiplyStrings.(SolutionProduct in _B90CA095C7406CB7EBEFED4B7663994A).multiply(Swift.String, Swift.String) -&gt; Swift.String"
+                  moduleName = "LeetCodeChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Files/Projects/Mobile/iOS/CodingChallenges/LeetCodeChallenges/LeetCodeChallenge/Challenges/Medium/String/MultiplyStrings.swift"
+                  timestampString = "582960244.8733799"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "4476">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetCodeChallenge.MultiplyStrings.(SolutionProduct in _B90CA095C7406CB7EBEFED4B7663994A).multiply(Swift.String, Swift.String) -&gt; Swift.String"
+                  moduleName = "LeetCodeChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Files/Projects/Mobile/iOS/CodingChallenges/LeetCodeChallenges/LeetCodeChallenge/Challenges/Medium/String/MultiplyStrings.swift"
+                  timestampString = "582960244.875479"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "4638">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Medium/String/MultiplyStrings.swift"
+            timestampString = "582960387.955505"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "multiply(_:_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
