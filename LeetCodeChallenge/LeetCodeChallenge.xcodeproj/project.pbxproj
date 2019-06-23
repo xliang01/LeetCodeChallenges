@@ -121,6 +121,7 @@
 		8AF3AB9F22BFC5CC007A193A /* Missing_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3AB9E22BFC5CC007A193A /* Missing_Number.swift */; };
 		8AF3ABA122BFD2AE007A193A /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA022BFD2AE007A193A /* CountAndSay.swift */; };
 		8AF3ABA322BFE249007A193A /* IsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA222BFE249007A193A /* IsAnagram.swift */; };
+		8AF3ABA522C00C2D007A193A /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA422C00C2D007A193A /* RemoveDuplicates.swift */; };
 		8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFA5ED2282A03500160992 /* 38_3Sum.swift */; };
 /* End PBXBuildFile section */
 
@@ -252,6 +253,7 @@
 		8AF3AB9E22BFC5CC007A193A /* Missing_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missing_Number.swift; sourceTree = "<group>"; };
 		8AF3ABA022BFD2AE007A193A /* CountAndSay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
 		8AF3ABA222BFE249007A193A /* IsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAnagram.swift; sourceTree = "<group>"; };
+		8AF3ABA422C00C2D007A193A /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		8AFFA5ED2282A03500160992 /* 38_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 38_3Sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -273,6 +275,7 @@
 				8ABB9E4B22BD3F1F00DCA7BC /* 91_Max3Product.swift */,
 				8AF3AB9E22BFC5CC007A193A /* Missing_Number.swift */,
 				8AF3ABA222BFE249007A193A /* IsAnagram.swift */,
+				8AF3ABA422C00C2D007A193A /* RemoveDuplicates.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -688,6 +691,7 @@
 				8A7914BA224830270050DFD3 /* 16_DeleteColumnsSorted.swift in Sources */,
 				8AB6EBCC22B5D5E3000A0B5E /* 81_FirstMissingPositiveInteger.swift in Sources */,
 				8A8DBECA22B147E000682D70 /* 72_MinClimbingStairs.swift in Sources */,
+				8AF3ABA522C00C2D007A193A /* RemoveDuplicates.swift in Sources */,
 				8A783398228D33070054B3D1 /* 44_GenerateParenthesis.swift in Sources */,
 				8A7914B822481FB10050DFD3 /* 15_HammingDistance.swift in Sources */,
 				8ABB9E5022BD6D0D00DCA7BC /* 92_3SumLessTarget.swift in Sources */,
