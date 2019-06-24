@@ -1242,7 +1242,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/String/MultiplyStrings.swift"
-            timestampString = "583011480.278915"
+            timestampString = "583012872.355031"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -1258,7 +1258,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/String/MultiplyStrings.swift"
-            timestampString = "583011480.278967"
+            timestampString = "583012872.355083"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -1306,7 +1306,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/String/MultiplyStrings.swift"
-            timestampString = "583011480.279006"
+            timestampString = "583012872.355122"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -1322,7 +1322,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/String/CountAndSay.swift"
-            timestampString = "583011480.279044"
+            timestampString = "583012872.35516"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -1338,7 +1338,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/String/37_LongestNonRepeatSubstring.swift"
-            timestampString = "583011480.279089"
+            timestampString = "583012872.355203"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "111"
@@ -1354,12 +1354,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/Medium/String/37_LongestNonRepeatSubstring.swift"
-            timestampString = "583011480.279128"
+            timestampString = "583012872.355242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
             endingLineNumber = "51"
             landmarkName = "lengthOfLongestSubstring(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Medium/String/PartitionLabels.swift"
+            timestampString = "583036588.677444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "partitionLabels(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/Medium/String/PartitionLabels.swift"
+            timestampString = "583036588.6774991"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "partitionLabels(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
