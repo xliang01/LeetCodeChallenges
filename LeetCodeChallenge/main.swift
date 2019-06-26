@@ -118,4 +118,5 @@ func run(_ runnable: Runnable) {
 //run(PartitionLabels())
 //run(RotateArray())
 //run(BTLevelOrderTraversal())
-run(SerializeDeserializeBST())
+//run(SerializeDeserializeBST())
+run(GrayCode())
