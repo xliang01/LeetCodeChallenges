@@ -47,7 +47,7 @@ import Foundation
  */
 class WordLadder: Runnable {
     func runTests() {
-        let solution = SolutionBFSSimplified()
+        let solution = SolutionDualBFS()
         print(solution.ladderLength("hit", "cog", ["hot","dot","dog","lot","log","cog"]))
     }
     
@@ -201,49 +201,6 @@ class WordLadder: Runnable {
             }
             
             return 0
-        }
-    }
-    
-    // Doesn't work
-    
-    private class SolutionBFSSimplified {
-        func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {
-            if !wordList.contains(endWord) { return 0 }
-
-            var visited = Set<String>()
-            var queue = [(String, Int)]()
-
-            visited.insert(beginWord)
-            queue.append((beginWord, 1))
-
-            while !queue.isEmpty {
-                let data = queue.removeFirst()
-                let word = data.0
-                let level = data.1
-
-                for nextWord in wordList {
-                    if isTraversable(word, nextWord) {
-                        if nextWord == endWord { return level + 1 }
-                        if visited.contains(nextWord) { continue }
-
-                        visited.insert(nextWord)
-                        queue.append((nextWord, level + 1))
-                    }
-                }
-            }
-
-            return 0
-        }
-
-        private func isTraversable(_ word: String, _ nextWord: String) -> Bool {
-            let wordChars = Array<Character>(word)
-            let nextWordChars = Array<Character>(nextWord)
-
-            var count = 0
-            for i in 0..<wordChars.count {
-                count += (wordChars[i] != nextWordChars[i] ? 1 : 0)
-            }
-            return count == 1
         }
     }
 }

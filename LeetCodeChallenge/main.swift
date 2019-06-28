@@ -119,4 +119,6 @@ func run(_ runnable: Runnable) {
 //run(RotateArray())
 //run(BTLevelOrderTraversal())
 //run(SerializeDeserializeBST())
-run(GrayCode())
+//run(GrayCode())
+//run(QuickSort())
+run(CombinationSum())

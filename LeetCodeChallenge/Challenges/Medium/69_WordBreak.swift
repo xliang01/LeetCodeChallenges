@@ -12,16 +12,16 @@ class WordBreak: Runnable {
     func runTests() {
 //        let solution = SolutionRecursion()
 //        let solution = SolutionRecursionMemoization()
-        let solution = SolutionDP()
+        let solution = SolutionRecursion()
         print(solution.wordBreak("leetcode", ["leet", "code"]))
-        print(solution.wordBreak("applepenapple", ["apple", "pen"]))
-        print(solution.wordBreak("catsanddogs", ["cats", "dog", "sand", "and", "cat"]))
-        print(solution.wordBreak("bb", ["b", "aa", "bc", "dd", "efb"]))
-        print(solution.wordBreak("aaaaaaa", ["aaa", "aaaa"]))
-        print(solution.wordBreak("cars", ["car","ca","rs"]))
-        print(solution.wordBreak("abcd", ["a","bc", "d"]))
-        print(solution.wordBreak("leetcode", ["leet"]))
-        print(solution.wordBreak("abcd", ["a", "cd"]))
+//        print(solution.wordBreak("applepenapple", ["apple", "pen"]))
+//        print(solution.wordBreak("catsanddogs", ["cats", "dog", "sand", "and", "cat"]))
+//        print(solution.wordBreak("bb", ["b", "aa", "bc", "dd", "efb"]))
+//        print(solution.wordBreak("aaaaaaa", ["aaa", "aaaa"]))
+//        print(solution.wordBreak("cars", ["car","ca","rs"]))
+//        print(solution.wordBreak("abcd", ["a","bc", "d"]))
+//        print(solution.wordBreak("leetcode", ["leet"]))
+//        print(solution.wordBreak("abcd", ["a", "cd"]))
         
     }
     
