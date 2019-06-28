@@ -28,7 +28,7 @@ import Foundation
 
 class LongestPalindrome: Runnable {
     func runTests() {
-        let solution1 = SolutionDP()
+        let solution1 = SolutionWindow()
 //        print(solution1.longestPalindrome("a"))
 //        print(solution1.longestPalindrome("aa"))
 //        print(solution1.longestPalindrome("ab"))
@@ -41,6 +41,39 @@ class LongestPalindrome: Runnable {
 //        print(solution1.longestPalindrome("abbaa"))
 //        print(solution1.longestPalindrome("aabba"))
         print(solution1.longestPalindrome("abacab"))
+    }
+    
+    private class SolutionWindow {
+        func longestPalindrome(_ s: String) -> String {
+            if s.isEmpty || s.count == 1 { return s }
+            let chars = Array<Character>(s)
+            var start = 0
+            var end = 0
+            
+            for i in 0..<s.count {
+                let len1 = expandAroundCenter(chars, left: i, right: i)
+                let len2 = expandAroundCenter(chars, left: i, right: i+1)
+                let len = max(len1, len2)
+                if len > end - start {
+                    start = i - (len - 1) / 2
+                    end = i + (len / 2)
+                }
+            }
+            
+            let startIndex = s.index(s.startIndex, offsetBy: start)
+            let endIndex = s.index(s.startIndex, offsetBy: end)
+            return String(s[startIndex...endIndex])
+        }
+        
+        func expandAroundCenter(_ chars: [Character], left: Int, right: Int) -> Int {
+            var left = left
+            var right = right
+            while left >= 0 && right < chars.count && chars[left] == chars[right] {
+                left -= 1
+                right += 1
+            }
+            return right - left - 1
+        }
     }
     
     private class SolutionBruteForce {
