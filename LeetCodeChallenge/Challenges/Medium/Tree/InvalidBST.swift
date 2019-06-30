@@ -22,7 +22,9 @@ class InvalidBST: Runnable {
             guard let root = root else { return true }
             let val = root.val
             
+            // Current value must be lower than root val "lower", else false.
             if let lower = lower, val >= lower { return false }
+            // Current value must be higher than root val "higher", else false.
             if let upper = upper, val <= upper { return false }
             
             return dfs(root.left, val, upper) && dfs(root.right, lower, val)

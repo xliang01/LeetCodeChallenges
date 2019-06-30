@@ -125,4 +125,7 @@ func run(_ runnable: Runnable) {
 //run(TreeTraversalWithQueue())
 //run(BinarySearch())
 //run(DisappearingNumbers())
-run(QueueReconstruction())
+//run(QueueReconstruction())
+//run(MinPathSum())
+//run(SplitArray())
+run(GraphValidTree())
