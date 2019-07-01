@@ -136,4 +136,6 @@ func run(_ runnable: Runnable) {
 //run(TopologicalSort())
 //run(AlgoMinRewards())
 //run(AlgoValidateBinaryTree())
-run(AlgoInvertBST())
+//run(AlgoInvertBST())
+run(AlgoMaxSubsetWithNoAdjacentElements())
+run(AlgoNumberOfWaysForChange())
