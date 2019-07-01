@@ -8,7 +8,7 @@
 
 import Foundation
 
-class LargestRange: Runnable {
+class AlgoLargestRange: Runnable {
     func runTests() {
         print("Mine: T: O(N*Log(N)), S: O(1)")
         let solution = SolutionIterationSort()

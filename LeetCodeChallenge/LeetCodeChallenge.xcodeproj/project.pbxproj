@@ -72,6 +72,8 @@
 		8A6415B422C9930B002FF3B2 /* MinRewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6415B322C9930B002FF3B2 /* MinRewards.swift */; };
 		8A6415B622C99656002FF3B2 /* MaxBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6415B522C99656002FF3B2 /* MaxBinaryTree.swift */; };
 		8A6415B822C9D5CD002FF3B2 /* ValidateBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6415B722C9D5CD002FF3B2 /* ValidateBST.swift */; };
+		8A6415BA22C9DC01002FF3B2 /* InvertBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6415B922C9DC01002FF3B2 /* InvertBST.swift */; };
+		8A6415BD22C9DD42002FF3B2 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6415BC22C9DD42002FF3B2 /* TreeNode.swift */; };
 		8A714C45227E9B5F00A95D39 /* 35_LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714C44227E9B5F00A95D39 /* 35_LongestPalindrome.swift */; };
 		8A714C47227FB80500A95D39 /* 36_NumberOfCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714C46227FB80500A95D39 /* 36_NumberOfCombinations.swift */; };
 		8A78338E2287CDD60054B3D1 /* 39_MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A78338D2287CDD60054B3D1 /* 39_MergeIntervals.swift */; };
@@ -242,6 +244,8 @@
 		8A6415B322C9930B002FF3B2 /* MinRewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinRewards.swift; sourceTree = "<group>"; };
 		8A6415B522C99656002FF3B2 /* MaxBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxBinaryTree.swift; sourceTree = "<group>"; };
 		8A6415B722C9D5CD002FF3B2 /* ValidateBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBST.swift; sourceTree = "<group>"; };
+		8A6415B922C9DC01002FF3B2 /* InvertBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBST.swift; sourceTree = "<group>"; };
+		8A6415BC22C9DD42002FF3B2 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		8A714C44227E9B5F00A95D39 /* 35_LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 35_LongestPalindrome.swift; sourceTree = "<group>"; };
 		8A714C46227FB80500A95D39 /* 36_NumberOfCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_NumberOfCombinations.swift; sourceTree = "<group>"; };
 		8A78338D2287CDD60054B3D1 /* 39_MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 39_MergeIntervals.swift; sourceTree = "<group>"; };
@@ -528,6 +532,7 @@
 				8A6415A022C87BD6002FF3B2 /* SmallestDifference.swift */,
 				8A6415A522C88B0A002FF3B2 /* BinarySearchTree.swift */,
 				8A6415B722C9D5CD002FF3B2 /* ValidateBST.swift */,
+				8A6415B922C9DC01002FF3B2 /* InvertBST.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -551,6 +556,14 @@
 				8A6415AF22C943F7002FF3B2 /* DijkstraAlgorithm.swift */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		8A6415BB22C9DD3A002FF3B2 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				8A6415BC22C9DD42002FF3B2 /* TreeNode.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 		8A9C5EEA2240AAA600EE0CE0 = {
@@ -584,6 +597,7 @@
 		8AB9816E22A393240060FEED /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				8A6415BB22C9DD3A002FF3B2 /* Tree */,
 				8A4CF99F22A394D300989A85 /* swift-algorithm-club-master */,
 			);
 			path = DataStructures;
@@ -970,9 +984,11 @@
 				8ABB9E6622BF3C3B00DCA7BC /* MultiplyStrings.swift in Sources */,
 				8A9C5F122241EF2C00EE0CE0 /* 3_TwoSumsOOP.swift in Sources */,
 				8AF2875C224DC90F000158FC /* 21_MoveZeroes.swift in Sources */,
+				8A6415BA22C9DC01002FF3B2 /* InvertBST.swift in Sources */,
 				8A49CD63229C9D7E009E5ABC /* 48_StringPermutations.swift in Sources */,
 				8ABB9E4C22BD3F1F00DCA7BC /* 91_Max3Product.swift in Sources */,
 				8AF3245022964D240034B502 /* 46_SubarraySumK.swift in Sources */,
+				8A6415BD22C9DD42002FF3B2 /* TreeNode.swift in Sources */,
 				8AC0CBAE22C3313200503F84 /* SetMatrixZeroes.swift in Sources */,
 				8AF2875E224DDC13000158FC /* 22_ReverseLinkedList.swift in Sources */,
 				8A9DF12222460B9D000543F1 /* 12_ImageFlip.swift in Sources */,

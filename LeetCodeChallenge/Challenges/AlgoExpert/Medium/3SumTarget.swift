@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ThreeSumTarget: Runnable {
+class AlgoThreeSumTarget: Runnable {
     func runTests() {
         let solution = SolutionWindow()
         print(solution.threeNumbersSum([1, 2, 3], 6))

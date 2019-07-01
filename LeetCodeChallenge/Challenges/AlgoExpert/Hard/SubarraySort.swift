@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SubarraySort: Runnable {
+class AlgoSubarraySort: Runnable {
     func runTests() {
         let solution = SolutionArrayIteration()
         print(solution.subarraySort(nums: [1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19]))

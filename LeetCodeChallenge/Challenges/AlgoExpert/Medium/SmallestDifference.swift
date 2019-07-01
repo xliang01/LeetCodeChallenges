@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SmallestDifference: Runnable {
+class AlgoSmallestDifference: Runnable {
     func runTests() {
         let solution = SolutionTargetRangeSorted()
         print(solution.smallestDifference([-1, 5, 10, 20, 28, 3], [26, 134, 135, 15, 17]))

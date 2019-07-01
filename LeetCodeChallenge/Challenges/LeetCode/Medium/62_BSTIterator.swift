@@ -8,18 +8,6 @@
 
 import Foundation
 
-// Definition for a binary tree node.
-private class TreeNode {
-    public var val: Int
-    public var left: TreeNode?
-    public var right: TreeNode?
-    public init(_ val: Int) {
-        self.val = val
-        self.left = nil
-        self.right = nil
-    }
-}
-
 class BSTIterator: Runnable {
     func runTests() {
         let solution = BSTStack(BSTIterator.sample1)

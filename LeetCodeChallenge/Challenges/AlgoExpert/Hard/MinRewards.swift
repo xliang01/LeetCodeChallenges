@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MinRewards: Runnable {
+class AlgoMinRewards: Runnable {
     func runTests() {
         print("Algo: T: O(N), S: O(N) - Pattern: Peaks and Valleys")
         let solution = SolutionIterationPeaksAndValleys()

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MaxBinaryTree: Runnable {
+class AlgoMaxBinaryTree: Runnable {
     func runTests() {
         
     }
