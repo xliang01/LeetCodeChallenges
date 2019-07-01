@@ -132,4 +132,7 @@ func run(_ runnable: Runnable) {
 //run(ThreeSumTarget())
 //run(SmallestDifference())
 //run(SubarraySort())
-run(LargestRange())
+//run(LargestRange())
+//run(TopologicalSort())
+//run(MinRewards())
+run(ValidateBinaryTree())
