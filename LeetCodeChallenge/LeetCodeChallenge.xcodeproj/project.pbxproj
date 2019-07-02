@@ -117,6 +117,7 @@
 		8AB9816822A26BA30060FEED /* 53_LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9816722A26BA30060FEED /* 53_LetterCombinations.swift */; };
 		8AB9816A22A31E000060FEED /* 54_TaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9816922A31E000060FEED /* 54_TaskScheduler.swift */; };
 		8AB9816C22A38C600060FEED /* 55_TopK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9816B22A38C600060FEED /* 55_TopK.swift */; };
+		8ABAE44422CB001E00E3028F /* strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAE44322CB001E00E3028F /* strStr.swift */; };
 		8ABB9E4522BC377F00DCA7BC /* 89_MaxAdjacentNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB9E4422BC377F00DCA7BC /* 89_MaxAdjacentNumbers.swift */; };
 		8ABB9E4722BC5C2100DCA7BC /* 89_ClassSchedulePart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB9E4622BC5C2100DCA7BC /* 89_ClassSchedulePart2.swift */; };
 		8ABB9E4922BC739400DCA7BC /* 90_ClassSchedulePart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB9E4822BC739400DCA7BC /* 90_ClassSchedulePart3.swift */; };
@@ -292,6 +293,7 @@
 		8AB9816722A26BA30060FEED /* 53_LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 53_LetterCombinations.swift; sourceTree = "<group>"; };
 		8AB9816922A31E000060FEED /* 54_TaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 54_TaskScheduler.swift; sourceTree = "<group>"; };
 		8AB9816B22A38C600060FEED /* 55_TopK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 55_TopK.swift; sourceTree = "<group>"; };
+		8ABAE44322CB001E00E3028F /* strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strStr.swift; sourceTree = "<group>"; };
 		8ABB9E4422BC377F00DCA7BC /* 89_MaxAdjacentNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 89_MaxAdjacentNumbers.swift; sourceTree = "<group>"; };
 		8ABB9E4622BC5C2100DCA7BC /* 89_ClassSchedulePart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 89_ClassSchedulePart2.swift; sourceTree = "<group>"; };
 		8ABB9E4822BC739400DCA7BC /* 90_ClassSchedulePart3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 90_ClassSchedulePart3.swift; sourceTree = "<group>"; };
@@ -639,6 +641,7 @@
 			children = (
 				8ABB9E6322BEEF1C00DCA7BC /* AddStrings.swift */,
 				8AF3AB9C22BF4F37007A193A /* FirstUniqueChar.swift */,
+				8ABAE44322CB001E00E3028F /* strStr.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1028,6 +1031,7 @@
 				8ABF9B4322592F3F0062ABC3 /* 23_RomanToInt.swift in Sources */,
 				8A64159B22C835CF002FF3B2 /* SplitArray.swift in Sources */,
 				8A2AA0F8225DBAF800118112 /* 25_MergeSortedLinkedLists.swift in Sources */,
+				8ABAE44422CB001E00E3028F /* strStr.swift in Sources */,
 				8A591F0822B8A81C00FBBE60 /* 82_MergeKSortedArrays.swift in Sources */,
 				8A62059322C1FC4D006FCF2D /* GrayCode.swift in Sources */,
 				8AF3AB9D22BF4F37007A193A /* FirstUniqueChar.swift in Sources */,
