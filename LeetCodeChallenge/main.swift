@@ -140,4 +140,5 @@ func run(_ runnable: Runnable) {
 //run(AlgoMaxSubsetWithNoAdjacentElements())
 //run(AlgoNumberOfWaysForChange())
 //run(ReverseLinkedList())
-run(strStr())
+//run(strStr())
+run(Sqrt())
