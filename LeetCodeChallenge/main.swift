@@ -141,4 +141,6 @@ func run(_ runnable: Runnable) {
 //run(AlgoNumberOfWaysForChange())
 //run(ReverseLinkedList())
 //run(strStr())
-run(Sqrt())
+//run(Sqrt())
+//run(LongestPalindromeSubstring())
+run(AlgoMergeSort())
