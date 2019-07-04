@@ -146,4 +146,5 @@ func run(_ runnable: Runnable) {
 //run(AlgoMergeSort())
 //run(HighFive())
 //run(PermutationInString())
-run(MinimumWindowSubstring())
+//run(MinimumWindowSubstring())
+run(MinimumPathTriange())
