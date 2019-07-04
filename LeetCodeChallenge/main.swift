@@ -143,4 +143,7 @@ func run(_ runnable: Runnable) {
 //run(strStr())
 //run(Sqrt())
 //run(LongestPalindromeSubstring())
-run(AlgoMergeSort())
+//run(AlgoMergeSort())
+//run(HighFive())
+//run(PermutationInString())
+run(MinimumWindowSubstring())
