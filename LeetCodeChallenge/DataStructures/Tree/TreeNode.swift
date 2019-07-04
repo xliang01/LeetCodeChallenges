@@ -45,25 +45,25 @@ extension CustomTreeNode {
         strings.append(postOrder(node.left))
         strings.append(postOrder(node.right))
         strings.append("\(node.val)")
-        return strings.joined(separator: ",")
+        return strings.joined(separator: ", ")
     }
     
     static func inOrder(_ node: CustomTreeNode?) -> String {
-        guard let node = node else { return " null"}
+        guard let node = node else { return "null"}
         var strings = [String]()
         strings.append(inOrder(node.left))
         strings.append("\(node.val)")
         strings.append(inOrder(node.right))
-        return strings.joined(separator: ",")
+        return strings.joined(separator: ", ")
     }
     
     static func preOrder(_ node: CustomTreeNode?) -> String {
-        guard let node = node else { return " null"}
+        guard let node = node else { return "null"}
         var strings = [String]()
         strings.append("\(node.val)")
-        strings.append(inOrder(node.left))
-        strings.append(inOrder(node.right))
-        return strings.joined(separator: ",")
+        strings.append(preOrder(node.left))
+        strings.append(preOrder(node.right))
+        return strings.joined(separator: ", ")
     }
     
     static func bfs(_ node: CustomTreeNode?) -> String {

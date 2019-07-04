@@ -8,7 +8,7 @@
 
 import Foundation
 
-class QuickSort: Runnable {
+class AlgoQuickSort: Runnable {
     func runTests() {
         let solution = SolutionRecursive()
 //        var nums = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]

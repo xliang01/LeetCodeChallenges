@@ -147,4 +147,7 @@ func run(_ runnable: Runnable) {
 //run(HighFive())
 //run(PermutationInString())
 //run(MinimumWindowSubstring())
-run(MinimumPathTriange())
+//run(MinimumPathTriange())
+//run(AlgoKnapSack())
+//run(KnapSack())
+run(UniqueBinaryTrees())
