@@ -150,4 +150,5 @@ func run(_ runnable: Runnable) {
 //run(MinimumPathTriange())
 //run(AlgoKnapSack())
 //run(KnapSack())
-run(UniqueBinaryTrees())
+//run(UniqueBinaryTrees())
+run(AlgoMaxIncreasingSubsequence())

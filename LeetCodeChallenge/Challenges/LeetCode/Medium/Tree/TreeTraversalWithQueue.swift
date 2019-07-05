@@ -157,8 +157,8 @@ class TreeTraversalWithQueue: Runnable {
             guard let node = node else { return " null"}
             var strings = [String]()
             strings.append(String(node.val))
-            strings.append(inOrder(node.left))
-            strings.append(inOrder(node.right))
+            strings.append(preOrder(node.left))
+            strings.append(preOrder(node.right))
             return strings.joined(separator: ",")
         }
     }
