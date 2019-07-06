@@ -14,11 +14,16 @@ class AllPathsLeadToDesination: Runnable {
         print(solution.leadsToDestination(3, [[0,1],[0,2]], 0, 2))
     }
     
+    // T: O(V + E)
+    // S: O(V + E)
     private class SolutionDFS {
         func leadsToDestination(_ n: Int, _ edges: [[Int]], _ source: Int, _ destination: Int) -> Bool {
+            // Transform graph into edges.
             let graph = getGraph(edges)
+            // Get visited nodes.
             var visited = Set<Int>()
-            var memo = [Int: Bool?]()
+            // Remember traversal.
+            var memo = [Int: Bool]()
             return dfs(source, graph, &visited, destination, &memo)
         }
         
@@ -26,13 +31,13 @@ class AllPathsLeadToDesination: Runnable {
                          _ graph: [Int: [Int]],
                          _ visited: inout Set<Int>,
                          _ destination: Int,
-                         _ memo: inout [Int: Bool?]) -> Bool {
+                         _ memo: inout [Int: Bool]) -> Bool {
             if visited.contains(node) { return false }
             let neighbors = graph[node] ?? []
             
             if !neighbors.isEmpty && destination == node { return false }
             else if neighbors.isEmpty && destination != node { return false }
-            if let canLeadToDest = memo[node], canLeadToDest != nil { return canLeadToDest! }
+            if let canLeadToDest = memo[node] { return canLeadToDest }
             
             visited.insert(node)
             
@@ -40,14 +45,14 @@ class AllPathsLeadToDesination: Runnable {
                 for neighbor in neighbors {
                     if !dfs(neighbor, graph, &visited, destination, &memo) {
                         memo[node] = false
-                        return memo[node]!!
+                        return memo[node]!
                     }
                 }
             }
             
             visited.remove(node)
             memo[node] = true
-            return memo[node]!!
+            return memo[node]!
         }
         
         private func getGraph(_ edges: [[Int]]) -> [Int: [Int]] {
