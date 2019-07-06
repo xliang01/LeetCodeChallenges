@@ -151,4 +151,6 @@ func run(_ runnable: Runnable) {
 //run(AlgoKnapSack())
 //run(KnapSack())
 //run(UniqueBinaryTrees())
-run(AlgoMaxIncreasingSubsequence())
+//run(AlgoMaxIncreasingSubsequence())
+//run(AlgoLongestCommonSubsequence())
+run(AlgoCoinChange())

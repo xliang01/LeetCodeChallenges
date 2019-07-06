@@ -17,6 +17,37 @@ class GroupAnagrams: Runnable {
         print(solution2.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
     }
     
+    class SolutionHashCode {
+        func groupAnagrams(_ strs: [String]) -> [[String]] {
+            var hash = [String: [String]]()
+            for s in strs {
+                let key = convertToKey(s)
+                hash[key, default: [String]()].append(s)
+            }
+            var ans = [[String]]()
+            for (_ , array) in hash {
+                ans.append(array)
+            }
+            return ans
+        }
+        
+        private func convertToKey(_ s: String) -> String {
+            var charCount = [Int](repeating: 0, count: 26)
+            let chars = Array<Character>(s)
+            
+            for c in chars {
+                charCount[Int(c.asciiValue!) - Int(Character("a").asciiValue!)] += 1
+            }
+            var key = [String]()
+            for i in 0..<26 {
+                if charCount[i] != 0 {
+                    key.append("\(i)-\(charCount[i])")
+                }
+            }
+            return key.joined(separator: ":")
+        }
+    }
+    
     class SolutionSort {
         /**
             Solution: Sort each anagram string, and use the sorted value as a key in the hashmap. Then use the hashmap

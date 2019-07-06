@@ -35,27 +35,32 @@ class InterleavingStrings: Runnable {
                           _ s3: [Character],
                           _ s3Index: Int,
                           _ memo: inout [[Bool?]]) -> Bool {
+            // If all are at the end, we've matched! It means no other cases prevented this from matching.
             if s3Index == s3.count && s2Index == s2.count && s1Index == s1.count {
                 return true
             }
+            // If s1 is at the end, the only way this interleaves is if the remaining s2 is equal to the remaining s3.
             else if s1Index == s1.count {
                 return String(s2[s2Index..<s2.count]) == String(s3[s3Index..<s3.count])
             }
+            // If s2 is at the end, the only way this interleaves is if the remaining s1 is equal to the remaining s2.
             else if s2Index == s2.count {
                 return String(s1[s1Index..<s1.count]) == String(s3[s3Index..<s3.count])
             }
+            // If we've memorized this path, return it.
             else if let memo = memo[s1Index][s2Index] {
                 return memo
             }
             
+            // If S1 matches, advance s1 and check if the rest of the string interleaves with s2 to form s3. It may not!
             let pickS1 =
                 s1[s1Index] == s3[s3Index] &&
                 isInterLeave(s1, s1Index + 1, s2, s2Index, s3, s3Index + 1, &memo)
-            
+            // If S2 matches, advance s2 and check if the rest of the string interleaves with s1 to form s3. It may not!
             let pickS2 =
                 s2[s2Index] == s3[s3Index] &&
                 isInterLeave(s1, s1Index, s2, s2Index + 1, s3, s3Index + 1, &memo)
-            
+            // Memo
             memo[s1Index][s2Index] = pickS1 || pickS2
             return memo[s1Index][s2Index]!
         }
@@ -63,7 +68,6 @@ class InterleavingStrings: Runnable {
     
     private class SolutionRecursive {
         func isInterleave(_ s1: String, _ s2: String, _ s3: String) -> Bool {
-            var cache = [[String]: Bool]()
             return isInterleaveDP(s1, s2, s3)
         }
         

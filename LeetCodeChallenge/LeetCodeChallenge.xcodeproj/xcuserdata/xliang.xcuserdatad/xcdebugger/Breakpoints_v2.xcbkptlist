@@ -1818,7 +1818,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Algorithms/AlgoMergeSort.swift"
-            timestampString = "583986715.5909179"
+            timestampString = "584068572.644438"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
@@ -1834,7 +1834,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/LeetCode/Easy/Array/PermutationInString.swift"
-            timestampString = "583986715.591306"
+            timestampString = "583996671.115169"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
@@ -1850,7 +1850,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/LeetCode/Hard/String/MinimumWindowSubstring.swift"
-            timestampString = "583986715.591355"
+            timestampString = "583996671.115218"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -1866,12 +1866,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Algorithms/AlgoKnapSack.swift"
-            timestampString = "583986715.591401"
+            timestampString = "583996671.115263"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
             endingLineNumber = "55"
             landmarkName = "knapSackChoices(_:_:_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            condition = "minCoinsCount == 0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/AlgoExpert/Hard/AlgoCoinChange.swift"
+            timestampString = "584069574.23874"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "coinChange(_:_:_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
