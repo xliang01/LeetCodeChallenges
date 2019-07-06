@@ -153,4 +153,5 @@ func run(_ runnable: Runnable) {
 //run(UniqueBinaryTrees())
 //run(AlgoMaxIncreasingSubsequence())
 //run(AlgoLongestCommonSubsequence())
-run(AlgoCoinChange())
+//run(AlgoCoinChange())
+run(AlgoLevenshteinDistance())

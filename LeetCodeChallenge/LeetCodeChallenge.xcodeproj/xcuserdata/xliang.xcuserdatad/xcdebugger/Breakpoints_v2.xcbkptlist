@@ -1883,7 +1883,7 @@
             condition = "minCoinsCount == 0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/AlgoExpert/Hard/AlgoCoinChange.swift"
-            timestampString = "584069574.23874"
+            timestampString = "584085579.516454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
