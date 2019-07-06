@@ -77,6 +77,11 @@
 		8A6415C122C9EC6B002FF3B2 /* AlgoNumberOfWaysForChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6415C022C9EC6B002FF3B2 /* AlgoNumberOfWaysForChange.swift */; };
 		8A6C667C22D0272D009C1C39 /* AlgoCoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C667B22D0272D009C1C39 /* AlgoCoinChange.swift */; };
 		8A6C667E22D0670C009C1C39 /* AlgoLevenshteinDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C667D22D0670C009C1C39 /* AlgoLevenshteinDistance.swift */; };
+		8A6C668022D102C7009C1C39 /* AlgoWaterArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C667F22D102C7009C1C39 /* AlgoWaterArea.swift */; };
+		8A6C668322D11F31009C1C39 /* DispatchBarriers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C668222D11F31009C1C39 /* DispatchBarriers.swift */; };
+		8A6C668522D11F46009C1C39 /* Semaphores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C668422D11F46009C1C39 /* Semaphores.swift */; };
+		8A6C668722D12680009C1C39 /* DeadLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C668622D12680009C1C39 /* DeadLock.swift */; };
+		8A6C668922D15752009C1C39 /* AllPathsLeadToDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C668822D15752009C1C39 /* AllPathsLeadToDestination.swift */; };
 		8A714C45227E9B5F00A95D39 /* 35_LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714C44227E9B5F00A95D39 /* 35_LongestPalindrome.swift */; };
 		8A714C47227FB80500A95D39 /* 36_NumberOfCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714C46227FB80500A95D39 /* 36_NumberOfCombinations.swift */; };
 		8A74134922CC40DD006231F8 /* AlgoMergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74134822CC40DD006231F8 /* AlgoMergeSort.swift */; };
@@ -265,6 +270,11 @@
 		8A6415C022C9EC6B002FF3B2 /* AlgoNumberOfWaysForChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoNumberOfWaysForChange.swift; sourceTree = "<group>"; };
 		8A6C667B22D0272D009C1C39 /* AlgoCoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoCoinChange.swift; sourceTree = "<group>"; };
 		8A6C667D22D0670C009C1C39 /* AlgoLevenshteinDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoLevenshteinDistance.swift; sourceTree = "<group>"; };
+		8A6C667F22D102C7009C1C39 /* AlgoWaterArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoWaterArea.swift; sourceTree = "<group>"; };
+		8A6C668222D11F31009C1C39 /* DispatchBarriers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchBarriers.swift; sourceTree = "<group>"; };
+		8A6C668422D11F46009C1C39 /* Semaphores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semaphores.swift; sourceTree = "<group>"; };
+		8A6C668622D12680009C1C39 /* DeadLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadLock.swift; sourceTree = "<group>"; };
+		8A6C668822D15752009C1C39 /* AllPathsLeadToDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPathsLeadToDestination.swift; sourceTree = "<group>"; };
 		8A714C44227E9B5F00A95D39 /* 35_LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 35_LongestPalindrome.swift; sourceTree = "<group>"; };
 		8A714C46227FB80500A95D39 /* 36_NumberOfCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_NumberOfCombinations.swift; sourceTree = "<group>"; };
 		8A74134822CC40DD006231F8 /* AlgoMergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoMergeSort.swift; sourceTree = "<group>"; };
@@ -462,6 +472,7 @@
 				8ABB9E4622BC5C2100DCA7BC /* 89_ClassSchedulePart2.swift */,
 				8ABB9E4822BC739400DCA7BC /* 90_ClassSchedulePart3.swift */,
 				8A64159C22C85CDE002FF3B2 /* GraphValidTree.swift */,
+				8A6C668822D15752009C1C39 /* AllPathsLeadToDestination.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -569,6 +580,7 @@
 				8A6415B922C9DC01002FF3B2 /* AlgoInvertBST.swift */,
 				8A6415BE22C9E910002FF3B2 /* AlgoMaxSubsetWithNoAdjacentElements.swift */,
 				8A6415C022C9EC6B002FF3B2 /* AlgoNumberOfWaysForChange.swift */,
+				8A6C667D22D0670C009C1C39 /* AlgoLevenshteinDistance.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -583,7 +595,7 @@
 				8A7BFE6322CEEC9F00512285 /* AlgoMaxIncreasingSubsequence.swift */,
 				8A7BFE6522CF0CA100512285 /* AlgoLongestCommonSubsequence.swift */,
 				8A6C667B22D0272D009C1C39 /* AlgoCoinChange.swift */,
-				8A6C667D22D0670C009C1C39 /* AlgoLevenshteinDistance.swift */,
+				8A6C667F22D102C7009C1C39 /* AlgoWaterArea.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -608,12 +620,23 @@
 			path = Tree;
 			sourceTree = "<group>";
 		};
+		8A6C668122D11F1D009C1C39 /* Threading */ = {
+			isa = PBXGroup;
+			children = (
+				8A6C668222D11F31009C1C39 /* DispatchBarriers.swift */,
+				8A6C668422D11F46009C1C39 /* Semaphores.swift */,
+				8A6C668622D12680009C1C39 /* DeadLock.swift */,
+			);
+			path = Threading;
+			sourceTree = "<group>";
+		};
 		8A9C5EEA2240AAA600EE0CE0 = {
 			isa = PBXGroup;
 			children = (
 				8A9C5EF62240AAA600EE0CE0 /* main.swift */,
 				8AB9816E22A393240060FEED /* DataStructures */,
 				8A6415AC22C943B2002FF3B2 /* Algorithms */,
+				8A6C668122D11F1D009C1C39 /* Threading */,
 				8A9C5EFD2240AAAA00EE0CE0 /* Challenges */,
 				8A9C5EF42240AAA600EE0CE0 /* Products */,
 			);
@@ -909,6 +932,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6C668022D102C7009C1C39 /* AlgoWaterArea.swift in Sources */,
 				8A4CFEEA22A394D800989A85 /* MergeSort.swift in Sources */,
 				8A0E471622ACA7FB00089D9B /* 62_BSTIterator.swift in Sources */,
 				8A6415B822C9D5CD002FF3B2 /* AlgoValidateBST.swift in Sources */,
@@ -922,6 +946,7 @@
 				8A21D91722B4CB9300DEF82C /* Queue-Optimized.swift in Sources */,
 				8A1A09EE22AB987F002E4613 /* 59_TinyURL.swift in Sources */,
 				8ADAE34522C71ABF00402E60 /* DivideTwoIntegers.swift in Sources */,
+				8A6C668922D15752009C1C39 /* AllPathsLeadToDestination.swift in Sources */,
 				8A34183C22BA0C0C0099451F /* 84_FindJudges.swift in Sources */,
 				8A3FE8BA22BB150A00B37C8B /* 85_DecodeMessage.swift in Sources */,
 				8ADAE34922C736C600402E60 /* BinarySearchTreeInOrderTraversal.swift in Sources */,
@@ -957,6 +982,7 @@
 				8A8DBECA22B147E000682D70 /* 72_MinClimbingStairs.swift in Sources */,
 				8AF3ABA522C00C2D007A193A /* RemoveDuplicates.swift in Sources */,
 				8A783398228D33070054B3D1 /* 44_GenerateParenthesis.swift in Sources */,
+				8A6C668322D11F31009C1C39 /* DispatchBarriers.swift in Sources */,
 				8A7914B822481FB10050DFD3 /* 15_HammingDistance.swift in Sources */,
 				8A7BFE5322CD917000512285 /* HighFive.swift in Sources */,
 				8ABB9E5022BD6D0D00DCA7BC /* 92_3SumLessTarget.swift in Sources */,
@@ -989,6 +1015,7 @@
 				8A21D91222B4C1F300DEF82C /* 79_SerializeAndDeserializeBinaryTree.swift in Sources */,
 				8A7BFE5C22CE5E4500512285 /* MinimumPathTriangle.swift in Sources */,
 				8A6415A122C87BD6002FF3B2 /* AlgoSmallestDifference.swift in Sources */,
+				8A6C668522D11F46009C1C39 /* Semaphores.swift in Sources */,
 				8ABB9E4722BC5C2100DCA7BC /* 89_ClassSchedulePart2.swift in Sources */,
 				8A92B5BD22A4979500076AE5 /* 56_LRUCache.swift in Sources */,
 				8ABB9E6422BEEF1C00DCA7BC /* AddStrings.swift in Sources */,
@@ -1002,6 +1029,7 @@
 				8AF3AB9F22BFC5CC007A193A /* Missing_Number.swift in Sources */,
 				8AEEE93A226EDA3D00037658 /* 32_AddBinary.swift in Sources */,
 				8A6415B422C9930B002FF3B2 /* AlgoMinRewards.swift in Sources */,
+				8A6C668722D12680009C1C39 /* DeadLock.swift in Sources */,
 				8A0E472222AE0AF000089D9B /* 68_FindDuplicateFiles.swift in Sources */,
 				8A050D712244C3FC009BCF92 /* 9_NRepeated.swift in Sources */,
 				8AB9816A22A31E000060FEED /* 54_TaskScheduler.swift in Sources */,

@@ -154,4 +154,7 @@ func run(_ runnable: Runnable) {
 //run(AlgoMaxIncreasingSubsequence())
 //run(AlgoLongestCommonSubsequence())
 //run(AlgoCoinChange())
-run(AlgoLevenshteinDistance())
+//run(AlgoLevenshteinDistance())
+//run(AlgoWaterArea())
+//run(SemaphoreExamples())
+run(AllPathsLeadToDesination())
