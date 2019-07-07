@@ -157,4 +157,5 @@ func run(_ runnable: Runnable) {
 //run(AlgoLevenshteinDistance())
 //run(AlgoWaterArea())
 //run(SemaphoreExamples())
-run(AllPathsLeadToDesination())
+//run(AllPathsLeadToDesination())
+run(NetworkDelayTime())
