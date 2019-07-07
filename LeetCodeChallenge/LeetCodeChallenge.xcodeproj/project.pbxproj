@@ -84,6 +84,7 @@
 		8A6C668922D15752009C1C39 /* AllPathsLeadToDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C668822D15752009C1C39 /* AllPathsLeadToDestination.swift */; };
 		8A6C668B22D18250009C1C39 /* NetworkDelayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C668A22D18250009C1C39 /* NetworkDelayTime.swift */; };
 		8A6C668D22D2612E009C1C39 /* FindLargestSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C668C22D2612E009C1C39 /* FindLargestSquare.swift */; };
+		8A6C668F22D28D5F009C1C39 /* AlgoDiskStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C668E22D28D5F009C1C39 /* AlgoDiskStacking.swift */; };
 		8A714C45227E9B5F00A95D39 /* 35_LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714C44227E9B5F00A95D39 /* 35_LongestPalindrome.swift */; };
 		8A714C47227FB80500A95D39 /* 36_NumberOfCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A714C46227FB80500A95D39 /* 36_NumberOfCombinations.swift */; };
 		8A74134922CC40DD006231F8 /* AlgoMergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74134822CC40DD006231F8 /* AlgoMergeSort.swift */; };
@@ -279,6 +280,7 @@
 		8A6C668822D15752009C1C39 /* AllPathsLeadToDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPathsLeadToDestination.swift; sourceTree = "<group>"; };
 		8A6C668A22D18250009C1C39 /* NetworkDelayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDelayTime.swift; sourceTree = "<group>"; };
 		8A6C668C22D2612E009C1C39 /* FindLargestSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindLargestSquare.swift; sourceTree = "<group>"; };
+		8A6C668E22D28D5F009C1C39 /* AlgoDiskStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoDiskStacking.swift; sourceTree = "<group>"; };
 		8A714C44227E9B5F00A95D39 /* 35_LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 35_LongestPalindrome.swift; sourceTree = "<group>"; };
 		8A714C46227FB80500A95D39 /* 36_NumberOfCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_NumberOfCombinations.swift; sourceTree = "<group>"; };
 		8A74134822CC40DD006231F8 /* AlgoMergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoMergeSort.swift; sourceTree = "<group>"; };
@@ -601,6 +603,7 @@
 				8A7BFE6522CF0CA100512285 /* AlgoLongestCommonSubsequence.swift */,
 				8A6C667B22D0272D009C1C39 /* AlgoCoinChange.swift */,
 				8A6C667F22D102C7009C1C39 /* AlgoWaterArea.swift */,
+				8A6C668E22D28D5F009C1C39 /* AlgoDiskStacking.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -1060,6 +1063,7 @@
 				8AF3ABA322BFE249007A193A /* IsAnagram.swift in Sources */,
 				8A8DBEC822B0DE9500682D70 /* 71_Staircase.swift in Sources */,
 				8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */,
+				8A6C668F22D28D5F009C1C39 /* AlgoDiskStacking.swift in Sources */,
 				8A49CD67229E6655009E5ABC /* 50_GroupAnagrams.swift in Sources */,
 				8A97BCD42264423E00B5C353 /* 29_ParenthesisCheck.swift in Sources */,
 				8AF28758224DBBF8000158FC /* 19_ReverseString.swift in Sources */,
