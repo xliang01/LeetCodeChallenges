@@ -24,7 +24,7 @@ class NextPermutation: Runnable {
         solution1.nextPermutation(&nums)
         print(nums)
         
-        nums = [1, 5, 1]
+        nums = [1, 3, 2]
         solution1.nextPermutation(&nums)
         print(nums)
     }
