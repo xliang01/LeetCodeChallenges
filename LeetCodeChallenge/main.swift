@@ -169,5 +169,6 @@ func run(_ runnable: Runnable) {
 //run(ArrayJump())
 //run(LargestRectangleHistogram())
 //run(AllPermutationsOfANumber())
-run(KthPermutationOfANumber())
+//run(KthPermutationOfANumber())
 //run(NextPermutation())
+run(KSubstringNoRepeats())
