@@ -174,4 +174,5 @@ func run(_ runnable: Runnable) {
 //run(KSubstringNoRepeats())
 //run(RussianDoll())
 //run(LongestBinaryTreeHeight())
-run(Search2DMatrix())
+//run(Search2DMatrix())
+run(WallsAndGates())

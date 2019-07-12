@@ -10,6 +10,7 @@ import Foundation
 
 class Search2DMatrix: Runnable {
     func runTests() {
+        print(Int32.max)
         let matrix = [
             [1,   3,  5,  7],
             [10, 11, 16, 20],
