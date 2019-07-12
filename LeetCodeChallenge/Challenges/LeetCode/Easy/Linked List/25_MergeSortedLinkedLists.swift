@@ -10,7 +10,7 @@ import Foundation
 
 class MergeSortedLinkedLists: Runnable {
     func runTests() {
-        let solution1 = SolutionIterative()
+        let solution1 = SolutionRecursive()
         let mergedList1 = solution1.mergeTwoLists(ListNode.list1, ListNode.list2)
         print(mergedList1)
         

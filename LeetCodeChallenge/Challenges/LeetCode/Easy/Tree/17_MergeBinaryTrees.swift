@@ -45,7 +45,7 @@ class MergeBinaryTrees: Runnable {
     }
     
     func runTests() {
-        let solution1 = SolutionNewNodeNewReference()
+        let solution1 = SolutionNewNodeReference()
         var mergedTree = solution1.mergeTrees(tree1, tree2)
         print(mergedTree)
         
@@ -58,7 +58,7 @@ class MergeBinaryTrees: Runnable {
         print(mergedTree)
     }
     
-    private class SolutionNewNodeNewReference {
+    private class SolutionNewNodeReference {
         func mergeTrees(_ t1: TreeNode?, _ t2: TreeNode?) -> TreeNode? {
             var treeNode: TreeNode? = nil
             

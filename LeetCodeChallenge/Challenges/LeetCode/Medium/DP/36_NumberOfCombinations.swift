@@ -54,7 +54,7 @@ class NumberOfCombinations: Runnable {
         /**
          [1, 3, 5], 1,2,3,4,5,6 if N = 6
          0
-            0               (1 ways)
+            1               (1 ways)
          1                  (1 ways)
             1
          2                  (1 ways)

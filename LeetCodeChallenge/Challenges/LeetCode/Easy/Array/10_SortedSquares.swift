@@ -89,7 +89,7 @@ class SortedSquares: Runnable {
         func sortedSquares(_ A: [Int]) -> [Int] {
             var right = 0
             
-            for index in (0..<A.count) {
+            for index in A.indices {
                 if A[index] < 0 {
                     right += 1
                 }

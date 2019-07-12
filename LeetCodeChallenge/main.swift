@@ -171,4 +171,7 @@ func run(_ runnable: Runnable) {
 //run(AllPermutationsOfANumber())
 //run(KthPermutationOfANumber())
 //run(NextPermutation())
-run(KSubstringNoRepeats())
+//run(KSubstringNoRepeats())
+//run(RussianDoll())
+//run(LongestBinaryTreeHeight())
+run(Search2DMatrix())
