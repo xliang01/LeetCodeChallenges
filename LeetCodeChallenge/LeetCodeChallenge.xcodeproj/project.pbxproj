@@ -207,6 +207,7 @@
 		8AF9339A22DD9F4800B0B930 /* RemoveVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */; };
 		8AF9339E22DE210A00B0B930 /* ReverseString3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339D22DE210A00B0B930 /* ReverseString3.swift */; };
 		8AF933A022DE26D100B0B930 /* UnivalTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339F22DE26D100B0B930 /* UnivalTree.swift */; };
+		8AF933A222DE33B300B0B930 /* MaxBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF933A122DE33B300B0B930 /* MaxBinaryTree.swift */; };
 		8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFA5ED2282A03500160992 /* 38_3Sum.swift */; };
 /* End PBXBuildFile section */
 
@@ -424,6 +425,7 @@
 		8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveVowels.swift; sourceTree = "<group>"; };
 		8AF9339D22DE210A00B0B930 /* ReverseString3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString3.swift; sourceTree = "<group>"; };
 		8AF9339F22DE26D100B0B930 /* UnivalTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnivalTree.swift; sourceTree = "<group>"; };
+		8AF933A122DE33B300B0B930 /* MaxBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxBinaryTree.swift; sourceTree = "<group>"; };
 		8AFFA5ED2282A03500160992 /* 38_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 38_3Sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -850,6 +852,7 @@
 				8A5383EE22C657100041B776 /* TreeTraversalWithQueue.swift */,
 				8A7BFE5F22CE92DF00512285 /* UniqueBinaryTrees.swift */,
 				8A2EA2DC22D70AC600F4F9CE /* ZigZagBinaryTree.swift */,
+				8AF933A122DE33B300B0B930 /* MaxBinaryTree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -1120,6 +1123,7 @@
 				8A4CFEFF22A394D800989A85 /* PriorityQueue.swift in Sources */,
 				8A2F6CEC22C04B050096FE05 /* PartitionLabels.swift in Sources */,
 				8A78338E2287CDD60054B3D1 /* 39_MergeIntervals.swift in Sources */,
+				8AF933A222DE33B300B0B930 /* MaxBinaryTree.swift in Sources */,
 				8A8DBEC622B0D20D00682D70 /* 70_ProductSubarray.swift in Sources */,
 				8A9C5EFF2240AABE00EE0CE0 /* 1_TwoSums.swift in Sources */,
 				8A7914BC22483B040050DFD3 /* 17_MergeBinaryTrees.swift in Sources */,
