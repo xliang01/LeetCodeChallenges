@@ -11,7 +11,7 @@ import Foundation
 class LetterCombinations: Runnable {
     func runTests() {
         let solution1 = SolutionBackTrace()
-        print(solution1.letterCombinations("12"))
+        print(solution1.letterCombinations("333"))
     }
     
     private class SolutionBackTrace {
@@ -40,34 +40,34 @@ class LetterCombinations: Runnable {
                                               9: ["w", "x", "y", "z"]]
             var answer = [Character]()
             var answers = [String]()
-            let matrix = numbers.reduce([[Character]]()) { (results, number) -> [[Character]] in
+            let mapping = numbers.reduce([[Character]]()) { (results, number) -> [[Character]] in
                 var results = results
                 results.append(lookup[number]!)
                 return results
             }
             
-            combination(matrix, &answer, &answers, 0)
+            combination(mapping, &answer, &answers, 0)
             
             return answers
         }
         
-        private func combination(_ matrix: [[Character]],
+        private func combination(_ mapping: [[Character]],
                                  _ answer: inout [Character],
                                  _ answers: inout [String],
-                                 _ level: Int) {
-            if level == matrix.count {
+                                 _ numberIndex: Int) {
+            if numberIndex == mapping.count {
                 answers.append(String(answer))
                 return
             }
             
-            let letters = matrix[level]
+            let letters = mapping[numberIndex]
             if letters.isEmpty {
-                combination(matrix, &answer, &answers, level + 1)
+                combination(mapping, &answer, &answers, numberIndex + 1)
             }
             else {
                 for letter in letters {
                     answer.append(letter)
-                    combination(matrix, &answer, &answers, level + 1)
+                    combination(mapping, &answer, &answers, numberIndex + 1)
                     answer.removeLast()
                 }
             }

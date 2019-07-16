@@ -151,4 +151,56 @@ class MergeBinaryTrees: Runnable {
         
         return two
     }
+    
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     *     public var val: Int
+     *     public var left: TreeNode?
+     *     public var right: TreeNode?
+     *     public init(_ val: Int) {
+     *         self.val = val
+     *         self.left = nil
+     *         self.right = nil
+     *     }
+     * }
+     */
+    private class SolutionBFS {
+        func mergeTrees(_ t1: TreeNode?, _ t2: TreeNode?) -> TreeNode? {
+            var stack = [(TreeNode?, TreeNode?)]()
+            if t1 == nil { return t2 }
+            if t2 == nil { return t1 }
+            
+            stack.append((t1, t2))
+            
+            while !stack.isEmpty {
+                // Nodes still in memory
+                let ts = stack.removeLast()
+                let t1 = ts.0
+                let t2 = ts.1
+                
+                if t1 == nil || t2 == nil {
+                    continue
+                }
+                
+                t1?.val += t2?.val ?? 0
+                
+                if t1?.left == nil && t2?.left != nil {
+                    t1?.left = t2?.left
+                }
+                else {
+                    stack.append((t1?.left, t2?.left))
+                }
+                
+                if t1?.right == nil && t2?.right != nil {
+                    t1?.right = t2?.right
+                }
+                else {
+                    stack.append((t1?.right, t2?.right))
+                }
+            }
+            
+            return t1
+        }
+    }
 }

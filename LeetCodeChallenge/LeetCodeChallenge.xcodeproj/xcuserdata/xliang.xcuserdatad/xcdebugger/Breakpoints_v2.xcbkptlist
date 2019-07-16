@@ -1883,7 +1883,7 @@
             condition = "minCoinsCount == 0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/AlgoExpert/Hard/AlgoCoinChange.swift"
-            timestampString = "584609496.161616"
+            timestampString = "584942038.341357"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -2027,7 +2027,7 @@
                   moduleName = "LeetCodeChallenge"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Files/Projects/Mobile/iOS/CodingChallenges/LeetCodeChallenges/LeetCodeChallenge/Challenges/AlgoExpert/Hard/AlgoContinuousMedian.swift"
-                  timestampString = "584609496.772298"
+                  timestampString = "584942038.946104"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "85"
@@ -2042,7 +2042,7 @@
                   moduleName = "LeetCodeChallenge"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Files/Projects/Mobile/iOS/CodingChallenges/LeetCodeChallenges/LeetCodeChallenge/Challenges/AlgoExpert/Hard/AlgoContinuousMedian.swift"
-                  timestampString = "584609496.773513"
+                  timestampString = "584942038.947323"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "85"
@@ -2123,7 +2123,7 @@
                   moduleName = "LeetCodeChallenge"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Files/Projects/Mobile/iOS/CodingChallenges/LeetCodeChallenges/LeetCodeChallenge/Algorithms/AlgoQuickSort.swift"
-                  timestampString = "584609496.783933"
+                  timestampString = "584942038.957677"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "96"
@@ -2138,7 +2138,7 @@
                   moduleName = "LeetCodeChallenge"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Volumes/Files/Projects/Mobile/iOS/CodingChallenges/LeetCodeChallenges/LeetCodeChallenge/Algorithms/AlgoQuickSort.swift"
-                  timestampString = "584609496.7850651"
+                  timestampString = "584942038.9589159"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "96"
@@ -2395,11 +2395,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/LeetCode/Medium/Graph/WallsAndGates.swift"
-            timestampString = "584609496.162291"
+            timestampString = "584645589.7229919"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "bfs(_:_:_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2411,11 +2411,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/LeetCode/Medium/Graph/WallsAndGates.swift"
-            timestampString = "584609496.162564"
+            timestampString = "584645589.723047"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "bfs(_:_:_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2427,12 +2427,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Challenges/LeetCode/Medium/Graph/WallsAndGates.swift"
-            timestampString = "584609496.162789"
+            timestampString = "584645589.723091"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "wallsAndGates(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/LeetCode/Medium/53_LetterCombinations.swift"
+            timestampString = "584645589.723134"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "letterCombinations(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -140,6 +140,7 @@
 		8A9CBA6E22D822FE00784395 /* BinaryTreeToLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CBA6D22D822FE00784395 /* BinaryTreeToLinkedList.swift */; };
 		8A9CBA7022D85A7600784395 /* Search2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CBA6F22D85A7600784395 /* Search2DMatrix.swift */; };
 		8A9CBA7322D8676D00784395 /* WallsAndGates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CBA7222D8676D00784395 /* WallsAndGates.swift */; };
+		8A9CBA7522D9592C00784395 /* NumberPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CBA7422D9592C00784395 /* NumberPool.swift */; };
 		8A9DF11E2245ED2E000543F1 /* 10_SortedSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DF11D2245ED2E000543F1 /* 10_SortedSquares.swift */; };
 		8A9DF1202245FD66000543F1 /* 11_SortArrayByParity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DF11F2245FD66000543F1 /* 11_SortArrayByParity.swift */; };
 		8A9DF12222460B9D000543F1 /* 12_ImageFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DF12122460B9D000543F1 /* 12_ImageFlip.swift */; };
@@ -202,6 +203,7 @@
 		8AF3ABA322BFE249007A193A /* IsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA222BFE249007A193A /* IsAnagram.swift */; };
 		8AF3ABA522C00C2D007A193A /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA422C00C2D007A193A /* RemoveDuplicates.swift */; };
 		8AF3ABA822C010FE007A193A /* PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA722C010FE007A193A /* PalindromeLinkedList.swift */; };
+		8AF9339822DD7DA100B0B930 /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */; };
 		8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFA5ED2282A03500160992 /* 38_3Sum.swift */; };
 /* End PBXBuildFile section */
 
@@ -352,6 +354,7 @@
 		8A9CBA6D22D822FE00784395 /* BinaryTreeToLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeToLinkedList.swift; sourceTree = "<group>"; };
 		8A9CBA6F22D85A7600784395 /* Search2DMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2DMatrix.swift; sourceTree = "<group>"; };
 		8A9CBA7222D8676D00784395 /* WallsAndGates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallsAndGates.swift; sourceTree = "<group>"; };
+		8A9CBA7422D9592C00784395 /* NumberPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPool.swift; sourceTree = "<group>"; };
 		8A9DF11D2245ED2E000543F1 /* 10_SortedSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10_SortedSquares.swift; sourceTree = "<group>"; };
 		8A9DF11F2245FD66000543F1 /* 11_SortArrayByParity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_SortArrayByParity.swift; sourceTree = "<group>"; };
 		8A9DF12122460B9D000543F1 /* 12_ImageFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_ImageFlip.swift; sourceTree = "<group>"; };
@@ -414,6 +417,7 @@
 		8AF3ABA222BFE249007A193A /* IsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAnagram.swift; sourceTree = "<group>"; };
 		8AF3ABA422C00C2D007A193A /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		8AF3ABA722C010FE007A193A /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
+		8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
 		8AFFA5ED2282A03500160992 /* 38_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 38_3Sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -447,6 +451,7 @@
 				8A7BFE5222CD917000512285 /* HighFive.swift */,
 				8A7BFE5522CDAD2800512285 /* PermutationInString.swift */,
 				8A2C36C522D57AF0008ACDD0 /* SearchInsertPosition.swift */,
+				8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -702,6 +707,7 @@
 		8A9C5EFD2240AAAA00EE0CE0 /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
+				8A9CBA7622D95A4000784395 /* Interviews */,
 				8A6415A322C88A78002FF3B2 /* AlgoExpert */,
 				8A6415A222C88A6F002FF3B2 /* LeetCode */,
 			);
@@ -729,6 +735,14 @@
 				8A9CBA6F22D85A7600784395 /* Search2DMatrix.swift */,
 			);
 			path = Matrix;
+			sourceTree = "<group>";
+		};
+		8A9CBA7622D95A4000784395 /* Interviews */ = {
+			isa = PBXGroup;
+			children = (
+				8A9CBA7422D9592C00784395 /* NumberPool.swift */,
+			);
+			path = Interviews;
 			sourceTree = "<group>";
 		};
 		8AB9816E22A393240060FEED /* DataStructures */ = {
@@ -1053,6 +1067,7 @@
 				8ABB9E4E22BD58C800DCA7BC /* 91_3SumClosestTarget.swift in Sources */,
 				8AD8D41E22B2A7E10084818B /* 77_HouseRobberTwo.swift in Sources */,
 				8A0E471A22ACC67700089D9B /* 64_GetRandomizedSet.swift in Sources */,
+				8A9CBA7522D9592C00784395 /* NumberPool.swift in Sources */,
 				8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */,
 				8A2F6CEE22C06DA20096FE05 /* RotateArray.swift in Sources */,
 				8A21D91022B46F6500DEF82C /* 78_MedianSortedArray.swift in Sources */,
@@ -1158,6 +1173,7 @@
 				8A9DF12222460B9D000543F1 /* 12_ImageFlip.swift in Sources */,
 				8ABB9E5F22BE8EDA00DCA7BC /* IslandPerimeter.swift in Sources */,
 				8A3FE8BD22BB696E00B37C8B /* 88_ClassSchedule.swift in Sources */,
+				8AF9339822DD7DA100B0B930 /* RelativeSortArray.swift in Sources */,
 				8AD8D41322B1ED2E0084818B /* 73_HouseRobber.swift in Sources */,
 				8A168A8D22B367DB00895631 /* 78_ArrayPairSum.swift in Sources */,
 				8A5383E922C5C5100041B776 /* CombinationSum.swift in Sources */,

@@ -175,4 +175,6 @@ func run(_ runnable: Runnable) {
 //run(RussianDoll())
 //run(LongestBinaryTreeHeight())
 //run(Search2DMatrix())
-run(WallsAndGates())
+//run(WallsAndGates())
+//run(NumberPool())
+run(RelativeSortArray())
