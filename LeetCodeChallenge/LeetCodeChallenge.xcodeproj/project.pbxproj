@@ -205,6 +205,8 @@
 		8AF3ABA822C010FE007A193A /* PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA722C010FE007A193A /* PalindromeLinkedList.swift */; };
 		8AF9339822DD7DA100B0B930 /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */; };
 		8AF9339A22DD9F4800B0B930 /* RemoveVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */; };
+		8AF9339E22DE210A00B0B930 /* ReverseString3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339D22DE210A00B0B930 /* ReverseString3.swift */; };
+		8AF933A022DE26D100B0B930 /* UnivalTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339F22DE26D100B0B930 /* UnivalTree.swift */; };
 		8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFA5ED2282A03500160992 /* 38_3Sum.swift */; };
 /* End PBXBuildFile section */
 
@@ -420,6 +422,8 @@
 		8AF3ABA722C010FE007A193A /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
 		8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
 		8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveVowels.swift; sourceTree = "<group>"; };
+		8AF9339D22DE210A00B0B930 /* ReverseString3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString3.swift; sourceTree = "<group>"; };
+		8AF9339F22DE26D100B0B930 /* UnivalTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnivalTree.swift; sourceTree = "<group>"; };
 		8AFFA5ED2282A03500160992 /* 38_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 38_3Sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -804,6 +808,7 @@
 				8ABAE44322CB001E00E3028F /* strStr.swift */,
 				8ABAE44722CB15F600E3028F /* NumberOfPalindromSubsequences.swift */,
 				8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */,
+				8AF9339D22DE210A00B0B930 /* ReverseString3.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -828,6 +833,7 @@
 				8A7BFE5922CDDAEB00512285 /* SameTree.swift */,
 				8A9CBA6B22D8203F00784395 /* LongestBinaryTreeHeight.swift */,
 				8A9CBA6D22D822FE00784395 /* BinaryTreeToLinkedList.swift */,
+				8AF9339F22DE26D100B0B930 /* UnivalTree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -1027,6 +1033,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF933A022DE26D100B0B930 /* UnivalTree.swift in Sources */,
 				8A6C668022D102C7009C1C39 /* AlgoWaterArea.swift in Sources */,
 				8A4CFEEA22A394D800989A85 /* MergeSort.swift in Sources */,
 				8A0E471622ACA7FB00089D9B /* 62_BSTIterator.swift in Sources */,
@@ -1064,6 +1071,7 @@
 				8A2C36C822D57EC5008ACDD0 /* ArrayJump.swift in Sources */,
 				8A62059122C1E34C006FCF2D /* SerializeDeserializeBST.swift in Sources */,
 				8A0E471C22ACC99400089D9B /* 65_GetRandomizedSetWithDuplicates.swift in Sources */,
+				8AF9339E22DE210A00B0B930 /* ReverseString3.swift in Sources */,
 				8A9C5F142242002000EE0CE0 /* 4_JewelsAndStones.swift in Sources */,
 				8A4CFED022A394D800989A85 /* Heap.swift in Sources */,
 				8AC0CBC022C4566800503F84 /* TrappingRainWater.swift in Sources */,
