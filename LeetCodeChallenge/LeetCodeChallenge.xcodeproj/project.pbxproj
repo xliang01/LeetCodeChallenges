@@ -204,6 +204,7 @@
 		8AF3ABA522C00C2D007A193A /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA422C00C2D007A193A /* RemoveDuplicates.swift */; };
 		8AF3ABA822C010FE007A193A /* PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA722C010FE007A193A /* PalindromeLinkedList.swift */; };
 		8AF9339822DD7DA100B0B930 /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */; };
+		8AF9339A22DD9F4800B0B930 /* RemoveVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */; };
 		8AFFA5EE2282A03500160992 /* 38_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFA5ED2282A03500160992 /* 38_3Sum.swift */; };
 /* End PBXBuildFile section */
 
@@ -418,6 +419,7 @@
 		8AF3ABA422C00C2D007A193A /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		8AF3ABA722C010FE007A193A /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
 		8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
+		8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveVowels.swift; sourceTree = "<group>"; };
 		8AFFA5ED2282A03500160992 /* 38_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 38_3Sum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -801,6 +803,7 @@
 				8AF3AB9C22BF4F37007A193A /* FirstUniqueChar.swift */,
 				8ABAE44322CB001E00E3028F /* strStr.swift */,
 				8ABAE44722CB15F600E3028F /* NumberOfPalindromSubsequences.swift */,
+				8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1069,6 +1072,7 @@
 				8A0E471A22ACC67700089D9B /* 64_GetRandomizedSet.swift in Sources */,
 				8A9CBA7522D9592C00784395 /* NumberPool.swift in Sources */,
 				8A9C5F1622420A0600EE0CE0 /* 5_AnagramMappings.swift in Sources */,
+				8AF9339A22DD9F4800B0B930 /* RemoveVowels.swift in Sources */,
 				8A2F6CEE22C06DA20096FE05 /* RotateArray.swift in Sources */,
 				8A21D91022B46F6500DEF82C /* 78_MedianSortedArray.swift in Sources */,
 				8A97BCCE22604ED300B5C353 /* 26_MaxSubArray.swift in Sources */,
