@@ -124,6 +124,8 @@
 		8A8DBEC822B0DE9500682D70 /* 71_Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DBEC722B0DE9500682D70 /* 71_Staircase.swift */; };
 		8A8DBECA22B147E000682D70 /* 72_MinClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DBEC922B147E000682D70 /* 72_MinClimbingStairs.swift */; };
 		8A8DEA6A22E030EA003FA84F /* ShortestWayFormSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DEA6922E030EA003FA84F /* ShortestWayFormSubstring.swift */; };
+		8A8DEA6C22E04549003FA84F /* InsertIntoBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DEA6B22E04549003FA84F /* InsertIntoBST.swift */; };
+		8A8DEA6E22E048E9003FA84F /* AreCousins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DEA6D22E048E9003FA84F /* AreCousins.swift */; };
 		8A92B5BD22A4979500076AE5 /* 56_LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A92B5BC22A4979500076AE5 /* 56_LRUCache.swift */; };
 		8A97BCCE22604ED300B5C353 /* 26_MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BCCD22604ED300B5C353 /* 26_MaxSubArray.swift */; };
 		8A97BCD02262F56600B5C353 /* 27_PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BCCF2262F56600B5C353 /* 27_PalindromeNumber.swift */; };
@@ -345,6 +347,8 @@
 		8A8DBEC722B0DE9500682D70 /* 71_Staircase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 71_Staircase.swift; sourceTree = "<group>"; };
 		8A8DBEC922B147E000682D70 /* 72_MinClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 72_MinClimbingStairs.swift; sourceTree = "<group>"; };
 		8A8DEA6922E030EA003FA84F /* ShortestWayFormSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortestWayFormSubstring.swift; sourceTree = "<group>"; };
+		8A8DEA6B22E04549003FA84F /* InsertIntoBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertIntoBST.swift; sourceTree = "<group>"; };
+		8A8DEA6D22E048E9003FA84F /* AreCousins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreCousins.swift; sourceTree = "<group>"; };
 		8A92B5BC22A4979500076AE5 /* 56_LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 56_LRUCache.swift; sourceTree = "<group>"; };
 		8A97BCCD22604ED300B5C353 /* 26_MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26_MaxSubArray.swift; sourceTree = "<group>"; };
 		8A97BCCF2262F56600B5C353 /* 27_PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27_PalindromeNumber.swift; sourceTree = "<group>"; };
@@ -846,6 +850,7 @@
 				8A9CBA6B22D8203F00784395 /* LongestBinaryTreeHeight.swift */,
 				8A9CBA6D22D822FE00784395 /* BinaryTreeToLinkedList.swift */,
 				8AF9339F22DE26D100B0B930 /* UnivalTree.swift */,
+				8A8DEA6D22E048E9003FA84F /* AreCousins.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -863,6 +868,7 @@
 				8A7BFE5F22CE92DF00512285 /* UniqueBinaryTrees.swift */,
 				8A2EA2DC22D70AC600F4F9CE /* ZigZagBinaryTree.swift */,
 				8AF933A122DE33B300B0B930 /* MaxBinaryTree.swift */,
+				8A8DEA6B22E04549003FA84F /* InsertIntoBST.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -1175,6 +1181,7 @@
 				8A9C5EF72240AAA600EE0CE0 /* main.swift in Sources */,
 				8A86F6DF2280121D008BCE63 /* 37_LongestNonRepeatSubstring.swift in Sources */,
 				8ABAE44622CB0B8900E3028F /* Sqrt.swift in Sources */,
+				8A8DEA6E22E048E9003FA84F /* AreCousins.swift in Sources */,
 				8A7BFE6022CE92DF00512285 /* UniqueBinaryTrees.swift in Sources */,
 				8A97BCD222640CC500B5C353 /* 28_MaxStack.swift in Sources */,
 				8A783396228D06CF0054B3D1 /* 43_RotatedSortedArray.swift in Sources */,
@@ -1226,6 +1233,7 @@
 				8A9CBA6A22D8163300784395 /* RussianDoll.swift in Sources */,
 				8ABB9E5222BD7BB000DCA7BC /* 93_4SumTarget.swift in Sources */,
 				8A97BCD02262F56600B5C353 /* 27_PalindromeNumber.swift in Sources */,
+				8A8DEA6C22E04549003FA84F /* InsertIntoBST.swift in Sources */,
 				8A2F6CF022C0A9250096FE05 /* AllSubSets.swift in Sources */,
 				8A5383EF22C657100041B776 /* TreeTraversalWithQueue.swift in Sources */,
 				8ABB9E5D22BDFB3F00DCA7BC /* InterleavingStrings.swift in Sources */,
