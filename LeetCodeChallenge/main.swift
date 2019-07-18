@@ -177,4 +177,7 @@ func run(_ runnable: Runnable) {
 //run(Search2DMatrix())
 //run(WallsAndGates())
 //run(NumberPool())
-run(RelativeSortArray())
+//run(RelativeSortArray())
+//run(AllUniqueCharacters())
+//run(MinFallPath())
+run(ShortestWayFormSubstring())
