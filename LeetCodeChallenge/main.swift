@@ -180,4 +180,6 @@ func run(_ runnable: Runnable) {
 //run(RelativeSortArray())
 //run(AllUniqueCharacters())
 //run(MinFallPath())
-run(ShortestWayFormSubstring())
+//run(ShortestWayFormSubstring())
+//run(PartitionLinkedList())
+run(PalindromeSubstring())
