@@ -182,4 +182,5 @@ func run(_ runnable: Runnable) {
 //run(MinFallPath())
 //run(ShortestWayFormSubstring())
 //run(PartitionLinkedList())
-run(PalindromeSubstring())
+//run(PalindromeSubstring())
+//run(MinCostTrainRide())
