@@ -189,4 +189,7 @@ func run(_ runnable: Runnable) {
 //run(Intersection())
 //run(SatisfiedCustomers())
 //run(URLify())
-run(PalindromePermutations())
+//run(PalindromePermutations())
+//run(FlipGames())
+//run(GoatLatin())
+run(IndexPairs())
