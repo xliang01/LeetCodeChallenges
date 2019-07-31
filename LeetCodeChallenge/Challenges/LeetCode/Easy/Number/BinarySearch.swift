@@ -10,12 +10,18 @@ import Foundation
 
 class BinarySearch: Runnable {
     func runTests() {
-        let solution = SolutionRecursion()
+        let solution1 = SolutionRecursion()
         let nums = [1, 2, 3, 4, 5]
-        print(solution.search(nums, 0, nums.count-1, 1))
-        print(solution.search(nums, 0, nums.count-1, 3))
-        print(solution.search(nums, 0, nums.count-1, 7))
-        print(solution.search(nums, 0, nums.count-1, 0))
+        print(solution1.search(nums, 1))
+        print(solution1.search(nums, 3))
+        print(solution1.search(nums, 7))
+        print(solution1.search(nums, 0))
+        
+        let solution2 = SolutionIterate()
+        print(solution2.search(nums, 1))
+        print(solution2.search(nums, 3))
+        print(solution2.search(nums, 7))
+        print(solution2.search(nums, 0))
     }
     
     private class SolutionRecursion {
@@ -23,7 +29,7 @@ class BinarySearch: Runnable {
             return search(nums, 0, nums.count - 1, target)
         }
         
-        func search(_ nums: [Int], _ start: Int, _ end: Int, _ target: Int) -> Int {
+        private func search(_ nums: [Int], _ start: Int, _ end: Int, _ target: Int) -> Int {
             if end >= start {
                 let mid = (start + end) / 2
                 if nums[mid] == target { return mid }
@@ -32,6 +38,27 @@ class BinarySearch: Runnable {
                 }
                 else {
                     return search(nums, start, mid - 1, target)
+                }
+            }
+            return -1
+        }
+    }
+    
+    private class SolutionIterate {
+        func search(_ nums: [Int], _ target: Int) -> Int {
+            var start = 0
+            var end = nums.count - 1
+            
+            while start <= end {
+                let mid = (start + end) / 2
+                if nums[mid] == target {
+                    return mid
+                }
+                else if target > nums[mid] {
+                    start = mid + 1
+                }
+                else {
+                    end = mid - 1
                 }
             }
             return -1
