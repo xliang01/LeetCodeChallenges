@@ -220,6 +220,7 @@
 		8AF7489222F13B760066AF97 /* LargestUniqueNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7489122F13B760066AF97 /* LargestUniqueNumber.swift */; };
 		8AF7489422F13F4C0066AF97 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7489322F13F4C0066AF97 /* Fibonacci.swift */; };
 		8AF7489622F144AC0066AF97 /* FlipGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7489522F144AC0066AF97 /* FlipGames.swift */; };
+		8AF7489822F158290066AF97 /* GoatLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7489722F158290066AF97 /* GoatLatin.swift */; };
 		8AF9339822DD7DA100B0B930 /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */; };
 		8AF9339A22DD9F4800B0B930 /* RemoveVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */; };
 		8AF9339E22DE210A00B0B930 /* ReverseString3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339D22DE210A00B0B930 /* ReverseString3.swift */; };
@@ -458,6 +459,7 @@
 		8AF7489122F13B760066AF97 /* LargestUniqueNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestUniqueNumber.swift; sourceTree = "<group>"; };
 		8AF7489322F13F4C0066AF97 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		8AF7489522F144AC0066AF97 /* FlipGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipGames.swift; sourceTree = "<group>"; };
+		8AF7489722F158290066AF97 /* GoatLatin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoatLatin.swift; sourceTree = "<group>"; };
 		8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
 		8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveVowels.swift; sourceTree = "<group>"; };
 		8AF9339D22DE210A00B0B930 /* ReverseString3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString3.swift; sourceTree = "<group>"; };
@@ -866,6 +868,7 @@
 				8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */,
 				8AF9339D22DE210A00B0B930 /* ReverseString3.swift */,
 				8AF7489522F144AC0066AF97 /* FlipGames.swift */,
+				8AF7489722F158290066AF97 /* GoatLatin.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1148,6 +1151,7 @@
 				8A8B022222E6BE6000C86761 /* RemoveElements.swift in Sources */,
 				8AF933B322DEAA6E00B0B930 /* AllUnique.swift in Sources */,
 				8AF7489222F13B760066AF97 /* LargestUniqueNumber.swift in Sources */,
+				8AF7489822F158290066AF97 /* GoatLatin.swift in Sources */,
 				8AB9816C22A38C600060FEED /* 55_TopK.swift in Sources */,
 				8A64159F22C87785002FF3B2 /* Algo3SumTarget.swift in Sources */,
 				8AC0CBB022C3B4C400503F84 /* StringToIntegerATOI.swift in Sources */,
