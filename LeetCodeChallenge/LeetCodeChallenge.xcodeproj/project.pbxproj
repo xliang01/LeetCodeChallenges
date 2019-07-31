@@ -219,6 +219,7 @@
 		8AF3ABA822C010FE007A193A /* PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3ABA722C010FE007A193A /* PalindromeLinkedList.swift */; };
 		8AF7489222F13B760066AF97 /* LargestUniqueNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7489122F13B760066AF97 /* LargestUniqueNumber.swift */; };
 		8AF7489422F13F4C0066AF97 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7489322F13F4C0066AF97 /* Fibonacci.swift */; };
+		8AF7489622F144AC0066AF97 /* FlipGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7489522F144AC0066AF97 /* FlipGames.swift */; };
 		8AF9339822DD7DA100B0B930 /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */; };
 		8AF9339A22DD9F4800B0B930 /* RemoveVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */; };
 		8AF9339E22DE210A00B0B930 /* ReverseString3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9339D22DE210A00B0B930 /* ReverseString3.swift */; };
@@ -456,6 +457,7 @@
 		8AF3ABA722C010FE007A193A /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
 		8AF7489122F13B760066AF97 /* LargestUniqueNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestUniqueNumber.swift; sourceTree = "<group>"; };
 		8AF7489322F13F4C0066AF97 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		8AF7489522F144AC0066AF97 /* FlipGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipGames.swift; sourceTree = "<group>"; };
 		8AF9339722DD7DA100B0B930 /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
 		8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveVowels.swift; sourceTree = "<group>"; };
 		8AF9339D22DE210A00B0B930 /* ReverseString3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString3.swift; sourceTree = "<group>"; };
@@ -863,6 +865,7 @@
 				8ABAE44722CB15F600E3028F /* NumberOfPalindromSubsequences.swift */,
 				8AF9339922DD9F4800B0B930 /* RemoveVowels.swift */,
 				8AF9339D22DE210A00B0B930 /* ReverseString3.swift */,
+				8AF7489522F144AC0066AF97 /* FlipGames.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1137,6 +1140,7 @@
 				8AC1BDD722ED427E0014E98E /* PalindromePermutations.swift in Sources */,
 				8A8DEA6A22E030EA003FA84F /* ShortestWayFormSubstring.swift in Sources */,
 				8A7BFE5E22CE78FC00512285 /* AlgoKnapSack.swift in Sources */,
+				8AF7489622F144AC0066AF97 /* FlipGames.swift in Sources */,
 				8AC0CBB322C3BF2900503F84 /* AlgoQuickSort.swift in Sources */,
 				8A49CD69229FA404009E5ABC /* 51_WordSearch.swift in Sources */,
 				8A74134922CC40DD006231F8 /* AlgoMergeSort.swift in Sources */,
